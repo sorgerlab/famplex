@@ -81,6 +81,12 @@ FPLX,AMPK_A2B2G3,isa,FPLX,AMPK
 HGNC,PRKAA2,partof,FPLX,AMPK_A2B2G3
 HGNC,PRKAB2,partof,FPLX,AMPK_A2B2G3
 HGNC,PRKAG3,partof,FPLX,AMPK_A2B2G3
+HGNC,AP2A1,isa,AP2A
+HGNC,AP2A2,isa,AP2A
+HGNC,AP2B1,partof,Adaptor_protein_II
+HGNC,AP2M1,partof,Adaptor_protein_II
+HGNC,AP2S1,partof,Adaptor_protein_II
+FPLX,AP2A,partof,Adaptor_protein_II
 HGNC,FOS,isa,FPLX,FOS_family
 HGNC,FOSB,isa,FPLX,FOS_family
 HGNC,FOSL1,isa,FPLX,FOS_family
