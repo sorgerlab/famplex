@@ -7,6 +7,14 @@ biological modeling teams in the [DARPA Big
 Mechanism](http://www.darpa.mil/program/big-mechanism) and [Communicating with
 Computers](http://www.darpa.mil/program/communicating-with-computers) programs.
 
+The open access publication describing FamPlex is available here:
+
+* John A. Bachman, Benjamin M. Gyori and Peter K. Sorger, [FamPlex: a resource
+for entity recognition and relationship resolution of human protein families
+and complexes in biomedical text mining](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2211-5).
+(2018) BMC Bioinformatics 19:248
+
+
 Note: FamPlex used to be called Bioentities, and was renamed to better reflect
 the focus of the resource on protein families, complexes, and their lexical
 synonyms.
