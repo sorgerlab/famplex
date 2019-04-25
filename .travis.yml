@@ -16,11 +16,9 @@ script:
   - export PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/indra
   - python check_references.py
   - python export/relations_graph.py
-  - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
-      # Check if exports have been updated
-      # first generated new exports and check git diff with previous exports
-      python export/obo.py;
-    fi
+  # - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
+  #     python export/obo.py;
+  #   fi
       # python export/hgnc_ids.py;
     #   python export/belns.py;
     #   # belns_diff=$(git diff -U0 famplex.belns | egrep "^[\+-][^\+-]")
