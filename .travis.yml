@@ -28,7 +28,7 @@ script:
       echo $obo_diff;
       obo=$(echo "$obo_diff" | egrep -v "date" | wc -l);
       echo $obo;
-      hgnc=$(git diff -U0 hgnc_symbol_map.csv | egrep "^[\+-][^\+-]" | wc -l);
+      hgnc=$(git diff -U0 "hgnc_symbol_map.csv" | egrep "^[\+-][^\+-]" | wc -l);
       echo $hgnc;
       if [[ $belns != 0 || $obo != 0 || $hgnc != 0 ]]; then
         echo "Exports have not been updated";
