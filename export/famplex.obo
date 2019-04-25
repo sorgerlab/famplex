@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:04:2019 20:41
+date: 25:04:2019 12:42
 
 [Term]
 id: FPLX:9_1_1
@@ -1287,7 +1287,6 @@ id: FPLX:CD64
 name: CD64
 synonym: "CD64" EXACT []
 xref: BEL:"CD64 Family"
-xref: NCIT:C104238
 xref: RE:R-HSA-1031694
 xref: RE:R-HSA-1236898
 xref: RE:R-HSA-1236905
@@ -2619,8 +2618,6 @@ id: FPLX:FOS_family
 name: FOS-family
 synonym: "FOS" EXACT []
 synonym: "Fos" EXACT []
-xref: NCIT:C17438
-xref: NCIT:C52887
 xref: NEXTPROT-FAMILY:00408
 part_of: FPLX:AP1
 inverse_is_a: HGNC:FOS
@@ -3194,7 +3191,6 @@ synonym: "Gq α subunit" EXACT []
 synonym: "Gq α" EXACT []
 synonym: "Gαq" EXACT []
 xref: IP:IPR000654
-xref: NCIT:C19276
 xref: RE:R-HSA-114534
 xref: RE:R-HSA-114556
 xref: RE:R-HSA-374848
@@ -3898,7 +3894,6 @@ synonym: "insulin receptor/insulin-like growth factor receptor family" EXACT []
 xref: BEL:"INSR Family"
 xref: IP:IPR016246
 xref: MEDSCAN:urn:agi-aopfc:0000264
-xref: NCIT:C17072
 xref: NEXTPROT-FAMILY:03128
 is_a: FPLX:root
 inverse_is_a: HGNC:IGF1R
@@ -7714,7 +7709,7 @@ name: VEGF
 synonym: "vascular endothelial growth factor" EXACT []
 synonym: "VEGF" EXACT []
 xref: BEL:"VEGF Family"
-xref: NCIT:C20450
+xref: NCIT:C129646
 xref: RE:R-HSA-195361
 xref: RE:R-HSA-195376
 is_a: FPLX:root
