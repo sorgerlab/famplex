@@ -17,16 +17,16 @@ script:
   - python check_references.py
   - python export/relations_graph.py
   - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
-  # test if exports have been updated
-  # bel_resources must be installed to generate belns exports
+      # test if exports have been updated
+      # bel_resources must be installed to generate belns exports
       pip install bel_resources;
-  # generate exports
+      # generate exports
       python export/obo.py;
       python export/hgnc_ids.py;
       python export/belns.py;
-  # take git diff and only look at lines that have changed
+      # take git diff and only look at lines that have changed
       belns_diff=$(git diff -U0 export/famplex.belns | egrep "^[\+-][^\+-]");
-  # lines containing date, timestamp, or version should be ignored 
+      # lines containing date, timestamp, or version should be ignored 
       belns=$(echo "$belns_diff" | egrep -v
       "^[\+-](VersionString|CreatedDateTime)");
       obo_diff=$(git diff -U0 export/famplex.obo | egrep "^[\+-][^\+-]");
