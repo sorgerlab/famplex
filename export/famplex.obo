@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:04:2019 14:14
+date: 25:04:2019 15:30
 
 [Term]
 id: FPLX:9_1_1
@@ -2682,6 +2682,13 @@ synonym: "F-actin" EXACT []
 xref: GO:0031941
 xref: MEDSCAN:urn:agi-protfc:F-actin-binding%20protein
 is_a: FPLX:Actin
+
+[Term]
+id: FPLX:FAKE
+name: FAKE
+synonym: "fake" EXACT []
+is_a: FPLX:root
+inverse_is_a: HGNC:SMURF2
 
 [Term]
 id: FPLX:GABR
