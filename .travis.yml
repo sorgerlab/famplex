@@ -28,7 +28,7 @@ script:
       obo=$(echo "$obo_diff" | egrep -v "^[\+-]date");
       hgnc=$(git diff -U0 export/hgnc_symbol_map.csv | egrep "^[\+-][^\+-]");
       if [[ ! -z $belns ]] || [[ ! -z $obo ]] || [[ ! -z $hgnc ]]; then
-        echo "FAILURE{{':'}} exports have not been updated";
+        echo "FAIL exports have not been updated";
         exit 1;
       fi
     fi
