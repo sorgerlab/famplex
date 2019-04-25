@@ -20,17 +20,18 @@ script:
       # Check if exports have been updated
       # first generated new exports and check git diff with previous exports
       python export/obo.py;
-      python export/hgnc_ids.py;
-      python export/belns.py;
-      # belns_diff=$(git diff -U0 famplex.belns | egrep "^[\+-][^\+-]")
-      # # some lines contain dates and other inessential information
-      # # that does not to be updated. ignore these lines with regex
-      # belns=$(echo "$belns_diff" | egrep -v "^(VersionString|CreatedDateTime)" | wc -l)
-      # obo_diff=$(git diff -U0 famplex.obo | egrep "^[\+-][^\+-]")
-      # obo=$(echo "$obo_diff" | egrep -v "date" | wc -l)
-      # hgnc=$(git diff -U0 hgnc_symbol_map.csv | egrep "^[\+-][^\+-]" | wc -l)
-      # if [[ $belns != 0 || $obo != 0 || $hgnc != 0 ]]; then
-      #   echo "Exports have not been updated"
-      #   exit 1
-      # fi
     fi
+      # python export/hgnc_ids.py;
+    #   python export/belns.py;
+    #   # belns_diff=$(git diff -U0 famplex.belns | egrep "^[\+-][^\+-]")
+    #   # # some lines contain dates and other inessential information
+    #   # # that does not to be updated. ignore these lines with regex
+    #   # belns=$(echo "$belns_diff" | egrep -v "^(VersionString|CreatedDateTime)" | wc -l)
+    #   # obo_diff=$(git diff -U0 famplex.obo | egrep "^[\+-][^\+-]")
+    #   # obo=$(echo "$obo_diff" | egrep -v "date" | wc -l)
+    #   # hgnc=$(git diff -U0 hgnc_symbol_map.csv | egrep "^[\+-][^\+-]" | wc -l)
+    #   # if [[ $belns != 0 || $obo != 0 || $hgnc != 0 ]]; then
+    #   #   echo "Exports have not been updated"
+    #   #   exit 1
+    #   # fi
+    # fi
