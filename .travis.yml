@@ -16,11 +16,11 @@ script:
   - export PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/indra
   - python check_references.py
   - python export/relations_graph.py
+  # test if exports have been updated
+  # bel_resources must be installed to generate belns exports
+  # generate exports then take git diff and look only at lines that changed
+  # lines containing date, timestamp, or version should be ignored
   - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
-      # test if exports have been updated
-      # bel_resources must be installed to generate belns exports
-      # generate exports then take git diff and look only at lines that changed
-      # lines containing date, timestamp, or version should be ignored
       pip install bel_resources;
       python export/obo.py;
       python export/hgnc_ids.py;
