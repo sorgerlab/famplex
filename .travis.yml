@@ -22,14 +22,10 @@ script:
       python export/hgnc_ids.py;
       python export/belns.py;
       belns_diff=$(git diff -U0 export/famplex.belns | egrep "^[\+-][^\+-]");
-      echo $belns_diff;
       belns=$(echo "$belns_diff" | egrep -v
       "^[\+-](VersionString|CreatedDateTime)");
-      echo $belns;
       obo_diff=$(git diff -U0 export/famplex.obo | egrep "^[\+-][^\+-]");
-      echo $obo_diff
       obo=$(echo "$obo_diff" | egrep -v "^[\+-]date");
-      echo $obo;
       hgnc=$(git diff -U0 export/hgnc_symbol_map.csv | egrep "^[\+-][^\+-]");
       if [[ ! -z $belns ]] || [[ ! -z $obo ]] || [[ ! -z $hgnc ]]; then
         echo "Exports have not been updated";
