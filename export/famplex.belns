@@ -3,7 +3,7 @@ Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
 VersionString=20190425
-CreatedDateTime=2019-04-25T12:17:06
+CreatedDateTime=2019-04-25T14:14:25
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 [Author]
@@ -66,7 +66,7 @@ Activin|GRPC
 Activin_A|GRPC
 Activin_AB|GRPC
 Activin_B|GRPC
-Adaptor_protein_II|GRPCm
+Adaptor_protein_II|GRPC
 Adaptor_protein_III|GRPC
 Annexin_II_heterotetramer|GRPC
 Apolipoprotein|GRPC
