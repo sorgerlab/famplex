@@ -14,8 +14,8 @@ script:
   - pwd
   - echo $TRAVIS_BUILD_DIR
   - export PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/indra
-#  - python check_references.py
-#  - python export/relations_graph.py
+  - python check_references.py
+  - python export/relations_graph.py
   - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
       pip install bel_resources;
       python export/obo.py;
