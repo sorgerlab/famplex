@@ -19,9 +19,9 @@ script:
   - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
       # Check if exports have been updated
       # first generated new exports and check git diff with previous exports
-      python export/obo.py
-      python export/hgnc_ids.py
-      python export/belns.py
+      python export/obo.py;
+      python export/hgnc_ids.py;
+      python export/belns.py;
       # belns_diff=$(git diff -U0 famplex.belns | egrep "^[\+-][^\+-]")
       # # some lines contain dates and other inessential information
       # # that does not to be updated. ignore these lines with regex
