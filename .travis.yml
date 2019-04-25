@@ -17,6 +17,7 @@ script:
 #  - python check_references.py
 #  - python export/relations_graph.py
   - if [[ "$TRAVIS_PYTHON_VERSION" == "3.5" ]]; then
+      pip install bel_resources;
       python export/obo.py;
       python export/hgnc_ids.py;
       python export/belns.py;
