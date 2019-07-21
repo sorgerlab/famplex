@@ -9,14 +9,21 @@ from collections import Counter, defaultdict
 from famplex.constants import ENTITIES_TSV_PATH, EQUIVALENCES_TSV_PATH, GROUNDING_MAP_TSV_PATH, RELATIONS_TSV_PATH
 
 
-def load_tsv(path):
+def load_csv(path):
     """Load the rows of a TSV file."""
     with open(path) as fh:
-        return tuple(tuple(row) for row in csv.reader(fh, delimiter='\t'))
+        reader = csv.reader(
+            fh,
+            delimiter=',',
+            lineterminator='\r\n',
+            quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
+        )
+        return tuple(tuple(row) for row in reader)
 
 
 def load_grounding_map(filename):
-    gm_rows = load_tsv(filename)
+    gm_rows = load_csv(filename)
     check_rows(gm_rows, 4, filename)
     g_map = defaultdict(dict)
     for text, db, db_id, _ in gm_rows:
@@ -25,7 +32,7 @@ def load_grounding_map(filename):
 
 
 def check_file_rows(filename, row_length):
-    rows = load_tsv(filename)
+    rows = load_csv(filename)
     check_rows(rows, row_length, filename)
 
 
@@ -37,13 +44,13 @@ def check_rows(rows, row_length, filename):
 
 
 def load_entity_list(filename):
-    rows = load_tsv(filename)
+    rows = load_csv(filename)
     check_rows(rows, 4, filename)
     return rows
 
 
 def load_relationships(filename):
-    rows = load_tsv(filename)
+    rows = load_csv(filename)
     check_rows(rows, 7, filename)
     return [
         ((sns, sid, sname), rel, (ons, oid, oname))
@@ -52,13 +59,13 @@ def load_relationships(filename):
 
 
 def load_equivalences(filename):
-    rows = load_tsv(filename)
+    rows = load_csv(filename)
     check_rows(rows, 4, filename)
     return rows
 
 
 def update_id_prefixes(filename):
-    gm_rows = load_tsv(filename)
+    gm_rows = load_csv(filename)
     updated_rows = []
     for row in gm_rows:
         key = row[0]

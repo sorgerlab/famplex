@@ -29,8 +29,15 @@ def node_label(db, db_id, name):
 def main(output_file=DEFAULT_RELATIONS_GRAPH_PATH):
     graph = pgv.AGraph(name='relations', directed=True, rankdir='LR')
 
-    with open(RELATIONS_TSV_PATH) as f:
-        for ns1, id1, name1, rel, ns2, id2, name2 in csv.reader(f, delimiter='\t'):
+    with open(RELATIONS_TSV_PATH) as file:
+        reader = csv.reader(
+            file,
+            delimiter=',',
+            lineterminator='\r\n',
+            quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
+        )
+        for ns1, id1, name1, rel, ns2, id2, name2 in reader:
             sub, obj = node_label(ns1, id1, name1), node_label(ns2, id2, name2)
 
             for db, label in ((ns1, sub), (ns2, obj)):

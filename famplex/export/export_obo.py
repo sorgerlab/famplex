@@ -92,15 +92,16 @@ def get_obo_terms():
     with open(ENTITIES_TSV_PATH) as fh:
         reader = csv.reader(
             fh,
-            delimiter='\t',
+            delimiter=',',
             lineterminator='\r\n',
             quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
         )
         entities = {
             fplx_id: (
                 fplx_name,
-                None if description == '.' else description,
-                None if references == '.' else [r.strip() for r in references.split(',')],
+                None if not description or description == '.' else description,
+                None if not references or references == '.' else [r.strip() for r in references.split(',')],
             )
             for fplx_id, fplx_name, description, references in reader
         }
@@ -108,9 +109,10 @@ def get_obo_terms():
     with open(EQUIVALENCES_TSV_PATH, 'r') as fh:
         reader = csv.reader(
             fh,
-            delimiter='\t',
+            delimiter=',',
             lineterminator='\r\n',
             quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
         )
         equivalences = collections.defaultdict(list)
         for xref_db, xref_id, fplx_id, _ in reader:
@@ -119,9 +121,10 @@ def get_obo_terms():
     with open(GROUNDING_MAP_TSV_PATH) as fh:
         reader = csv.reader(
             fh,
-            delimiter='\t',
+            delimiter=',',
             lineterminator='\r\n',
             quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
         )
         textrefs = collections.defaultdict(list)
         for textref, db, db_id, _ in reader:
@@ -140,9 +143,10 @@ def get_obo_terms():
         }
         reader = csv.reader(
             fh,
-            delimiter='\t',
+            delimiter=',',
             lineterminator='\r\n',
             quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
         )
         for sub_db, sub_id, sub_name, rel, obj_db, obj_id, obj_name in reader:
             if sub_db == 'FPLX':

@@ -2,6 +2,7 @@
 
 """Output FamPlex as a BEL namespace using the :mod:`bel_resources` package."""
 
+import csv
 import os
 
 from bel_resources import write_namespace
@@ -13,10 +14,17 @@ DEFAULT_BELNS_PATH = os.path.join(EXPORT_DIR, 'famplex.belns')
 
 
 def _get_entities():
-    with open(ENTITIES_TSV_PATH) as fh:
+    with open(ENTITIES_TSV_PATH) as file:
+        reader = csv.reader(
+            file,
+            delimiter=',',
+            lineterminator='\r\n',
+            quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
+        )
         return {
-            l.strip().split('\t')[1]: 'GRPC'
-            for l in fh.readlines()
+            fplx_name: 'GRPC'
+            for _, fplx_name, _, _ in reader
         }
 
 
