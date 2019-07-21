@@ -10,7 +10,7 @@ from collections import Counter
 from operator import itemgetter
 from typing import Tuple
 
-from constants import (
+from famplex.constants import (
     ENTITIES_TSV_PATH, EQUIVALENCES_TSV_PATH, GROUNDING_MAP_TSV_PATH, METADATA_PATH,
     RELATIONS_TSV_PATH,
 )

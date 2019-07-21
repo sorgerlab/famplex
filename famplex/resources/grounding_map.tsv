@@ -586,8 +586,11 @@ cell growth	GO	GO:0016049	cell growth
 cell growth	MESH	D048708	Cell Growth Processes
 cell migration	GO	GO:0016477	cell migration
 cell migration	MESH	D002465	Cell Movement
+cell migration	NCIT	C26169	.
 cell motility	GO	GO:0016477	cell migration
 cell motility	MESH	D002465	Cell Movement
+cell motility	NCIT	C16404	.
+cell motility	GO	GO:0048870	cell motility
 cell proliferation	GO	GO:0008283	cell population proliferation
 cell proliferation	MESH	D049109	Cell Proliferation
 cell survival	MESH	D002470	Cell Survival
@@ -1911,7 +1914,6 @@ PBXs	FPLX	000334	PBX
 Pca	MESH	D011471	Prostatic Neoplasms
 PCNA	UP	P12004	PCNA_HUMAN
 PD	MESH	D010300	Parkinson Disease
-PD-1	HGNC	8760	PDCD1
 PD98509	CHEBI	CHEBI:79091	EC 2.7.11.24 (mitogen-activated protein kinase) inhibitor
 PDE 2	HGNC	8777	PDE2A
 PDE 3	FPLX	000337	PDE3
@@ -2794,12 +2796,6 @@ eGFR	MESH	D005919	Glomerular Filtration Rate
 CDK1/2	FPLX	000093	CDK1_2
 cdk1/2	FPLX	000093	CDK1_2
 Cdk1/2	FPLX	000093	CDK1_2
-cell migration	MESH	D002465	Cell Movement
-cell migration	NCIT	C26169	.
-cell migration	GO	GO:0016477	cell migration
-cell motility	MESH	D002465	Cell Movement
-cell motility	NCIT	C16404	.
-cell motility	GO	GO:0048870	cell motility
 Chk1/2	FPLX	000098	CHEK
 chromosomal instability	MESH	D043171	Chromosomal Instability
 chromosomal instability	NCIT	C48195	.
