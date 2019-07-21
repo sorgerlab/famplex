@@ -27,9 +27,9 @@ def load_grounding_map(filename):
     check_rows(gm_rows, 4, filename)
     g_map = defaultdict(dict)
     e_map = defaultdict(list)
-    for text, db, db_id, _ in gm_rows:
+    for text, db, db_id, db_name in gm_rows:
         g_map[text][db] = db_id
-        e_map[text, db].append(db_id)
+        e_map[text, db].append((db_id, db_name))
     return g_map, gm_rows, e_map
 
 
@@ -133,10 +133,13 @@ def main():
     print("-- Checking for doubly grounded text in grounding map --")
     for (text, db), db_ids in entity_to_texts.items():
         if len(db_ids) > 1:
+            db_ids = [
+                f'{db}:{db_id} ! {db_name}'
+                for db_id, db_name in db_ids
+            ]
             print(f'WARNING "{text}" has multiple {db} groundings: {", ".join(db_ids)}')
-    print()
 
-    print("-- Checking for undeclared FamPlex IDs in grounding map --")
+    print("\n-- Checking for undeclared FamPlex IDs in grounding map --")
     # Look through grounding map and find all instances with an FPLX db key
     entities_missing_gm = []
     for text, db_refs in gm.items():
@@ -147,8 +150,7 @@ def main():
                       "is not in entities list." % db_id)
                 signal_error = True
 
-    print()
-    print("-- Checking for CHEBI/PUBCHEM IDs--")
+    print("\n-- Checking for CHEBI/PUBCHEM IDs--")
     chebi_id_missing = []
     pubchem_id_missing = []
     for text, db_refs in gm.items():
@@ -156,15 +158,14 @@ def main():
             p_and_c = pubchem_and_chebi(db_refs)
             if p_and_c == 'chebi_missing':
                 chebi_id_missing.append(db_refs['PUBCHEM'])
-                print("WARNING: %s has PubChem ID (pubchem.compound:%s) but no CHEBI ID."
+                print("WARNING: %s has PubChem ID (%s) but no CHEBI ID."
                       % (text, db_refs['PUBCHEM']))
             if p_and_c == 'pubchem_missing':
                 pubchem_id_missing.append(db_refs['CHEBI'])
                 print("WARNING: %s has ChEBI ID (%s) but no PUBCHEM ID." %
                       (text, db_refs['CHEBI']))
 
-    print()
-    print("-- Checking for undeclared FamPlex IDs in relationships file --")
+    print("\n-- Checking for undeclared FamPlex IDs in relationships file --")
     # Load the relationships
     # Check the relationships for consistency with entities
     entities_missing_rel = []
@@ -175,8 +176,8 @@ def main():
                 print("ERROR: ID %s referenced in relations "
                       "is not in entities list." % term_id)
                 signal_error = True
-    print()
-    print("-- Checking for valid namespaces in relations --")
+
+    print("\n-- Checking for valid namespaces in relations --")
     for ix, (subj, rel, obj) in enumerate(relationships, start=1):
         for term_ns, term_id, term_name in (subj, obj):
             if term_ns not in ('FPLX', 'HGNC', 'UP'):
@@ -187,9 +188,12 @@ def main():
     # This check requires the indra package
     try:
         from indra.databases import hgnc_client
-
-        print()
-        print("-- Checking for invalid HGNC IDs in relationships file --")
+    except ImportError as e:
+        print('\nHGNC check could not be performed because of import error')
+        print(e)
+        signal_error = True
+    else:
+        print("\n-- Checking for invalid HGNC IDs in relationships file --")
         for subj, rel, obj in relationships:
             for term_ns, term_id, term_name in (subj, obj):
                 if term_ns == 'HGNC':
@@ -202,18 +206,16 @@ def main():
                         print("ERROR: HGNC %s symbol out of sync."
                               "%s should be %s" % term_id, term_name, lu_term_name)
                         signal_error = True
-    except ImportError as e:
-        print('HGNC check could not be performed because of import error')
-        print(e)
-        signal_error = True
-        pass
 
     # This check requires the indra package
     try:
         from indra.databases import hgnc_client
-
-        print()
-        print("-- Checking for invalid HGNC IDs in grounding map --")
+    except ImportError as e:
+        print('\nHGNC check could not be performed because of import error')
+        print(e)
+        signal_error = True
+    else:
+        print("\n-- Checking for invalid HGNC IDs in grounding map --")
         for text, db_refs in gm.items():
             if db_refs is not None:
                 for db_key, db_id in db_refs.items():
@@ -223,11 +225,6 @@ def main():
                             print("ERROR: ID %s in grounding map is "
                                   "not a valid HGNC ID." % db_id)
                             signal_error = True
-    except ImportError:
-        print('HGNC check could not be performed because of import error')
-        print(e)
-        signal_error = True
-        pass
 
     # This check requires a ChEBI resource file to be available. You
     # can obtain it from here: ftp://ftp.ebi.ac.uk/pub/databases/
@@ -235,37 +232,32 @@ def main():
     try:
         with open('chebi_compounds.tsv', 'rt') as fh:
             chebi_ids = [lin.split('\t')[2] for lin in fh.readlines()]
-        print()
-        print("-- Checking for invalid ChEBI IDs in grounding map --")
-        for text, db_refs in gm.items():
-            if db_refs is not None:
-                for db_key, db_id in db_refs.items():
-                    if db_key == 'CHEBI':
-                        if db_id not in chebi_ids:
-                            print("ERROR: ID %s in grounding map is "
-                                  "not a valid CHEBI ID." % db_id)
     except IOError:
-        pass
+        print('\n ChEBI ID check could not be performed because of IO error')
+        print(e)
+    else:
+        print("\n-- Checking for invalid ChEBI IDs in grounding map --")
+        for text, db_refs in gm.items():
+            if db_refs is None:
+                continue
+            for db_key, db_id in db_refs.items():
+                if db_key != 'CHEBI':
+                    continue
+                if db_id not in chebi_ids:
+                    print("ERROR: ID %s in grounding map is "
+                          "not a valid CHEBI ID." % db_id)
 
-    print()
-    print("-- Checking for FamPlexes whose relationships are undefined  --")
+    print("\n-- Checking for FamPlexes whose relationships are undefined  --")
     # Check the relationships for consistency with entities
-    rel_missing_entities = []
     for ent in famplex_id_to_name:
-        found = False
-        for (subj_ns, subj_id, _), rel, (obj_ns, obj_id, _) in relationships:
-            if subj_ns == 'FPLX' and subj_id == ent:
-                found = True
-                break
-            if obj_ns == 'FPLX' and obj_id == ent:
-                found = True
-                break
+        found = any(
+            (s_ns == 'FPLX' and s_id == ent or o_ns == 'FPLX' and o_id == ent)
+            for (s_ns, s_id, _), rel, (o_ns, o_id, _) in relationships
+        )
         if not found:
-            rel_missing_entities.append(ent)
             print("WARNING: ID %s has no known relations." % ent)
 
-    print()
-    print("-- Checking for non-existent FamPlexes in equivalences  --")
+    print("\n-- Checking for non-existent FamPlexes in equivalences  --")
     entities_missing_eq = []
     for eq_ns, eq_id, fplx_id, _ in equivalences:
         if fplx_id not in famplex_id_to_name:
@@ -273,11 +265,14 @@ def main():
             entities_missing_eq.append(fplx_id)
             print("ERROR: ID %s referenced in equivalences "
                   "is not in entities list." % fplx_id)
-    print()
-    print("-- Checking for duplicate equivalences --")
+
+    print("\n-- Checking for duplicate equivalences --")
     equiv_counter = Counter(equivalences)
-    duplicate_eq = [item for item, count in equiv_counter.items()
-                    if count > 1]
+    duplicate_eq = [
+        item
+        for item, count in equiv_counter.items()
+        if count > 1
+    ]
     if duplicate_eq:
         print("ERROR: Duplicate equivalences found:")
         for dup in duplicate_eq:
@@ -293,8 +288,7 @@ def main():
     else:
         logging.getLogger('requests').setLevel(logging.CRITICAL)
         logging.getLogger('urllib3').setLevel(logging.CRITICAL)
-        print()
-        print("-- Checking for invalid PUBCHEM CIDs in grounding map --")
+        print("\n-- Checking for invalid PUBCHEM CIDs in grounding map --")
         pubchem_url = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/' + \
                       'cid/%s/description/XML'
 
@@ -310,9 +304,7 @@ def main():
                 print("ERROR: ID %s in grounding map is "
                       "not a valid PUBCHEM ID." % db_id)
 
-    if signal_error:
-        sys.exit(1)
-    sys.exit(0)
+    sys.exit(1 if signal_error else 0)
 
 
 if __name__ == '__main__':
