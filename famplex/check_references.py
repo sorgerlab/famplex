@@ -1,92 +1,64 @@
-from __future__ import print_function, unicode_literals
+# -*- coding: utf-8 -*-
+
+"""Check the validity and integrity of the FamPlex resources."""
+
 import csv
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
+
+from famplex.constants import ENTITIES_TSV_PATH, EQUIVALENCES_TSV_PATH, GROUNDING_MAP_TSV_PATH, RELATIONS_TSV_PATH
 
 
-def read_csv(fh, delimiter, quotechar):
-    if sys.version_info.major < 3:
-        csvreader = csv.reader(fh, delimiter=bytes(delimiter),
-                               quotechar=bytes(quotechar))
-        rows = [[cell.decode('utf-8') for cell in row] for row in csvreader]
-    else:
-        csvreader = csv.reader(fh, delimiter=delimiter, quotechar=quotechar)
-        rows = [row for row in csvreader]
-    return rows
-
-
-def load_csv(filename):
-    with open(filename) as f:
-        rows = read_csv(f, ',', '"')
-    return rows
+def load_tsv(path):
+    """Load the rows of a TSV file."""
+    with open(path) as fh:
+        return tuple(tuple(row) for row in csv.reader(fh, delimiter='\t'))
 
 
 def load_grounding_map(filename):
-    gm_rows = load_csv(filename)
-    gm_tuples = []
-    check_rows(gm_rows, 7, filename)
-    g_map = {}
-    for row in gm_rows:
-        gm_tuples.append(tuple(row))
-        key = row[0]
-        db_refs = {'TEXT': key}
-        keys = [entry for entry in row[1::2] if entry != '']
-        values = [entry for entry in row[2::2] if entry != '']
-        if len(keys) != len(values):
-            print('ERROR: Mismatched keys and values in row %s' % str(row))
-            continue
-        else:
-            db_refs.update(dict(zip(keys, values)))
-            if len(db_refs.keys()) > 1:
-                g_map[key] = db_refs
-            else:
-                g_map[key] = None
-    return g_map, tuple(gm_tuples)
+    gm_rows = load_tsv(filename)
+    check_rows(gm_rows, 4, filename)
+    g_map = defaultdict(dict)
+    for text, db, db_id, _ in gm_rows:
+        g_map[text][db] = db_id
+    return g_map, gm_rows
 
 
 def check_file_rows(filename, row_length):
-    with open(filename) as f:
-        rows = read_csv(f, ',', '"')
+    rows = load_tsv(filename)
     check_rows(rows, row_length, filename)
 
 
 def check_rows(rows, row_length, filename):
-    for ix, row in enumerate(rows):
+    for ix, row in enumerate(rows, start=1):
         if len(row) != row_length:
             print("ERROR: Line %d in file %s has %d columns, should be %d" %
-                  ((ix + 1), filename, len(row), row_length))
+                  (ix, filename, len(row), row_length))
 
 
 def load_entity_list(filename):
-    with open(filename) as f:
-        rows = read_csv(f, ',', '"')
-    check_rows(rows, 1, filename)
-    entities = [row[0] for row in rows]
-    return entities
+    rows = load_tsv(filename)
+    check_rows(rows, 4, filename)
+    return rows
 
 
 def load_relationships(filename):
-    relationships = []
-    with open(filename) as f:
-        rows = read_csv(f, ',', '"')
-    check_rows(rows, 5, filename)
-    for row in rows:
-        relationships.append(((row[0], row[1]), row[2], (row[3], row[4])))
-    return relationships
+    rows = load_tsv(filename)
+    check_rows(rows, 7, filename)
+    return [
+        ((sns, sid, sname), rel, (ons, oid, oname))
+        for sns, sid, sname, rel, ons, oid, oname in rows
+    ]
 
 
 def load_equivalences(filename):
-    equivalences = []
-    with open(filename) as f:
-        rows = read_csv(f, ',', '"')
-    check_rows(rows, 3, filename)
-    for row in rows:
-        equivalences.append((row[0], row[1], row[2]))
-    return equivalences
+    rows = load_tsv(filename)
+    check_rows(rows, 4, filename)
+    return rows
 
 
 def update_id_prefixes(filename):
-    gm_rows = load_csv(filename)
+    gm_rows = load_tsv(filename)
     updated_rows = []
     for row in gm_rows:
         key = row[0]
@@ -130,13 +102,17 @@ def check_duplicates(entries, entry_label):
     return found_duplicates
 
 
-if __name__ == '__main__':
+def main():
     signal_error = False
-    entities = load_entity_list('entities.csv')
-    relationships = load_relationships('relations.csv')
-    equivalences = load_equivalences('equivalences.csv')
-    gm, gm_tuples = load_grounding_map('grounding_map.csv')
-    check_file_rows('gene_prefixes.csv', 3)
+    entities = load_entity_list(ENTITIES_TSV_PATH)
+    relationships = load_relationships(RELATIONS_TSV_PATH)
+    equivalences = load_equivalences(EQUIVALENCES_TSV_PATH)
+    gm, gm_tuples = load_grounding_map(GROUNDING_MAP_TSV_PATH)
+
+    em = {
+        eid: ename
+        for eid, ename, *_ in entities
+    }
 
     for entries, entry_label in ((entities, 'entities'),
                                  (relationships, 'relationships'),
@@ -149,13 +125,12 @@ if __name__ == '__main__':
     # Look through grounding map and find all instances with an FPLX db key
     entities_missing_gm = []
     for text, db_refs in gm.items():
-        if db_refs is not None:
-            for db_key, db_id in db_refs.items():
-                if db_key == 'FPLX' and db_id not in entities:
-                    entities_missing_gm.append(db_id)
-                    print("ERROR: ID %s referenced in grounding map "
-                          "is not in entities list." % db_id)
-                    signal_error = True
+        for db_key, db_id in db_refs.items():
+            if db_key == 'FPLX' and db_id not in em:
+                entities_missing_gm.append(db_id)
+                print("ERROR: ID %s referenced in grounding map "
+                      "is not in entities list." % db_id)
+                signal_error = True
 
     print()
     print("-- Checking for CHEBI/PUBCHEM IDs--")
@@ -166,11 +141,11 @@ if __name__ == '__main__':
             p_and_c = pubchem_and_chebi(db_refs)
             if p_and_c == 'chebi_missing':
                 chebi_id_missing.append(db_refs['PUBCHEM'])
-                print("WARNING: %s has PUBCHEM ID (%s) but no CHEBI ID."
+                print("WARNING: %s has PubChem ID (pubchem.compound:%s) but no CHEBI ID."
                       % (text, db_refs['PUBCHEM']))
             if p_and_c == 'pubchem_missing':
                 pubchem_id_missing.append(db_refs['CHEBI'])
-                print("WARNING: %s has CHEBI ID (%s) but no PUBCHEM ID." %
+                print("WARNING: %s has ChEBI ID (%s) but no PUBCHEM ID." %
                       (text, db_refs['CHEBI']))
 
     print()
@@ -179,38 +154,38 @@ if __name__ == '__main__':
     # Check the relationships for consistency with entities
     entities_missing_rel = []
     for subj, rel, obj in relationships:
-        for term in (subj, obj):
-            term_ns = term[0]
-            term_id = term[1]
-            if term_ns == 'FPLX' and term_id not in entities:
+        for term_ns, term_id, term_name in (subj, obj):
+            if term_ns == 'FPLX' and term_id not in em:
                 entities_missing_rel.append(term_id)
                 print("ERROR: ID %s referenced in relations "
                       "is not in entities list." % term_id)
                 signal_error = True
     print()
     print("-- Checking for valid namespaces in relations --")
-    for ix, (subj, rel, obj) in enumerate(relationships):
-        for term in (subj, obj):
-            term_ns = term[0]
+    for ix, (subj, rel, obj) in enumerate(relationships, start=1):
+        for term_ns, term_id, term_name in (subj, obj):
             if term_ns not in ('FPLX', 'HGNC', 'UP'):
                 print("ERROR: row %d: Invalid namespace in relations.csv: %s" %
-                      (ix+1, term_ns))
+                      (ix, term_ns))
                 signal_error = True
 
     # This check requires the indra package
     try:
         from indra.databases import hgnc_client
+
         print()
         print("-- Checking for invalid HGNC IDs in relationships file --")
         for subj, rel, obj in relationships:
-            for term in (subj, obj):
-                term_ns = term[0]
-                term_id = term[1]
+            for term_ns, term_id, term_name in (subj, obj):
                 if term_ns == 'HGNC':
-                    hgnc_id = hgnc_client.get_hgnc_id(term_id)
-                    if not hgnc_id:
+                    lu_term_name = hgnc_client.get_hgnc_name(term_id)
+                    if not lu_term_name:
                         print("ERROR: ID %s referenced in relations is "
                               "not a valid HGNC ID." % term_id)
+                        signal_error = True
+                    if term_name != lu_term_name:
+                        print("ERROR: HGNC %s symbol out of sync."
+                              "%s should be %s" % term_id, term_name, lu_term_name)
                         signal_error = True
     except ImportError as e:
         print('HGNC check could not be performed because of import error')
@@ -221,16 +196,17 @@ if __name__ == '__main__':
     # This check requires the indra package
     try:
         from indra.databases import hgnc_client
+
         print()
         print("-- Checking for invalid HGNC IDs in grounding map --")
         for text, db_refs in gm.items():
             if db_refs is not None:
                 for db_key, db_id in db_refs.items():
                     if db_key == 'HGNC':
-                        hgnc_id = hgnc_client.get_hgnc_id(db_id)
-                        if not hgnc_id:
+                        lu_term_name = hgnc_client.get_hgnc_name(db_id)
+                        if not lu_term_name:
                             print("ERROR: ID %s in grounding map is "
-                                   "not a valid HGNC ID." % db_id)
+                                  "not a valid HGNC ID." % db_id)
                             signal_error = True
     except ImportError:
         print('HGNC check could not be performed because of import error')
@@ -260,13 +236,9 @@ if __name__ == '__main__':
     print("-- Checking for FamPlexes whose relationships are undefined  --")
     # Check the relationships for consistency with entities
     rel_missing_entities = []
-    for ent in entities:
+    for ent in em:
         found = False
-        for subj, rel, obj in relationships:
-            subj_ns = subj[0]
-            subj_id = subj[1]
-            obj_ns = obj[0]
-            obj_id = obj[1]
+        for (subj_ns, subj_id, _), rel, (obj_ns, obj_id, _) in relationships:
             if subj_ns == 'FPLX' and subj_id == ent:
                 found = True
                 break
@@ -280,12 +252,12 @@ if __name__ == '__main__':
     print()
     print("-- Checking for non-existent FamPlexes in equivalences  --")
     entities_missing_eq = []
-    for eq_ns, eq_id, be_id in equivalences:
-        if be_id not in entities:
+    for eq_ns, eq_id, fplx_id, _ in equivalences:
+        if fplx_id not in em:
             signal_error = True
-            entities_missing_eq.append(be_id)
+            entities_missing_eq.append(fplx_id)
             print("ERROR: ID %s referenced in equivalences "
-                  "is not in entities list." % be_id)
+                  "is not in entities list." % fplx_id)
     print()
     print("-- Checking for duplicate equivalences --")
     equiv_counter = Counter(equivalences)
@@ -300,23 +272,33 @@ if __name__ == '__main__':
     try:
         import requests
         import logging
+        from tqdm import tqdm
+    except ImportError:
+        pass
+    else:
         logging.getLogger('requests').setLevel(logging.CRITICAL)
         logging.getLogger('urllib3').setLevel(logging.CRITICAL)
         print()
         print("-- Checking for invalid PUBCHEM CIDs in grounding map --")
         pubchem_url = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/' + \
                       'cid/%s/description/XML'
-        for text, db_refs in gm.items():
-            if db_refs is not None:
-                for db_key, db_id in db_refs.items():
-                    if db_key == 'PUBCHEM':
-                        res = requests.get(pubchem_url % db_id)
-                        if res.status_code != 200:
-                            print("ERROR: ID %s in grounding map is "
-                                  "not a valid PUBCHEM ID." % db_id)
-    except ImportError:
-        pass
+
+        pubchem_ids = {
+            db_id
+            for text, db_refs in gm.items()
+            for db_key, db_id in db_refs.items()
+            if db_key == 'PUBCHEM'
+        }
+        for db_id in tqdm(pubchem_ids):
+            res = requests.get(pubchem_url % db_id)
+            if res.status_code != 200:
+                print("ERROR: ID %s in grounding map is "
+                      "not a valid PUBCHEM ID." % db_id)
 
     if signal_error:
         sys.exit(1)
     sys.exit(0)
+
+
+if __name__ == '__main__':
+    main()

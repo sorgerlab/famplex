@@ -28,8 +28,11 @@ DESCRIPTIONS_CSV_PATH = os.path.join(INPUT_RESOURCES, 'descriptions.csv')
 
 FAMPLEX_DESCRIPTION = 'A protein family, complex, family of complexes,or complex of families'
 
-client_lookups = [
+client_id_lookups = [
     ('HGNC', hgnc_client.get_hgnc_id),
+]
+
+client_name_lookups = [
     ('UP', uniprot_client.get_mnemonic),
     ('GO', go_client.get_go_label),
     ('MESH', mesh_client.get_mesh_name),
@@ -45,9 +48,13 @@ def main():
         if db == 'FPLX':
             return fplx_name_to_id[db_id], db_id
 
-        for client, lookup in client_lookups:
+        for client, lookup in client_id_lookups:
             if db == client:
                 return lookup(db_id), db_id
+
+        for client, lookup in client_name_lookups:
+            if db == client:
+                return db_id, lookup(db_id)
 
         else:
             return db_id, '.'
