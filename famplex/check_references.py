@@ -133,7 +133,8 @@ def main():
     print("-- Checking for doubly grounded text in grounding map --")
     for (text, db), db_ids in entity_to_texts.items():
         if len(db_ids) > 1:
-            print(f'ERROR "{text}" has multiple {db} groundings: {", ".join(db_ids)}')
+            print(f'WARNING "{text}" has multiple {db} groundings: {", ".join(db_ids)}')
+    print()
 
     print("-- Checking for undeclared FamPlex IDs in grounding map --")
     # Look through grounding map and find all instances with an FPLX db key
