@@ -26,9 +26,11 @@ def load_grounding_map(filename):
     gm_rows = load_csv(filename)
     check_rows(gm_rows, 4, filename)
     g_map = defaultdict(dict)
+    e_map = defaultdict(list)
     for text, db, db_id, _ in gm_rows:
         g_map[text][db] = db_id
-    return g_map, gm_rows
+        e_map[text, db].append(db_id)
+    return g_map, gm_rows, e_map
 
 
 def check_file_rows(filename, row_length):
@@ -114,11 +116,11 @@ def main():
     entities = load_entity_list(ENTITIES_PATH)
     relationships = load_relationships(RELATIONS_PATH)
     equivalences = load_equivalences(EQUIVALENCES_PATH)
-    gm, gm_tuples = load_grounding_map(GROUNDING_MAP_PATH)
+    gm, gm_tuples, entity_to_texts = load_grounding_map(GROUNDING_MAP_PATH)
 
-    em = {
-        eid: ename
-        for eid, ename, *_ in entities
+    famplex_id_to_name = {
+        fplx_id: fplx_name
+        for fplx_id, fplx_name, *_ in entities
     }
 
     for entries, entry_label in ((entities, 'entities'),
@@ -128,12 +130,17 @@ def main():
         if check_duplicates(entries, entry_label):
             signal_error = True
 
+    print("-- Checking for doubly grounded text in grounding map --")
+    for (text, db), db_ids in entity_to_texts.items():
+        if len(db_ids) > 1:
+            print(f'ERROR "{text}" has multiple {db} groundings: {", ".join(db_ids)}')
+
     print("-- Checking for undeclared FamPlex IDs in grounding map --")
     # Look through grounding map and find all instances with an FPLX db key
     entities_missing_gm = []
     for text, db_refs in gm.items():
         for db_key, db_id in db_refs.items():
-            if db_key == 'FPLX' and db_id not in em:
+            if db_key == 'FPLX' and db_id not in famplex_id_to_name:
                 entities_missing_gm.append(db_id)
                 print("ERROR: ID %s referenced in grounding map "
                       "is not in entities list." % db_id)
@@ -162,7 +169,7 @@ def main():
     entities_missing_rel = []
     for subj, rel, obj in relationships:
         for term_ns, term_id, term_name in (subj, obj):
-            if term_ns == 'FPLX' and term_id not in em:
+            if term_ns == 'FPLX' and term_id not in famplex_id_to_name:
                 entities_missing_rel.append(term_id)
                 print("ERROR: ID %s referenced in relations "
                       "is not in entities list." % term_id)
@@ -243,7 +250,7 @@ def main():
     print("-- Checking for FamPlexes whose relationships are undefined  --")
     # Check the relationships for consistency with entities
     rel_missing_entities = []
-    for ent in em:
+    for ent in famplex_id_to_name:
         found = False
         for (subj_ns, subj_id, _), rel, (obj_ns, obj_id, _) in relationships:
             if subj_ns == 'FPLX' and subj_id == ent:
@@ -260,7 +267,7 @@ def main():
     print("-- Checking for non-existent FamPlexes in equivalences  --")
     entities_missing_eq = []
     for eq_ns, eq_id, fplx_id, _ in equivalences:
-        if fplx_id not in em:
+        if fplx_id not in famplex_id_to_name:
             signal_error = True
             entities_missing_eq.append(fplx_id)
             print("ERROR: ID %s referenced in equivalences "
