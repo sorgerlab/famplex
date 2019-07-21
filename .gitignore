@@ -98,3 +98,4 @@ scratch
 scratch/*
 
 .pytest_cache
+.DS_Store
