@@ -4,10 +4,7 @@ python:
 before_install:
   - sudo apt-get install graphviz
   - pwd
-  - pip install future requests pygraphviz
-  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
-      pip install functools32;
-    fi
+  - pip install future requests pygraphviz bel_resources
   - git clone https://github.com/sorgerlab/indra.git
 script:
   - pwd
@@ -19,10 +16,9 @@ script:
   # bel_resources must be installed to generate belns exports
   # generate exports then take git diff and look only at lines that changed
   # lines containing date, timestamp, or version should be ignored
-  - pip install bel_resources
-  - python export/obo.py
-  - python export/hgnc_ids.py
-  - python export/belns.py
+  - python famplex/export/obo.py
+  - python famplex/export/hgnc_ids.py
+  - python famplex/export/belns.py
   - export belns_diff=$(git diff -U0 export/famplex.belns | egrep "^[\+-][^\+-]")
   - export belns=$(echo "$belns_diff" | egrep -v "^[\+-](VersionString|CreatedDateTime)")
   - export obo_diff=$(git diff -U0 export/famplex.obo | egrep "^[\+-][^\+-]")
