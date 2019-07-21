@@ -8,13 +8,13 @@ import os
 from bel_resources import write_namespace
 from bel_resources.constants import NAMESPACE_DOMAIN_GENE
 
-from famplex.constants import ENTITIES_TSV_PATH, EXPORT_DIR
+from famplex.constants import ENTITIES_PATH, EXPORT_DIR
 
 DEFAULT_BELNS_PATH = os.path.join(EXPORT_DIR, 'famplex.belns')
 
 
 def _get_entities():
-    with open(ENTITIES_TSV_PATH) as file:
+    with open(ENTITIES_PATH) as file:
         reader = csv.reader(
             file,
             delimiter=',',

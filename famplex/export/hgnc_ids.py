@@ -8,7 +8,7 @@ of the genes in the various tables can be traced."""
 import csv
 import os
 
-from famplex.constants import EXPORT_DIR, GROUNDING_MAP_TSV_PATH, RELATIONS_TSV_PATH
+from famplex.constants import EXPORT_DIR, GROUNDING_MAP_PATH, RELATIONS_PATH
 from indra.databases import hgnc_client
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -18,7 +18,7 @@ HGNC_SYMBOL_MAP_PATH = os.path.join(EXPORT_DIR, 'hgnc_symbol_map.csv')
 def main():
     hgnc_symbols = set()
     # Gather all HGNC symbols from relations.csv
-    with open(RELATIONS_TSV_PATH) as f:
+    with open(RELATIONS_PATH) as f:
         for ns1, id1, n1, rel, ns2, id2, n2 in csv.reader(f, delimiter='\t'):
             if ns1 == 'HGNC':
                 hgnc_symbols.add(n1)
@@ -26,7 +26,7 @@ def main():
                 hgnc_symbols.add(n2)
 
     # Gather all HGNC symbols from grounding_map.csv
-    with open(GROUNDING_MAP_TSV_PATH) as f:
+    with open(GROUNDING_MAP_PATH) as f:
         for text, db, db_id, db_name in csv.reader(f, delimiter='\t'):
             if db == 'HGNC':
                 hgnc_symbols.add(db_name)

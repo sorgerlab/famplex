@@ -3,7 +3,7 @@ import os
 
 import pygraphviz as pgv
 
-from famplex.constants import EXPORT_DIR, RELATIONS_TSV_PATH
+from famplex.constants import EXPORT_DIR, RELATIONS_PATH
 
 DEFAULT_RELATIONS_GRAPH_PATH = os.path.join(EXPORT_DIR, 'relations_graph.pdf')
 
@@ -29,7 +29,7 @@ def node_label(db, db_id, name):
 def main(output_file=DEFAULT_RELATIONS_GRAPH_PATH):
     graph = pgv.AGraph(name='relations', directed=True, rankdir='LR')
 
-    with open(RELATIONS_TSV_PATH) as file:
+    with open(RELATIONS_PATH) as file:
         reader = csv.reader(
             file,
             delimiter=',',

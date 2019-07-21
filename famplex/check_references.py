@@ -6,7 +6,7 @@ import csv
 import sys
 from collections import Counter, defaultdict
 
-from famplex.constants import ENTITIES_TSV_PATH, EQUIVALENCES_TSV_PATH, GROUNDING_MAP_TSV_PATH, RELATIONS_TSV_PATH
+from famplex.constants import ENTITIES_PATH, EQUIVALENCES_PATH, GROUNDING_MAP_PATH, RELATIONS_PATH
 
 
 def load_csv(path):
@@ -111,10 +111,10 @@ def check_duplicates(entries, entry_label):
 
 def main():
     signal_error = False
-    entities = load_entity_list(ENTITIES_TSV_PATH)
-    relationships = load_relationships(RELATIONS_TSV_PATH)
-    equivalences = load_equivalences(EQUIVALENCES_TSV_PATH)
-    gm, gm_tuples = load_grounding_map(GROUNDING_MAP_TSV_PATH)
+    entities = load_entity_list(ENTITIES_PATH)
+    relationships = load_relationships(RELATIONS_PATH)
+    equivalences = load_equivalences(EQUIVALENCES_PATH)
+    gm, gm_tuples = load_grounding_map(GROUNDING_MAP_PATH)
 
     em = {
         eid: ename

@@ -11,8 +11,8 @@ from operator import itemgetter
 from typing import Tuple
 
 from famplex.constants import (
-    ENTITIES_TSV_PATH, EQUIVALENCES_TSV_PATH, GROUNDING_MAP_TSV_PATH, METADATA_PATH,
-    RELATIONS_TSV_PATH,
+    ENTITIES_PATH, EQUIVALENCES_PATH, GROUNDING_MAP_PATH, METADATA_PATH,
+    RELATIONS_PATH,
 )
 from indra.databases import chebi_client, go_client, hgnc_client, mesh_client, mirbase_client, uniprot_client
 
@@ -75,7 +75,7 @@ def main():
             for fplx_name, references, description in reader
         }
 
-    with open('entities.csv') as in_file, open(ENTITIES_TSV_PATH, 'w') as out_file:
+    with open('entities.csv') as in_file, open(ENTITIES_PATH, 'w') as out_file:
         writer = csv.writer(
             out_file,
             delimiter=',',
@@ -94,7 +94,7 @@ def main():
                 ','.join(references) if references is not None else '',
             ))
 
-    with open('equivalences.csv') as in_file, open(EQUIVALENCES_TSV_PATH, 'w') as out_file:
+    with open('equivalences.csv') as in_file, open(EQUIVALENCES_PATH, 'w') as out_file:
         # print('xref_db', 'xref_id', 'fplx_id', 'fplx_name', sep='\t', file=out_file)
         reader = csv.reader(
             in_file,
@@ -119,7 +119,7 @@ def main():
             ))
 
     groundings_unlabelled = set()
-    with open('grounding_map.csv') as in_file, open(GROUNDING_MAP_TSV_PATH, 'w') as out_file:
+    with open('grounding_map.csv') as in_file, open(GROUNDING_MAP_PATH, 'w') as out_file:
         reader = csv.reader(
             in_file,
             delimiter=',',
@@ -154,7 +154,7 @@ def main():
             print(f'{xref_db:>{s}s} unlabelled {count}')
 
     relations_unlabelled = set()
-    with open('relations.csv') as in_file, open(RELATIONS_TSV_PATH, 'w') as out_file:
+    with open('relations.csv') as in_file, open(RELATIONS_PATH, 'w') as out_file:
         # print('sub_db', 'sub_id', 'sub_name', 'rel',
         #      'obj_db', 'obj_id', 'obj_name', sep='\t', file=out_file)
 

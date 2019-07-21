@@ -4,7 +4,7 @@ import datetime
 import os
 
 from famplex.constants import (
-    ENTITIES_TSV_PATH, EQUIVALENCES_TSV_PATH, EXPORT_DIR, GROUNDING_MAP_TSV_PATH, RELATIONS_TSV_PATH,
+    ENTITIES_PATH, EQUIVALENCES_PATH, EXPORT_DIR, GROUNDING_MAP_PATH, RELATIONS_PATH,
 )
 
 DEFAULT_OBO_PATH = os.path.join(EXPORT_DIR, 'famplex.obo')
@@ -89,7 +89,7 @@ ROOT_OBO_TERM = OboTerm(term_id=ROOT_REFERENCE)
 def get_obo_terms():
     obo_terms = [ROOT_OBO_TERM]
 
-    with open(ENTITIES_TSV_PATH) as fh:
+    with open(ENTITIES_PATH) as fh:
         reader = csv.reader(
             fh,
             delimiter=',',
@@ -106,7 +106,7 @@ def get_obo_terms():
             for fplx_id, fplx_name, description, references in reader
         }
 
-    with open(EQUIVALENCES_TSV_PATH, 'r') as fh:
+    with open(EQUIVALENCES_PATH, 'r') as fh:
         reader = csv.reader(
             fh,
             delimiter=',',
@@ -118,7 +118,7 @@ def get_obo_terms():
         for xref_db, xref_id, fplx_id, _ in reader:
             equivalences[fplx_id].append((xref_db, xref_id))
 
-    with open(GROUNDING_MAP_TSV_PATH) as fh:
+    with open(GROUNDING_MAP_PATH) as fh:
         reader = csv.reader(
             fh,
             delimiter=',',
@@ -131,7 +131,7 @@ def get_obo_terms():
             if db == 'FPLX':
                 textrefs[db_id].append(textref)
 
-    with open(RELATIONS_TSV_PATH) as fh:
+    with open(RELATIONS_PATH) as fh:
         rels = {
             entity: collections.OrderedDict(
                 is_a=[],
