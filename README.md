@@ -31,6 +31,10 @@ the FamPlex namespace.
 
 * ```entities.csv```. A registry of the families and complexes defined in the
   FamPlex namespace.
+  
+* ```descriptions.tsv```. Descriptions and citations of some entities. Contains
+  three columns: the FamPlex name, comma separated reference CURIEs, and a 
+  textual description.
 
 * ```grounding_map.csv```. Explicit mapping of text strings to identifiers in
   biological databases.
