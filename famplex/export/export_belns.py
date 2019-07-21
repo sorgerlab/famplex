@@ -1,24 +1,26 @@
-#! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Output FamPlex as a BEL namespace. Requires the `bel_resources` package."""
+"""Output FamPlex as a BEL namespace using the :mod:`bel_resources` package."""
 
 import os
 
 from bel_resources import write_namespace
 from bel_resources.constants import NAMESPACE_DOMAIN_GENE
 
-path_this = os.path.dirname(os.path.abspath(__file__))
-entities_file = os.path.join(path_this, os.pardir, 'entities.csv')
-output_file = os.path.join(path_this, 'famplex.belns')
+from famplex.constants import ENTITIES_TSV_PATH, EXPORT_DIR
+
+DEFAULT_BELNS_PATH = os.path.join(EXPORT_DIR, 'famplex.belns')
 
 
 def _get_entities():
-    with open(entities_file, 'r') as fh:
-        return {l.strip(): 'GRPC' for l in fh.readlines()}
+    with open(ENTITIES_TSV_PATH) as fh:
+        return {
+            l.strip().split('\t')[1]: 'GRPC'
+            for l in fh.readlines()
+        }
 
 
-def _write_namespace(values):
+def _write_namespace(values, output_file):
     with open(output_file, 'w') as file:
         write_namespace(
             namespace_name='FamPlex',
@@ -38,6 +40,10 @@ def _write_namespace(values):
         )
 
 
-if __name__ == '__main__':
+def main(output_file=DEFAULT_BELNS_PATH):
     entities = _get_entities()
-    _write_namespace(entities)
+    _write_namespace(entities, output_file)
+
+
+if __name__ == '__main__':
+    main()

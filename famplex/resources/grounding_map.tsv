@@ -1,0 +1,2838 @@
+AMPK (alpha 1, beta 1, gamma 1)	FPLX	000032	AMPK_A1B1G1
+AMPK (alpha 1, beta 1, gamma 2)	FPLX	000033	AMPK_A1B1G2
+AMPK (alpha 1, beta 1, gamma 3)	FPLX	000034	AMPK_A1B1G3
+AMPK (alpha 1, beta 2, gamma 1)	FPLX	000035	AMPK_A1B2G1
+AMPK (alpha 1, beta 2, gamma 2)	FPLX	000036	AMPK_A1B2G2
+AMPK (alpha 1, beta 2, gamma 3)	FPLX	000037	AMPK_A1B2G3
+AMPK (alpha 2, beta 1, gamma 1)	FPLX	000038	AMPK_A2B1G1
+AMPK (alpha 2, beta 1, gamma 2)	FPLX	000039	AMPK_A2B1G2
+AMPK (alpha 2, beta 1, gamma 3)	FPLX	000040	AMPK_A2B1G3
+AMPK (alpha 2, beta 2, gamma 1)	FPLX	000041	AMPK_A2B2G1
+AMPK (alpha 2, beta 2, gamma 2)	FPLX	000042	AMPK_A2B2G2
+AMPK (alpha 2, beta 2, gamma 3)	FPLX	000043	AMPK_A2B2G3
+AMPK (α 1, β 1, γ 1)	FPLX	000032	AMPK_A1B1G1
+AMPK (α 1, β 1, γ 2)	FPLX	000033	AMPK_A1B1G2
+AMPK (α 1, β 1, γ 3)	FPLX	000034	AMPK_A1B1G3
+AMPK (α 1, β 2, γ 1)	FPLX	000035	AMPK_A1B2G1
+AMPK (α 1, β 2, γ 2)	FPLX	000036	AMPK_A1B2G2
+AMPK (α 1, β 2, γ 3)	FPLX	000037	AMPK_A1B2G3
+AMPK (α 2, β 1, γ 1)	FPLX	000038	AMPK_A2B1G1
+AMPK (α 2, β 1, γ 2)	FPLX	000039	AMPK_A2B1G2
+AMPK (α 2, β 1, γ 3)	FPLX	000040	AMPK_A2B1G3
+AMPK (α 2, β 2, γ 1)	FPLX	000041	AMPK_A2B2G1
+AMPK (α 2, β 2, γ 2)	FPLX	000042	AMPK_A2B2G2
+AMPK (α 2, β 2, γ 3)	FPLX	000043	AMPK_A2B2G3
+Glutamate receptors, ionotropic, kainate	FPLX	000269	Kainate_family
+Na(+),K(+)-ATPase	FPLX	000303	Na_K_ATPase
+Na,K-ATPase beta subunit	FPLX	000058	ATP1B
+Na,K-ATPase β subunit	FPLX	000058	ATP1B
+Na,K-ATPase	FPLX	000303	Na_K_ATPase
+(9-1-1) complex	FPLX	000001	9_1_1
+14-3-3 proteins	FPLX	000323	p14_3_3
+14-3-3	FPLX	000323	p14_3_3
+14-3-3zeta	UP	1433Z_HUMAN	P63104
+4E-BP1	UP	4EBP1_HUMAN	Q13541
+4EBP	FPLX	000154	EIF4EBP
+4EBP1	UP	4EBP1_HUMAN	Q13541
+53BP1	UP	TP53B_HUMAN	Q12888
+9-1-1 complex	FPLX	000001	9_1_1
+9-1-1	FPLX	000001	9_1_1
+a-adrenoreceptor	FPLX	000019	ADRA
+a-cathenin	FPLX	000126	CTNNA
+A2t	FPLX	000047	Annexin_II_heterotetramer
+ABA	PUBCHEM	5280896	.
+ABA	CHEBI	(+)-abscisic acid	CHEBI:2365
+Abeta	UP	A4_HUMAN	P05067
+Abeta	CHEBI	amyloid-beta	CHEBI:64645
+Abi1	UP	ABI1_HUMAN	Q8IZP0
+ABL family	FPLX	000003	ABL_family
+ABL	FPLX	000003	ABL_family
+Abl	UP	ABL1_HUMAN	P00519
+AC	MESH	Adenocarcinoma	D000230
+AC	UP	ADCY1_HUMAN	Q08828
+ACAD	FPLX	000004	ACAD
+ACC	FPLX	000005	ACC
+ACCs	FPLX	000005	ACC
+Acetate-CoA ligase	FPLX	000006	Acetyl_CoA_synthetase
+acetyl CoA ligase	FPLX	000006	Acetyl_CoA_synthetase
+acetyl CoA synthase	FPLX	000006	Acetyl_CoA_synthetase
+Acetyl Coenzyme A Carboxylase	FPLX	000005	ACC
+Acetyl-CoA carboxylase	FPLX	000005	ACC
+acetyl-CoA carboxylase	FPLX	000005	ACC
+Acetyl-CoA synthetase	FPLX	000006	Acetyl_CoA_synthetase
+acetyl-CoA synthetase	FPLX	000006	Acetyl_CoA_synthetase
+acetyl-coenzyme A synthase	FPLX	000006	Acetyl_CoA_synthetase
+acetylcholine receptor	FPLX	000102	CHRM
+Ack1	UP	ACK1_HUMAN	Q07912
+ACS	FPLX	000006	Acetyl_CoA_synthetase
+Acsl	FPLX	000008	ACSL
+actin filament	FPLX	000009	Actin
+actin	FPLX	000009	Actin
+actinin	FPLX	000014	ACTN
+actins	FPLX	000009	Actin
+Activin A protein	FPLX	000011	Activin_A
+Activin A	FPLX	000011	Activin_A
+activin A	FPLX	000011	Activin_A
+activin AB	FPLX	000012	Activin_AB
+activin protein	FPLX	000010	Activin
+Activin	FPLX	000010	Activin
+activin	FPLX	000010	Activin
+activin-A	FPLX	000011	Activin_A
+activin-B	FPLX	000013	Activin_B
+activinA	FPLX	000011	Activin_A
+activins	FPLX	000010	Activin
+acyl CoA dehydrogenase	FPLX	000004	ACAD
+acyl-CoA dehydrogenase	FPLX	000004	ACAD
+Acyl-CoA Oxidase	FPLX	000007	ACOX
+acyl-CoA oxidases	FPLX	000007	ACOX
+Adaptor Protein 2 complex	FPLX	000015	Adaptor_protein_II
+adaptor protein complex 2	FPLX	000015	Adaptor_protein_II
+adaptor protein complex 3	FPLX	000016	Adaptor_protein_III
+adenylate cyclase	FPLX	000017	ADCY
+adenylyl cyclase	FPLX	000017	ADCY
+adhesion	GO	cell adhesion	GO:0007155
+adhesion	MESH	Cell Adhesion	D002448
+adiponectin	UP	ADIPO_HUMAN	Q15848
+ADP	CHEBI	ADP	CHEBI:16761
+ADP	PUBCHEM	6022	.
+ADP ribosylation factor	FPLX	000053	ARF_GTPase_family
+afatinib	PUBCHEM	10184653	.
+afatinib	LINCS	10133-101	.
+afatinib	CHEBI	afatinib	CHEBI:61390
+AHR	UP	AHR_HUMAN	P35869
+AICAR	PUBCHEM	65110	.
+AICAR	CHEBI	AICA ribonucleotide	CHEBI:18406
+AKT family	FPLX	000023	AKT
+AKT	FPLX	000023	AKT
+Akt	FPLX	000023	AKT
+AKT1	UP	AKT1_HUMAN	P31749
+Akt1	UP	AKT1_HUMAN	P31749
+AKT2	UP	AKT2_HUMAN	P31751
+Akt2	UP	AKT2_HUMAN	P31751
+alcohol dehydrogenase	FPLX	000018	ADH
+alcohol	PUBCHEM	702	.
+alcohol	CHEBI	ethanol	CHEBI:16236
+alcohol	HMDB	HMDB00108	.
+aldehyde dehydrogenase (NAD+)	FPLX	000024	ALDH
+Aldehyde dehydrogenase	FPLX	000024	ALDH
+aldehyde dehydrogenase	FPLX	000024	ALDH
+ALDH	FPLX	000024	ALDH
+ALDO	FPLX	000025	ALDO
+aldosterone	CHEBI	aldosterone	CHEBI:27584
+aldosterone	PUBCHEM	5839	.
+ALG10	FPLX	000026	ALG10
+ALIX	HGNC	8766	PDCD6IP
+ALIX	UP	PDC6I_HUMAN	Q8WUM4
+ALK	UP	ALK_HUMAN	Q9UM73
+alkali myosin light chains	FPLX	000297	MYL_alkali
+alpha adrenoceptor	FPLX	000019	ADRA
+alpha catenin	FPLX	000126	CTNNA
+alpha tubulin	FPLX	000483	TUBA
+alpha(2)-adrenoceptors	FPLX	000020	ADRA2
+alpha(2)-ARs	FPLX	000020	ADRA2
+alpha-adrenergic receptor	FPLX	000019	ADRA
+alpha-adrenoreceptor	FPLX	000019	ADRA
+alpha-adrenoreceptors	FPLX	000019	ADRA
+alpha-catenin	FPLX	000126	CTNNA
+alpha1 adrenoceptor	FPLX	000019	ADRA
+Alpha-1,2-glucosyltransferase	FPLX	000026	ALG10
+Alpha-1,2-glucosyltransferases	FPLX	000026	ALG10
+alpha-1,2-glucosyltransferase	FPLX	000026	ALG10
+alpha-1,2-glucosyltransferases	FPLX	000026	ALG10
+Alpha-1,3-glucosyltransferase	FPLX	000029	ALG6_family
+Alpha-1,3-glucosyltransferases	FPLX	000029	ALG6_family
+alpha-1,3-glucosyltransferase	FPLX	000029	ALG6_family
+alpha-1,3-glucosyltransferases	FPLX	000029	ALG6_family
+Alpha-1,4-glucosyltransferase	FPLX	000029	ALG6_family
+Alpha-1,4-glucosyltransferases	FPLX	000029	ALG6_family
+alpha-1,4-glucosyltransferase	FPLX	000029	ALG6_family
+alpha-1,4-glucosyltransferases	FPLX	000029	ALG6_family
+alpha1beta1gamma1	FPLX	000032	AMPK_A1B1G1
+alpha1beta1gamma2	FPLX	000033	AMPK_A1B1G2
+alpha1beta1gamma3	FPLX	000034	AMPK_A1B1G3
+alpha1beta2gamma1	FPLX	000035	AMPK_A1B2G1
+alpha1beta2gamma2	FPLX	000036	AMPK_A1B2G2
+alpha2 adrenoceptor	FPLX	000020	ADRA2
+alpha2-AR	FPLX	000020	ADRA2
+alpha2beta1 integrin	FPLX	000261	Integrins
+alpha2beta1gamma1	FPLX	000038	AMPK_A2B1G1
+alpha2beta2gamma1	FPLX	000041	AMPK_A2B2G1
+alpha2beta2gamma2	FPLX	000042	AMPK_A2B2G2
+alpha2beta2gamma3	FPLX	000043	AMPK_A2B2G3
+ALS	UP	ALS_HUMAN	P35858
+AM	HGNC	259	ADM
+AM	UP	ADML_HUMAN	P35318
+AM	MESH	Amnion	D000650
+AMG655	MESH	conatumumab	C554537
+AMLC	FPLX	000297	MYL_alkali
+AMP	HMDB	HMDB00045	.
+AMP	CHEBI	adenosine 5'-monophosphate	CHEBI:16027
+AMP	PUBCHEM	6083	.
+AMPA glutamate receptor	FPLX	000191	GRIA
+AMPA receptor	FPLX	000191	GRIA
+AMPA-R	FPLX	000191	GRIA
+AMPA-subtype ionotropic glutamate receptors	FPLX	000191	GRIA
+AMPAR	FPLX	000191	GRIA
+AMPARs	FPLX	000191	GRIA
+AMPK (A1/B1/G1)	FPLX	000032	AMPK_A1B1G1
+AMPK (A1/B1/G2)	FPLX	000033	AMPK_A1B1G2
+AMPK (A1/B1/G3)	FPLX	000034	AMPK_A1B1G3
+AMPK (A1/B2/G1)	FPLX	000035	AMPK_A1B2G1
+AMPK (A1/B2/G2)	FPLX	000036	AMPK_A1B2G2
+AMPK (A1/B2/G3)	FPLX	000037	AMPK_A1B2G3
+AMPK (A2/B1/G1)	FPLX	000038	AMPK_A2B1G1
+AMPK (A2/B1/G2)	FPLX	000039	AMPK_A2B1G2
+AMPK (A2/B1/G3)	FPLX	000040	AMPK_A2B1G3
+AMPK (A2/B2/G1)	FPLX	000041	AMPK_A2B2G1
+AMPK (A2/B2/G2)	FPLX	000042	AMPK_A2B2G2
+AMPK (A2/B2/G3)	FPLX	000043	AMPK_A2B2G3
+AMPK a1b1g1	FPLX	000032	AMPK_A1B1G1
+AMPK a1b1g2	FPLX	000033	AMPK_A1B1G2
+AMPK a1b1g3	FPLX	000034	AMPK_A1B1G3
+AMPK a1b2g1	FPLX	000035	AMPK_A1B2G1
+AMPK a1b2g2	FPLX	000036	AMPK_A1B2G2
+AMPK a2b1g1	FPLX	000038	AMPK_A2B1G1
+AMPK a2b2g1	FPLX	000041	AMPK_A2B2G1
+AMPK a2b2g2	FPLX	000042	AMPK_A2B2G2
+AMPK a2b2g3	FPLX	000043	AMPK_A2B2G3
+AMPK alpha1beta1gamma1	FPLX	000032	AMPK_A1B1G1
+AMPK alpha1beta1gamma2	FPLX	000033	AMPK_A1B1G2
+AMPK alpha1beta1gamma3	FPLX	000034	AMPK_A1B1G3
+AMPK alpha1beta2gamma1	FPLX	000035	AMPK_A1B2G1
+AMPK alpha1beta2gamma2	FPLX	000036	AMPK_A1B2G2
+AMPK alpha1beta2gamma3	FPLX	000037	AMPK_A1B2G3
+AMPK alpha2beta1gamma1	FPLX	000038	AMPK_A2B1G1
+AMPK alpha2beta1gamma2	FPLX	000039	AMPK_A2B1G2
+AMPK alpha2beta1gamma3	FPLX	000040	AMPK_A2B1G3
+AMPK alpha2beta2gamma1	FPLX	000041	AMPK_A2B2G1
+AMPK alpha2beta2gamma2	FPLX	000042	AMPK_A2B2G2
+AMPK alpha2beta2gamma3	FPLX	000043	AMPK_A2B2G3
+AMPK α1β1γ1	FPLX	000032	AMPK_A1B1G1
+AMPK α1β1γ2	FPLX	000033	AMPK_A1B1G2
+AMPK α1β1γ3	FPLX	000034	AMPK_A1B1G3
+AMPK α1β2γ1	FPLX	000035	AMPK_A1B2G1
+AMPK α1β2γ2	FPLX	000036	AMPK_A1B2G2
+AMPK α1β2γ3	FPLX	000037	AMPK_A1B2G3
+AMPK α2β1γ1	FPLX	000038	AMPK_A2B1G1
+AMPK α2β1γ2	FPLX	000039	AMPK_A2B1G2
+AMPK α2β1γ3	FPLX	000040	AMPK_A2B1G3
+AMPK α2β2γ1	FPLX	000041	AMPK_A2B2G1
+AMPK α2β2γ2	FPLX	000042	AMPK_A2B2G2
+AMPK α2β2γ3	FPLX	000043	AMPK_A2B2G3
+AMPK	FPLX	000031	AMPK
+AMPK-alpha1	UP	AAPK1_HUMAN	Q13131
+AMPK-alpha2	UP	AAPK2_HUMAN	P54646
+AMPK-α1	UP	AAPK1_HUMAN	Q13131
+AMPK-α2	UP	AAPK2_HUMAN	P54646
+AMPKalpha	FPLX	000044	AMPK_alpha
+AMPKalpha1 catalytic domain	UP	AAPK1_HUMAN	Q13131
+AMPKalpha1	UP	AAPK1_HUMAN	Q13131
+AMPKα	FPLX	000044	AMPK_alpha
+AMPKα1 catalytic domain	UP	AAPK1_HUMAN	Q13131
+AMPKα1	UP	AAPK1_HUMAN	Q13131
+amyloid beta	UP	A4_HUMAN	P05067
+amyloid beta	CHEBI	amyloid-beta	CHEBI:64645
+amyloid β	UP	A4_HUMAN	P05067
+amyloid β	CHEBI	amyloid-beta	CHEBI:64645
+Ang II	UP	ANGT_HUMAN	P01019
+AngII	UP	ANGT_HUMAN	P01019
+angiogenesis	GO	angiogenesis	GO:0001525
+angiogenesis	MESH	Neovascularization, Physiologic	D018919
+annexin A2 heterotetramer	FPLX	000047	Annexin_II_heterotetramer
+annexin II heterotetramer	FPLX	000047	Annexin_II_heterotetramer
+ANXA2 heterotetramer	FPLX	000047	Annexin_II_heterotetramer
+AP-1	FPLX	000048	AP1
+AP-2 adaptor complex	FPLX	000015	Adaptor_protein_II
+AP-2 complex	FPLX	000015	Adaptor_protein_II
+AP-2 transcription factor	FPLX	000463	TFAP2
+AP-2	FPLX	000015	Adaptor_protein_II
+AP-3	FPLX	000016	Adaptor_protein_III
+AP1	FPLX	000048	AP1
+AP2 adaptor complex	FPLX	000015	Adaptor_protein_II
+AP2 clathrin adaptor complex	FPLX	000015	Adaptor_protein_II
+AP2 complex	FPLX	000015	Adaptor_protein_II
+AP2	FPLX	000015	Adaptor_protein_II
+AP3	FPLX	000016	Adaptor_protein_III
+Apaf-1	UP	APAF_HUMAN	O14727
+APC	UP	APC_HUMAN	P25054
+APC/C	FPLX	000050	APC_C
+apigenin	CHEBI	apigenin	CHEBI:18388
+apigenin	PUBCHEM	5280443	.
+ApoA	FPLX	000051	APOA
+apoA	FPLX	000051	APOA
+apocynin	CHEBI	apocynin	CHEBI:2781
+apocynin	PUBCHEM	2214	.
+apolipoprotein (a)	FPLX	000051	APOA
+apolipoprotein A	FPLX	000051	APOA
+apolipoprotein(A)	FPLX	000051	APOA
+apolipoprotein(a)	FPLX	000051	APOA
+Apolipoprotein	FPLX	000052	Apolipoprotein
+apolipoprotein	FPLX	000052	Apolipoprotein
+apolipoproteins	FPLX	000052	Apolipoprotein
+Apoptosis	GO	apoptotic process	GO:0006915
+Apoptosis	MESH	Apoptosis	D017209
+apoptosis	GO	apoptotic process	GO:0006915
+apoptosis	MESH	Apoptosis	D017209
+AR	UP	ANDR_HUMAN	P10275
+ARF	FPLX	000053	ARF_GTPase_family
+ARF	UP	ARF_HUMAN	Q8N726
+Arf	UP	ARF_HUMAN	Q8N726
+Arp2/3	FPLX	000054	Arp2_3_protein
+Arsenic trioxide	CHEBI	diarsenic trioxide	CHEBI:30621
+Arsenic trioxide	PUBCHEM	518605	.
+arsenic	PUBCHEM	5359596	.
+arsenic	CHEBI	arsenic atom	CHEBI:27563
+arsenite	CHEBI	arsenite(3-)	CHEBI:29866
+arsenite	PUBCHEM	544	.
+artemisinin	CHEBI	(+)-artemisinin	CHEBI:223316
+artemisinin	PUBCHEM	68827	.
+ASK1	UP	M3K5_HUMAN	Q99683
+aspirin	PUBCHEM	2244	.
+aspirin	CHEBI	acetylsalicylic acid	CHEBI:15365
+ASPP1	UP	ASPP1_HUMAN	Q96KQ4
+ASPP2	UP	ASPP2_HUMAN	Q13625
+ATF2	UP	ATF2_HUMAN	P15336
+ATG4	FPLX	000056	ATG4
+Atg4	FPLX	000056	ATG4
+ATM	UP	ATM_HUMAN	Q13315
+ATP synthase H + transporting mitochondrial F0 complex subunit G	FPLX	000059	ATP5G
+ATP synthase	FPLX	000060	ATP_synthase
+ATP	HMDB	HMDB00538	.
+ATP	PUBCHEM	5957	.
+ATP	CHEBI	ATP	CHEBI:15422
+ATP1A	FPLX	000057	ATP1A
+ATP1B	FPLX	000058	ATP1B
+ATPase Na+/K+ transporting subunit alpha	FPLX	000057	ATP1A
+ATPase Na+/K+ transporting subunit beta	FPLX	000057	ATP1A
+ATPase Na+/K+ transporting subunit α	FPLX	000057	ATP1A
+ATPase Na+/K+ transporting subunit β	FPLX	000057	ATP1A
+ATR	UP	ATR_HUMAN	Q13535
+ATRA	CHEBI	all-trans-retinoic acid	CHEBI:15367
+ATRA	PUBCHEM	444795	.
+autophagic cell death	GO	autophagic cell death	GO:0048102
+Autophagy	GO	autophagy	GO:0006914
+Autophagy	MESH	Autophagy	D001343
+autophagy	GO	autophagy	GO:0006914
+autophagy	MESH	Autophagy	D001343
+Axin	FPLX	000062	AXIN
+AZD6244	CHEBI	selumetinib	CHEBI:90227
+AZD6244	PUBCHEM	10127622	.
+Aβ	UP	A4_HUMAN	P05067
+Aβ	CHEBI	amyloid-beta	CHEBI:64645
+B3GAT	FPLX	000063	B3GAT
+b-adrenergic receptor	FPLX	000021	ADRB
+b-arrestin	FPLX	000055	ARRB
+B-Raf	UP	BRAF_HUMAN	P15056
+b-receptors	FPLX	000021	ADRB
+B1	UP	PLXB1_HUMAN	O43157
+B1	UP	CCNB1_HUMAN	P14635
+BAD	UP	BAD_HUMAN	Q92934
+Bad	UP	BAD_HUMAN	Q92934
+Bak	UP	BAK_HUMAN	Q16611
+Bam32	UP	DAPP1_HUMAN	Q9UN19
+BARK	FPLX	000022	ADRBK
+barrestins	FPLX	000055	ARRB
+BAX	UP	BAX_HUMAN	Q07812
+Bax	UP	BAX_HUMAN	Q07812
+BCKDC	FPLX	000064	BCKDC
+BCKDH	FPLX	000064	BCKDC
+BCL-2	UP	BCL2_HUMAN	P10415
+Bcl-2	UP	BCL2_HUMAN	P10415
+bcl-2	UP	BCL2_HUMAN	P10415
+Bcl-3	HGNC	998	BCL3
+Bcl-xL	UP	B2CL1_HUMAN	Q07817
+BCL2	UP	BCL2_HUMAN	P10415
+Bcl2	UP	BCL2_HUMAN	P10415
+BCR	UP	BCR_HUMAN	P11274
+Beclin-1	UP	BECN1_HUMAN	Q14457
+berberine	CHEBI	berberine	CHEBI:16118
+berberine	PUBCHEM	2353	.
+Beta-1,3-glucuronyltransferase	FPLX	000063	B3GAT
+Beta-1,3-glucuronyltransferases	FPLX	000063	B3GAT
+beta-1,3-glucuronyltransferase	FPLX	000063	B3GAT
+beta-1,3-glucuronyltransferases	FPLX	000063	B3GAT
+Beta 3-glycosyltransferase	FPLX	000065	Beta_3_4_GTF
+Beta 3-glycosyltransferases	FPLX	000065	Beta_3_4_GTF
+beta 3-glycosyltransferase	FPLX	000065	Beta_3_4_GTF
+beta 3-glycosyltransferases	FPLX	000065	Beta_3_4_GTF
+Beta 4-glycosyltransferase	FPLX	000065	Beta_3_4_GTF
+Beta 4-glycosyltransferases	FPLX	000065	Beta_3_4_GTF
+beta 4-glycosyltransferase	FPLX	000065	Beta_3_4_GTF
+beta 4-glycosyltransferases	FPLX	000065	Beta_3_4_GTF
+beta adrenergic receptor kinase	FPLX	000022	ADRBK
+beta interferons	FPLX	000247	IFNB
+Beta Tubulin	FPLX	000484	TUBB
+Beta tubulin	FPLX	000484	TUBB
+beta Tubulin	FPLX	000484	TUBB
+beta tubulin	FPLX	000484	TUBB
+beta-adrenergic receptor	FPLX	000021	ADRB
+beta-adrenoreceptor	FPLX	000021	ADRB
+beta-catenin	UP	CTNB1_HUMAN	P35222
+beta-TrCP	UP	FBW1A_HUMAN	Q9Y297
+Beta-Tubulin	FPLX	000484	TUBB
+Beta-tubulin	FPLX	000484	TUBB
+beta-Tubulin	FPLX	000484	TUBB
+beta-tubulin	FPLX	000484	TUBB
+betaAR	FPLX	000021	ADRB
+betaARK	FPLX	000022	ADRBK
+BEZ235	PUBCHEM	11977753	.
+BEZ235	CHEBI	dactolisib	CHEBI:71952
+bFGF	UP	FGF2_HUMAN	P09038
+Bid	UP	BID_HUMAN	P55957
+BIM	UP	B2L11_HUMAN	O43521
+Bim	UP	B2L11_HUMAN	O43521
+biosynthesis	GO	biosynthetic process	GO:0009058
+BIRs	FPLX	000066	BIRC
+BITC	PUBCHEM	2346	.
+BITC	CHEBI	benzyl isothiocyanate	CHEBI:17484
+BMF	UP	BMF_HUMAN	Q96LC9
+BMI1	UP	BMI1_HUMAN	P35226
+BMP Receptor Type I	FPLX	000069	BMP_receptor_type_I
+BMP Receptor Type II	FPLX	000070	BMP_receptor_type_II
+BMP type I receptor	FPLX	000069	BMP_receptor_type_I
+BMP type II receptor	FPLX	000070	BMP_receptor_type_II
+BMP	FPLX	000067	BMP
+BMP9	UP	GDF2_HUMAN	Q9UK05
+bone morphogenetic protein I receptor	FPLX	000069	BMP_receptor_type_I
+bone morphogenetic protein receptor 1	FPLX	000069	BMP_receptor_type_I
+bone morphogenetic protein receptor 2	FPLX	000070	BMP_receptor_type_II
+bone morphogenetic protein receptor type I	FPLX	000069	BMP_receptor_type_I
+bone morphogenetic protein receptor type II	FPLX	000070	BMP_receptor_type_II
+bone morphogenetic protein type I receptors	FPLX	000069	BMP_receptor_type_I
+bone morphogenetic protein type II receptors	FPLX	000070	BMP_receptor_type_II
+bortezomib	CHEBI	bortezomib	CHEBI:52717
+bortezomib	PUBCHEM	387447	.
+BPA	CHEBI	bisphenol A	CHEBI:33216
+BPA	PUBCHEM	6623	.
+BRAF	UP	BRAF_HUMAN	P15056
+branched-chain alpha-keto acid dehydrogenase complex	FPLX	000064	BCKDC
+branched-chain alpha-ketoacid dehydrogenase complex	FPLX	000064	BCKDC
+branched-chain α-keto acid dehydrogenase complex	FPLX	000064	BCKDC
+branched-chain α-ketoacid dehydrogenase complex	FPLX	000064	BCKDC
+BRCA	FPLX	000071	BRCA
+BRCA1	UP	BRCA1_HUMAN	P38398
+BRCA2	UP	BRCA2_HUMAN	P51587
+BRI	FPLX	000069	BMP_receptor_type_I
+BRII	FPLX	000070	BMP_receptor_type_II
+BRSK1	UP	BRSK1_HUMAN	Q8TDC3
+BRSK2	UP	BRSK2_HUMAN	Q8IWQ3
+Bub1	UP	BUB1_HUMAN	O43683
+BubR1	UP	BUB1B_HUMAN	O60566
+butein	CHEBI	butein	CHEBI:3237
+butein	PUBCHEM	5281222	.
+c-Abl Kinase	UP	ABL1_HUMAN	P00519
+c-Abl	UP	ABL1_HUMAN	P00519
+c-Cbl protein	UP	CBL_HUMAN	P22681
+c-Cbl	UP	CBL_HUMAN	P22681
+c-FLIP	UP	CFLAR_HUMAN	O15519
+c-Fos	UP	FOS_HUMAN	P01100
+c-fos	UP	FOS_HUMAN	P01100
+c-JNK	FPLX	000267	JNK
+c-Jun N-terminal kinase	FPLX	000267	JNK
+c-Jun NH2-terminal kinase	FPLX	000267	JNK
+c-Jun	UP	JUN_HUMAN	P05412
+c-jun	UP	JUN_HUMAN	P05412
+C-MAF	UP	MAF_HUMAN	O75444
+c-MAF	UP	MAF_HUMAN	O75444
+c-Maf	UP	MAF_HUMAN	O75444
+c-maf	UP	MAF_HUMAN	O75444
+c-MET	HGNC	7029	MET
+c-met	HGNC	7029	MET
+c-Met	UP	MET_HUMAN	P08581
+c-Myb	UP	MYB_HUMAN	P10242
+c-myc oncogene	UP	MYC_HUMAN	P01106
+c-myc proteins	UP	MYC_HUMAN	P01106
+c-MYC	UP	MYC_HUMAN	P01106
+c-Myc	UP	MYC_HUMAN	P01106
+c-myc	UP	MYC_HUMAN	P01106
+C-PARP	UP	PARP1_HUMAN	P09874
+c-Raf	UP	RAF1_HUMAN	P04049
+c-Rel	HGNC	9954	REL
+c-src	HGNC	11283	SRC
+c-Src	UP	SRC_HUMAN	P12931
+C/EBP	FPLX	000097	CEBP
+C/EBPalpha	UP	CEBPA_HUMAN	P49715
+C/EBPbeta	UP	CEBPB_HUMAN	P17676
+C/EBPβ	UP	CEBPB_HUMAN	P17676
+C/EBPα	UP	CEBPA_HUMAN	P49715
+c1 complex	FPLX	000072	C1
+C1	FPLX	000072	C1
+C1-complex	FPLX	000072	C1
+C1q	FPLX	000073	C1q
+Ca(2+)-calmodulin-dependent protein kinase II	FPLX	000077	CAMK2_complex
+Ca(2+)/calmodulin-dependent kinase II	FPLX	000077	CAMK2_complex
+Ca	HMDB	HMDB00464	.
+Ca	CHEBI	calcium(2+)	CHEBI:29108
+Ca	PUBCHEM	271	.
+cadherin	FPLX	000074	Cadherin
+caffeine	PUBCHEM	2519	.
+caffeine	CHEBI	caffeine	CHEBI:27732
+Calcineurin catalytic subunit	FPLX	000384	PPP3C
+Calcineurin regulatory subunit	FPLX	000385	PPP3R
+calcineurin	FPLX	000383	PPP3
+calcium	HMDB	HMDB00464	.
+calcium	CHEBI	calcium(2+)	CHEBI:29108
+calcium	PUBCHEM	271	.
+Calmodulin	FPLX	000075	CALM
+calmodulin	FPLX	000075	CALM
+calmodulindependent kinase II	FPLX	000078	CAMK2_family
+calpain	FPLX	000079	CAPN
+CaM kinase II	FPLX	000077	CAMK2_complex
+CaM	FPLX	000075	CALM
+CaMK family	FPLX	000076	CAMK
+CaMK II	FPLX	000077	CAMK2_complex
+CaMK	FPLX	000076	CAMK
+CAMK2	FPLX	000078	CAMK2_family
+CaMK2	FPLX	000078	CAMK2_family
+CaMKII	FPLX	000077	CAMK2_complex
+CAMKII	FPLX	000078	CAMK2_family
+cAMP	PUBCHEM	6076	.
+cAMP	CHEBI	3',5'-cyclic AMP	CHEBI:17489
+cAMP	HMDB	HMDB00058	.
+cAMP-dependent PK	FPLX	000363	PKA
+cAMP-dependent protein kinase	FPLX	000363	PKA
+CaN	FPLX	000383	PPP3
+CAP23	UP	BASP1_HUMAN	P80723
+CAPE	PUBCHEM	5281787	.
+CAPE	CHEBI	phenethyl caffeate	CHEBI:8062
+capsaicin	PUBCHEM	1548943	.
+capsaicin	CHEBI	capsaicin	CHEBI:3374
+carboxylesterase	FPLX	000080	Carboxylesterase
+carboxylesterases	FPLX	000080	Carboxylesterase
+CARP-1	UP	CCAR1_HUMAN	Q8IX12
+Cas	UP	BCAR1_HUMAN	P56945
+Casein kinase 1	FPLX	000124	CSNK1
+casein kinase 1	FPLX	000124	CSNK1
+casein kinase 2	FPLX	000104	CK2
+casein kinase I	FPLX	000124	CSNK1
+casein kinase II complex	FPLX	000104	CK2
+casein kinase II	FPLX	000104	CK2
+caspase 3	UP	CASP3_HUMAN	P42574
+caspase 8	UP	CASP8_HUMAN	Q14790
+caspase	FPLX	000081	Caspase
+caspase-1	UP	CASP1_HUMAN	P29466
+Caspase-3	UP	CASP3_HUMAN	P42574
+caspase-3	UP	CASP3_HUMAN	P42574
+caspase-3/7	FPLX	000082	Caspase_3_7
+caspase-8	UP	CASP8_HUMAN	Q14790
+caspase-9	UP	CASP9_HUMAN	P55211
+caspases	FPLX	000081	Caspase
+catalase	UP	CATA_HUMAN	P04040
+catalytic subunit of calcineurin	FPLX	000384	PPP3C
+catenin alpha	FPLX	000126	CTNNA
+catenin α	FPLX	000126	CTNNA
+Caveolin	FPLX	000083	CAV
+caveolin	FPLX	000083	CAV
+caveolin-1	UP	CAV1_HUMAN	Q03135
+CBF3 complex	FPLX	000084	CBF3
+CBF3	FPLX	000084	CBF3
+Cbl	UP	CBL_HUMAN	P22681
+Cbl-b	UP	CBLB_HUMAN	Q13191
+CBP	UP	CBP_HUMAN	Q92793
+Cby	UP	CBY1_HUMAN	Q9Y3M2
+CCAAT/enhancer binding protein	FPLX	000097	CEBP
+CCN2	UP	CTGF_HUMAN	P29279
+CCND1	UP	CCND1_HUMAN	P24385
+CCT complex	FPLX	000085	CCT_complex
+CCT	FPLX	000085	CCT_complex
+Cd	PUBCHEM	23973	.
+Cd	CHEBI	cadmium atom	CHEBI:22977
+CD16	FPLX	000086	CD16
+CD24	UP	CD24_HUMAN	P25063
+CD28	UP	CD28_HUMAN	P10747
+CD3	FPLX	000087	CD3
+CD32	FPLX	000088	CD32
+CD4	UP	CD4_HUMAN	P01730
+CD44	UP	CD44_HUMAN	P16070
+CD64	FPLX	000089	CD64
+CD8	FPLX	000090	CD8
+CD95	UP	TNR6_HUMAN	P25445
+Cdc20	UP	CDC20_HUMAN	Q12834
+CDC25 family	FPLX	000091	CDC25
+Cdc25 phosphatases	FPLX	000091	CDC25
+CDC25	FPLX	000091	CDC25
+Cdc25	FPLX	000091	CDC25
+CDC42	UP	CDC42_HUMAN	P60953
+Cdc42	UP	CDC42_HUMAN	P60953
+Cdc6	UP	CDC6_HUMAN	Q99741
+CDDP	CHEBI	cisplatin	CHEBI:27899
+CDDP	PUBCHEM	441203	.
+CDK	FPLX	000092	CDK
+Cdk	FPLX	000092	CDK
+CDK1	UP	CDK1_HUMAN	P06493
+Cdk1	UP	CDK1_HUMAN	P06493
+CDK2	UP	CDK2_HUMAN	P24941
+Cdk2	UP	CDK2_HUMAN	P24941
+cdk2	UP	CDK2_HUMAN	P24941
+CDK4	UP	CDK4_HUMAN	P11802
+Cdk4	UP	CDK4_HUMAN	P11802
+CDK6	UP	CDK6_HUMAN	Q00534
+CDK8	UP	CDK8_HUMAN	P49336
+CDK9	UP	CDK9_HUMAN	P50750
+CDKN	FPLX	000094	CDKN
+CDKN1	FPLX	000095	CDKN1
+CDKN1A	UP	CDN1A_HUMAN	P38936
+CDKN2	FPLX	000096	CDKN2
+CDKs	FPLX	000092	CDK
+celecoxib	PUBCHEM	2662	.
+celecoxib	CHEBI	celecoxib	CHEBI:41423
+cell adhesion	GO	cell adhesion	GO:0007155
+cell adhesion	MESH	Cell Adhesion	D002448
+cell cycle	GO	cell cycle	GO:0007049
+cell cycle	MESH	Cell Cycle	D002453
+cell death	GO	cell death	GO:0008219
+cell death	MESH	Cell Death	D016923
+cell growth	GO	cell growth	GO:0016049
+cell growth	MESH	Cell Growth Processes	D048708
+cell migration	GO	cell migration	GO:0016477
+cell migration	MESH	Cell Movement	D002465
+cell motility	GO	cell migration	GO:0016477
+cell motility	MESH	Cell Movement	D002465
+cell proliferation	GO	cell population proliferation	GO:0008283
+cell proliferation	MESH	Cell Proliferation	D049109
+cell survival	MESH	Cell Survival	D002470
+cell viability	MESH	Cell Survival	D002470
+cellular senescence	GO	cellular senescence	GO:0090398
+cellular senescence	MESH	Cellular Senescence	D016922
+ceramide	CHEBI	ceramide	CHEBI:17761
+cetuximab	CHEMBL	1201577	.
+CFM-4	PUBCHEM	2871439	.
+chaperonin containing TCP-1	FPLX	000085	CCT_complex
+chaperonin	FPLX	000085	CCT_complex
+chaperonin-containing t-complex polypeptide 1	FPLX	000085	CCT_complex
+chaperonin-containing TCP1 complex	FPLX	000085	CCT_complex
+checkpoint kinase	FPLX	000098	CHEK
+chemoattractant receptor	FPLX	000100	Chemokine_receptor
+chemokine	FPLX	000099	Chemokine
+chemokines	FPLX	000099	Chemokine
+CHIP	UP	CHIP_HUMAN	Q9UNE7
+CHK1	UP	CHK1_HUMAN	O14757
+Chk1	UP	CHK1_HUMAN	O14757
+CHK2	UP	CHK2_HUMAN	O96017
+Chk2	UP	CHK2_HUMAN	O96017
+cholesterol	CHEBI	cholesterol	CHEBI:16113
+cholesterol	PUBCHEM	5997	.
+choline esterase	FPLX	000101	Cholinesterase
+cholinesterase	FPLX	000101	Cholinesterase
+CHOP	UP	DDIT3_HUMAN	P35638
+CIP1	UP	CDN1A_HUMAN	P38936
+CIP2A	UP	CIP2A_HUMAN	Q8TCG1
+Cisplatin	CHEBI	cisplatin	CHEBI:27899
+Cisplatin	PUBCHEM	441203	.
+cisplatin	CHEBI	cisplatin	CHEBI:27899
+cisplatin	PUBCHEM	441203	.
+CK2	FPLX	000104	CK2
+CKI	FPLX	000094	CDKN
+Clade B serpin	FPLX	000431	SERPINB
+clade B serpins	FPLX	000431	SERPINB
+Class 1 NF-kappaBs	FPLX	000312	NFkappaB_1
+class 1 NF-kappaBs	FPLX	000312	NFkappaB_1
+Class 1 NF-κBs	FPLX	000312	NFkappaB_1
+class 1 NF-κBs	FPLX	000312	NFkappaB_1
+Class 2 NF-kappaBs	FPLX	000313	NFkappaB_2
+class 2 NF-kappaBs	FPLX	000313	NFkappaB_2
+Class 2 NF-κBs	FPLX	000313	NFkappaB_2
+class 2 NF-κBs	FPLX	000313	NFkappaB_2
+Class C GPCR	FPLX	000187	GPCR
+Class I HDACs	FPLX	000221	HDAC_I
+class I HDACs	FPLX	000221	HDAC_I
+class I histone deacetylases	FPLX	000221	HDAC_I
+Class I NF-kappaBs	FPLX	000312	NFkappaB_1
+class I NF-kappaBs	FPLX	000312	NFkappaB_1
+Class I NF-κBs	FPLX	000312	NFkappaB_1
+class I NF-κBs	FPLX	000312	NFkappaB_1
+class II HDACs	FPLX	000222	HDAC_II
+class II histone deacetylases	FPLX	000222	HDAC_II
+Class II NF-kappaBs	FPLX	000313	NFkappaB_2
+class II NF-kappaBs	FPLX	000313	NFkappaB_2
+Class II NF-κBs	FPLX	000313	NFkappaB_2
+class II NF-κBs	FPLX	000313	NFkappaB_2
+Class III HDACs	FPLX	000223	HDAC_III
+class III HDACs	FPLX	000223	HDAC_III
+class III histone deacetylases	FPLX	000223	HDAC_III
+Class IV HDACs	FPLX	000224	HDAC_IV
+class IV HDACs	FPLX	000224	HDAC_IV
+class IV histone deacetylases	FPLX	000224	HDAC_IV
+clathrin coat	FPLX	000105	Clathrin
+clathrin	FPLX	000105	Clathrin
+cleaved PARP	UP	PARP1_HUMAN	P09874
+cMet receptor	UP	MET_HUMAN	P08581
+CNKSR	FPLX	000106	CNKSR
+CO 2	CHEBI	carbon dioxide	CHEBI:16526
+CO 2	PUBCHEM	280	.
+CO	CHEBI	carbon monoxide	CHEBI:17245
+CO	PUBCHEM	281	.
+cocaine	PUBCHEM	446220	.
+cocaine	CHEBI	cocaine	CHEBI:27958
+cofilin	FPLX	000107	Cofilin
+cohesin complex	FPLX	000108	Cohesin
+cohesin	FPLX	000108	Cohesin
+Col4	FPLX	000110	COL4
+COLGALT	FPLX	000112	COLGALT
+ColIV	FPLX	000110	COL4
+Collagen beta(1-O)galactosyltransferase	FPLX	000112	COLGALT
+Collagen beta(1-O)galactosyltransferases	FPLX	000112	COLGALT
+collagen beta(1-O)galactosyltransferase	FPLX	000112	COLGALT
+collagen beta(1-O)galactosyltransferases	FPLX	000112	COLGALT
+collagen IV	FPLX	000110	COL4
+collagen type I	FPLX	000109	COL1
+Collagen Type IV	FPLX	000110	COL4
+collagen type IV	FPLX	000110	COL4
+collagen type V	FPLX	000111	COL5
+collagen	MESH	Collagen	D003094
+collagen	CHEBI	Collagen	CHEBI:3815
+complex II	FPLX	000502	ETC_complex_II
+complex III	FPLX	000503	ETC_complex_III
+Complex IV	FPLX	000113	COX
+connector enhancer of kinase suppressor of ras	FPLX	000106	CNKSR
+copper	CHEBI	copper(2+)	CHEBI:29036
+copper	PUBCHEM	27099	.
+cortactin	IP	IPR015503	.
+cortactin	UP	SRC8_HUMAN	Q14247
+COX-2	UP	PGH2_HUMAN	P35354
+Cox4	FPLX	000114	COX4
+COX6A	FPLX	000115	COX6A
+Cox6a	FPLX	000115	COX6A
+Cox6b	FPLX	000116	COX6B
+COX7A	FPLX	000117	COX7A
+Cox7a	FPLX	000117	COX7A
+Cox7b	FPLX	000118	COX7B
+Cox8	FPLX	000119	COX8
+cPARP	UP	PARP1_HUMAN	P09874
+cPLA2	FPLX	000366	PLA2
+CRAF	UP	RAF1_HUMAN	P04049
+CREB family	FPLX	000120	CREB
+CREB	FPLX	000120	CREB
+CRISP	FPLX	000121	CRISP
+CRISPs	FPLX	000121	CRISP
+Crk	UP	CRK_HUMAN	P46108
+CRSP complex	FPLX	000122	CRSP
+CRSP	FPLX	000122	CRSP
+CRSP/Med complex	FPLX	000122	CRSP
+CsA	PUBCHEM	5284373	.
+CsA	CHEBI	cyclosporin A	CHEBI:4031
+CSC	MESH	Neoplastic Stem Cells	D014411
+CSF-1R	UP	CSF1R_HUMAN	P07333
+CSNK1	FPLX	000124	CSNK1
+CSNK2	FPLX	000125	CSNK2
+CtIP	UP	CTIP_HUMAN	Q99708
+cTnC	FPLX	000478	Troponin_C
+cTnI	FPLX	000478	Troponin_C
+cTnT	FPLX	000480	Troponin_T
+cullin proteins	FPLX	000127	CUL
+cullin	FPLX	000127	CUL
+cullins	FPLX	000127	CUL
+Curcumin	CHEBI	curcumin	CHEBI:3962
+Curcumin	PUBCHEM	969516	.
+curcumin	CHEBI	curcumin	CHEBI:3962
+curcumin	PUBCHEM	969516	.
+CXCL12	UP	SDF1_HUMAN	P48061
+CXCL8	UP	IL8_HUMAN	P10145
+CXCR2	UP	CXCR2_HUMAN	P25025
+CXCR4	UP	CXCR4_HUMAN	P61073
+cyclic AMP-dependent protein kinase	FPLX	000363	PKA
+cyclic-AMP-dependent protein kinase	FPLX	000363	PKA
+Cyclin A	FPLX	000131	Cyclin_A
+cyclin A	FPLX	000131	Cyclin_A
+Cyclin D	FPLX	000132	Cyclin_D
+Cyclin D2	UP	CCND2_HUMAN	P30279
+cyclin D2	UP	CCND2_HUMAN	P30279
+cyclin dependent kinase inhibitors	FPLX	000094	CDKN
+cyclin E	FPLX	000133	Cyclin_E
+cyclin family	FPLX	000130	Cyclin
+Cyclin	FPLX	000130	Cyclin
+cyclin	FPLX	000130	Cyclin
+Cyclin-A	FPLX	000131	Cyclin_A
+cyclin-dependent kinase inhibitor	FPLX	000094	CDKN
+cyclin-dependent protein kinase inhibitors	FPLX	000094	CDKN
+cyclins	FPLX	000130	Cyclin
+cyclophilin	FPLX	000134	Cyclophilin
+cyclophilins	FPLX	000134	Cyclophilin
+CYLD	UP	CYLD_HUMAN	Q9NQC7
+cypermethrin	CHEBI	cypermethrin	CHEBI:4042
+cypermethrin	PUBCHEM	2912	.
+cysteine rich secretory proteins	FPLX	000121	CRISP
+cysteine-rich secretory proteins	FPLX	000121	CRISP
+cytochrome bc1 complex	FPLX	000503	ETC_complex_III
+Cytochrome c oxidase subunit 6a	FPLX	000115	COX6A
+cytochrome c oxidase subunit VIII	FPLX	000119	COX8
+cytochrome c oxidase	FPLX	000113	COX
+cytochrome C	UP	CYC_HUMAN	P99999
+cytochrome c	UP	CYC_HUMAN	P99999
+cytokine production	GO	cytokine production	GO:0001816
+cytoplasmic dynein	FPLX	000135	Cytoplasmic_dynein
+cytosolic phospholipase A(2)	FPLX	000366	PLA2
+cytosolic phospholipase A2	FPLX	000366	PLA2
+cytosolic PLA2	FPLX	000366	PLA2
+DA	PUBCHEM	681	.
+DA	CHEBI	dopamine	CHEBI:18243
+dabrafenib	PUBCHEM	44462760	.
+dabrafenib	CHEBI	dabrafenib	CHEBI:75045
+DAG kinase	FPLX	000140	DGK
+DAG	PUBCHEM	6026790	.
+DAG	CHEBI	diacylglycerol 30:1	CHEBI:85682
+damage	MESH	DNA Damage	D004249
+Danusertib	PUBCHEM	11442891	.
+Danusertib	CHEMBL	CHEMBL402548	.
+Danusertib	CHEBI	N-[5-[(2R)-2-methoxy-1-oxo-2-phenylethyl]-4,6-dihydro-1H-pyrrolo[3,4-c]pyrazol-3-yl]-4-(4-methyl-1-piperazinyl)benzamide	CHEBI:94490
+danusertib	PUBCHEM	11442891	.
+danusertib	CHEMBL	CHEMBL402548	.
+danusertib	CHEBI	N-[5-[(2R)-2-methoxy-1-oxo-2-phenylethyl]-4,6-dihydro-1H-pyrrolo[3,4-c]pyrazol-3-yl]-4-(4-methyl-1-piperazinyl)benzamide	CHEBI:94490
+dapagliflozin	CHEBI	dapagliflozin	CHEBI:85078
+dapagliflozin	PUBCHEM	9887712	.
+dasatinib	CHEBI	dasatinib (anhydrous)	CHEBI:49375
+dasatinib	PUBCHEM	3062316	.
+DDR	GO	DNA damage response, detection of DNA damage	GO:0042769
+death receptor	FPLX	000137	Death_receptor
+death receptors	FPLX	000137	Death_receptor
+death	GO	cell death	GO:0008219
+death	MESH	Cell Death	D016923
+delta-tubulin	HGNC	16811	TUBD1
+desmoglein	FPLX	000138	Desmoglein
+desmogleins	FPLX	000138	Desmoglein
+dexamethasone	PUBCHEM	5743	.
+dexamethasone	CHEBI	dexamethasone	CHEBI:41879
+DGC	FPLX	000139	DGC
+DGK	FPLX	000140	DGK
+DHA	CHEBI	dihydroartemisinin	CHEBI:207229
+DHA	PUBCHEM	6918483	.
+DHT	PUBCHEM	11302	.
+DHT	CHEBI	5beta-dihydrotestosterone	CHEBI:2150
+diacyl glycerol kinase	FPLX	000140	DGK
+diacylglycerol kinase	FPLX	000140	DGK
+differentiation	GO	cell differentiation	GO:0030154
+differentiation	MESH	Cell Differentiation	D002454
+diosmetin	CHEBI	diosmetin	CHEBI:4630
+diosmetin	PUBCHEM	5281612	.
+discoidin domain receptor family	FPLX	000136	DDR
+discoidin domain receptors	FPLX	000136	DDR
+discoidin domain-containing receptor	FPLX	000136	DDR
+dishevelled	FPLX	000145	DVL
+DNA polymerase delta	FPLX	000141	DNA_polymerase_delta
+DNA polymerase δ	FPLX	000141	DNA_polymerase_delta
+DNA repair	GO	DNA repair	GO:0006281
+DNA repair	MESH	DNA Repair	D004260
+DNA replication factor C complex	FPLX	000411	RFC
+DNA replication factor C	FPLX	000411	RFC
+DNA-PKcs	UP	PRKDC_HUMAN	P78527
+DNA-Pkcs	UP	PRKDC_HUMAN	P78527
+docetaxel	PUBCHEM	148124	.
+docetaxel	CHEBI	docetaxel anhydrous	CHEBI:4672
+Dok1	UP	DOK1_HUMAN	Q99704
+Dok2	UP	DOK2_HUMAN	O60496
+dopamine receptor	FPLX	000143	DRD
+dopamine receptors	FPLX	000143	DRD
+dopamine	PUBCHEM	681	.
+dopamine	CHEBI	dopamine	CHEBI:18243
+doxorubicin	CHEBI	doxorubicin	CHEBI:28748
+doxorubicin	PUBCHEM	31703	.
+doxycycline	PUBCHEM	54671203	.
+doxycycline	CHEBI	doxycycline	CHEBI:50845
+DP complex	FPLX	000464	TFDP
+DR4	UP	TR10A_HUMAN	O00220
+DR5	UP	TR10B_HUMAN	O14763
+DSB	MESH	DNA Breaks, Double-Stranded	D053903
+DUSP	FPLX	000144	DUSP
+DUSP1	UP	DUS1_HUMAN	P28562
+Dvl	FPLX	000145	DVL
+dynamin family	FPLX	000142	DNM
+dynamin	FPLX	000142	DNM
+dystrophin glycoprotein complex	FPLX	000139	DGC
+dystrophin glycoprotein	FPLX	000139	DGC
+dystrophin-associated glycoprotein complex	FPLX	000139	DGC
+dystrophin-glycoprotein complex	FPLX	000139	DGC
+E-cadherin	UP	CADH1_HUMAN	P12830
+E2 enzyme	FPLX	000489	UBE2
+E2 ubiquitin-conjugating enzyme	FPLX	000489	UBE2
+E2	FPLX	000489	UBE2
+E2	UP	POLG_HCVH	P27958
+E2F	FPLX	000147	E2F
+E2F-1	UP	E2F1_HUMAN	Q01094
+E2F1	UP	E2F1_HUMAN	Q01094
+E3 ubiquitin ligase	FPLX	000148	E3_Ub_ligase
+E3	FPLX	000148	E3_Ub_ligase
+E6	UP	VE6_HPV16	P03126
+E7	UP	VE7_HPV16	P03129
+early growth response proteins	FPLX	000151	EGR
+EBNA3C	UP	None	I1YP21
+ECM	GO	extracellular matrix	GO:0031012
+Ect2	UP	ECT2_HUMAN	Q9H8V3
+EGCG	PUBCHEM	65064	.
+EGCG	CHEBI	(-)-epigallocatechin 3-gallate	CHEBI:4806
+EGF receptor	UP	EGFR_HUMAN	P00533
+EGF	UP	EGF_HUMAN	P01133
+EGFR ligand	FPLX	000150	EGFR_ligand
+EGFR ligands	FPLX	000150	EGFR_ligand
+EGFR	UP	EGFR_HUMAN	P00533
+EGFRvIII	UP	EGFR_HUMAN	P00533
+EGR	FPLX	000151	EGR
+eIF2alpha	UP	IF2A_HUMAN	P05198
+EIF2B	FPLX	000152	EIF2B
+eIF2B	FPLX	000152	EIF2B
+eIF2α	UP	IF2A_HUMAN	P05198
+eIF4A	FPLX	000153	EIF4A
+eIF4E	UP	IF4E_HUMAN	P06730
+eIF4G	FPLX	000155	EIF4G
+elastase	FPLX	000156	ELA
+Elk-1	UP	ELK1_HUMAN	P19419
+Elk1	UP	ELK1_HUMAN	P19419
+ELMO1	UP	ELMO1_HUMAN	Q92556
+ELR (+) CXC chemokines	FPLX	000129	CXCL_ELR_positive
+ELR (-) CXC chemokines	FPLX	000128	CXCL_ELR_negative
+ELR-negative CXC chemokine	FPLX	000128	CXCL_ELR_negative
+ELR-negative CXC family	FPLX	000128	CXCL_ELR_negative
+ELR-positive CXC chemokine	FPLX	000129	CXCL_ELR_positive
+ELR-positive CXC family	FPLX	000129	CXCL_ELR_positive
+embelin	CHEBI	embelin	CHEBI:4778
+embelin	PUBCHEM	3218	.
+emodin	PUBCHEM	3220	.
+emodin	CHEBI	emodin	CHEBI:42223
+EMT	GO	epithelial to mesenchymal transition	GO:0001837
+EMT	MESH	Epithelial-Mesenchymal Transition	D058750
+endocytosis	GO	endocytosis	GO:0006897
+endocytosis	MESH	Endocytosis	D004705
+endothelin	FPLX	000149	EDN
+endothelins	FPLX	000149	EDN
+enolase	FPLX	000157	ENO
+eNOS	UP	NOS3_HUMAN	P29474
+Env	UP	None	U3LIR9
+Eph receptor	FPLX	000158	Ephrin_receptor
+Eph receptors	FPLX	000158	Ephrin_receptor
+EphA2	UP	EPHA2_HUMAN	P29317
+EphB1	UP	EPHB1_HUMAN	P54762
+ephrin receptor	FPLX	000158	Ephrin_receptor
+epidermal growth factor receptor	UP	EGFR_HUMAN	P00533
+epidermal growth factor	UP	EGF_HUMAN	P01133
+Eps8	UP	EPS8_HUMAN	Q12929
+epsilon-tubulin	HGNC	20775	TUBE1
+epsin	FPLX	000159	EPN
+epsins	FPLX	000159	EPN
+ER	FPLX	000162	ESR
+ER	MESH	Endoplasmic Reticulum	D004721
+ER	GO	endoplasmic reticulum	GO:0005783
+ER	UP	ESR1_HUMAN	P03372
+ERalpha	UP	ESR1_HUMAN	P03372
+ErbB	FPLX	000160	ERBB
+ERBB2	UP	ERBB2_HUMAN	P04626
+ErbB2	UP	ERBB2_HUMAN	P04626
+ErbB3	UP	ERBB3_HUMAN	P21860
+ERK 1/2	FPLX	000161	ERK
+ERK inhibitors	CHEBI	EC 2.7.11.24 (mitogen-activated protein kinase) inhibitor	CHEBI:79091
+ERK MAPK	FPLX	000161	ERK
+ERK mitogen-activated protein kinase	FPLX	000161	ERK
+ERK	FPLX	000161	ERK
+Erk	FPLX	000161	ERK
+ERK-1/2	FPLX	000161	ERK
+ERK1	UP	MK03_HUMAN	P27361
+Erk1	UP	MK03_HUMAN	P27361
+ERK1/2 MAPK	FPLX	000161	ERK
+ERK1/2	FPLX	000161	ERK
+Erk1/2	FPLX	000161	ERK
+ERK2	UP	MK01_HUMAN	P28482
+ERK5	UP	MK07_HUMAN	Q13164
+ERKs	FPLX	000161	ERK
+erlotinib	PUBCHEM	176870	.
+erlotinib	CHEBI	erlotinib	CHEBI:114785
+ERα	UP	ESR1_HUMAN	P03372
+ESR	FPLX	000162	ESR
+estradiol	CHEBI	estradiol	CHEBI:23965
+estradiol	PUBCHEM	9811784	.
+estrogen receptor	UP	ESR1_HUMAN	P03372
+estrogen	CHEBI	estrogen	CHEBI:50114
+ET-1	UP	EDN1_HUMAN	P05305
+ethanol	PUBCHEM	702	.
+ethanol	CHEBI	ethanol	CHEBI:16236
+ethanol	HMDB	HMDB00108	.
+etoposide	PUBCHEM	36462	.
+etoposide	CHEBI	etoposide	CHEBI:4911
+ETS	FPLX	000163	ETS
+ETS-1	UP	ETS1_HUMAN	P14921
+Ets-1	UP	ETS1_HUMAN	P14921
+ETS1	UP	ETS1_HUMAN	P14921
+eukaryotic initiation factor 4E	UP	IF4E_HUMAN	P06730
+eukaryotic initiation factor-4A	FPLX	000153	EIF4A
+Everolimus	PUBCHEM	6442177	.
+Everolimus	CHEBI	everolimus	CHEBI:68478
+everolimus	PUBCHEM	6442177	.
+everolimus	CHEBI	everolimus	CHEBI:68478
+EXOC	FPLX	000164	EXOC
+exocyst complex	FPLX	000164	EXOC
+exocyst	FPLX	000164	EXOC
+Exostosin glycosyltransferase family	FPLX	000165	EXT
+exostosin glycosyltransferase family	FPLX	000165	EXT
+EXT	FPLX	000165	EXT
+Extracellular Signal Regulated Kinase	FPLX	000161	ERK
+extracellular signal-regulated kinase	FPLX	000161	ERK
+EZH2	UP	EZH2_HUMAN	Q15910
+ezrin	UP	EZRI_HUMAN	P15311
+F-actin	FPLX	000178	F_actin
+FADD	UP	FADD_HUMAN	Q13158
+FAK	UP	FAK1_HUMAN	Q05397
+FAM83B	UP	FA83B_HUMAN	Q5T0W9
+FANC proteins	FPLX	000166	FANC
+FANC	FPLX	000166	FANC
+FANCJ	UP	FANCJ_HUMAN	Q9BX63
+farnesyltransferase	FPLX	000172	FNT
+Fas	UP	TNR6_HUMAN	P25445
+FasL	UP	TNFL6_HUMAN	P48023
+FGF	FPLX	000167	FGF
+FGF-2	UP	FGF2_HUMAN	P09038
+FGF2	UP	FGF2_HUMAN	P09038
+FGFR	FPLX	000168	FGFR
+FGFR1	UP	FGFR1_HUMAN	P11362
+FGFR2	UP	FGFR2_HUMAN	P21802
+FGFR3	UP	FGFR3_HUMAN	P22607
+FGFR4	UP	FGFR4_HUMAN	P22455
+fibrinogen	FPLX	000169	Fibrinogen
+fibronectin	UP	FINC_HUMAN	P02751
+fisetin	CHEBI	fisetin	CHEBI:42567
+fisetin	PUBCHEM	5281614	.
+Flip	UP	CFLAR_HUMAN	O15519
+flotillin	FPLX	000170	FLOT
+FLRT family	FPLX	000171	FLRT
+Flrt family	FPLX	000171	FLRT
+FLRT proteins	FPLX	000171	FLRT
+FLT3	UP	FLT3_HUMAN	P36888
+FN	UP	FINC_HUMAN	P02751
+follicle-stimulating hormone	FPLX	000175	FSH
+FOS	FPLX	000173	FOS_family
+Fos	FPLX	000173	FOS_family
+FOXM1	UP	FOXM1_HUMAN	Q08050
+FOXO	FPLX	000174	FOXO
+FoxO	FPLX	000174	FOXO
+FOXO1	UP	FOXO1_HUMAN	Q12778
+FoxO1	UP	FOXO1_HUMAN	Q12778
+FOXO3	UP	FOXO3_HUMAN	O43524
+FOXO3a	UP	FOXO3_HUMAN	O43524
+FoxO3a	UP	FOXO3_HUMAN	O43524
+FRK	UP	FRK_HUMAN	P42685
+fructose-bisphosphate aldolase	FPLX	000025	ALDO
+FSH	FPLX	000175	FSH
+FTase	FPLX	000172	FNT
+FTS	PUBCHEM	5469318	.
+Fucosyltransferase	FPLX	000176	FUT
+Fucosyltransferases	FPLX	000176	FUT
+fucosyltransferase	FPLX	000176	FUT
+fucosyltransferases	FPLX	000176	FUT
+FUT	FPLX	000176	FUT
+Fyn	UP	FYN_HUMAN	P06241
+Fz	FPLX	000177	FZD
+FZD	FPLX	000177	FZD
+G 1	GO	G1 phase	GO:0051318
+G 1	MESH	G1 Phase	D016193
+G 2	MESH	G2 Phase	D016195
+G alphai	FPLX	000213	G_i_alpha
+G alphaq	FPLX	000216	G_q_alpha
+G alphaS	FPLX	000218	G_s_alpha
+G protein beta	FPLX	000210	G_beta
+G protein gamma subunit	FPLX	000211	G_gamma
+G protein gamma	FPLX	000211	G_gamma
+G protein Gs	FPLX	000217	G_s
+G protein γ subunit	FPLX	000211	G_gamma
+G protein β	FPLX	000210	G_beta
+G protein γ	FPLX	000211	G_gamma
+G protein(s)	FPLX	000217	G_s
+G protein	FPLX	000214	G_protein
+G protein-coupled receptor kinases	FPLX	000192	GRK
+G proteins	FPLX	000214	G_protein
+G S protein	FPLX	000217	G_s
+G αi	FPLX	000213	G_i_alpha
+G αq	FPLX	000216	G_q_alpha
+G αS	FPLX	000218	G_s_alpha
+G(12)	FPLX	000207	G_12
+G(q/11)	FPLX	000215	G_q
+G-alpha(s)	FPLX	000218	G_s_alpha
+G-AlphaS	FPLX	000218	G_s_alpha
+G-protein alpha-12	FPLX	000208	G_12_alpha
+G-Protein alpha-i	FPLX	000213	G_i_alpha
+G-Protein alpha-q	FPLX	000216	G_q_alpha
+G-Protein alpha-s	FPLX	000218	G_s_alpha
+G-protein beta	FPLX	000210	G_beta
+G-protein β	FPLX	000210	G_beta
+G-protein α-12	FPLX	000208	G_12_alpha
+G-Protein α-i	FPLX	000213	G_i_alpha
+G-Protein α-q	FPLX	000216	G_q_alpha
+G-Protein α-s	FPLX	000218	G_s_alpha
+G-α(s)	FPLX	000218	G_s_alpha
+G-αS	FPLX	000218	G_s_alpha
+G12 family	FPLX	000207	G_12
+G12 proteins	FPLX	000207	G_12
+G12	FPLX	000207	G_12
+GA	PUBCHEM	370	.
+GA	CHEBI	gallic acid	CHEBI:30778
+Ga12	FPLX	000208	G_12_alpha
+Gab1	UP	GAB1_HUMAN	Q13480
+Gab2	UP	GAB2_HUMAN	Q9UQC2
+GABA receptor	FPLX	000179	GABR
+GABA receptors	FPLX	000179	GABR
+GABA-A receptor	FPLX	000179	GABR
+GALNT	FPLX	000180	GALNT
+Galpha12	FPLX	000208	G_12_alpha
+Galphai	FPLX	000213	G_i_alpha
+Galphaq	FPLX	000216	G_q_alpha
+GalphaS	FPLX	000218	G_s_alpha
+gamma secretase	FPLX	000181	Gamma_secretase
+Gamma tubulin	FPLX	000485	TUBG
+gamma tubulin	FPLX	000485	TUBG
+gamma-aminobutyric-acid A receptor	FPLX	000179	GABR
+gamma-secretase	FPLX	000181	Gamma_secretase
+gamma-tubulin	FPLX	000485	TUBG
+GAP	FPLX	000182	GAP
+Gas6 receptors	FPLX	000183	GAS6_receptor
+gastrin	UP	GAST_HUMAN	P01350
+GATA family	FPLX	000184	GATA
+GATA	FPLX	000184	GATA
+Gbeta	FPLX	000210	G_beta
+GCNT	FPLX	000185	GCNT
+GDF15	UP	GDF15_HUMAN	Q99988
+GDP	HMDB	HMDB01201	.
+GDP	PUBCHEM	135398619	.
+GDP	CHEBI	GDP	CHEBI:17552
+GEF	FPLX	000186	GEF
+GEF-H1	UP	ARHG2_HUMAN	Q92974
+gefitinib	PUBCHEM	123631	.
+gefitinib	CHEBI	gefitinib	CHEBI:49668
+GEFs	FPLX	000186	GEF
+general transcription factor II E	FPLX	000196	GTF2E
+general transcription factor II F	FPLX	000197	GTF2F
+genistein	CHEBI	genistein	CHEBI:28088
+genistein	PUBCHEM	5280961	.
+Gi alpha subunit	FPLX	000213	G_i_alpha
+Gi alpha	FPLX	000213	G_i_alpha
+Gi protein	FPLX	000212	G_i
+Gi α subunit	FPLX	000213	G_i_alpha
+Gi α	FPLX	000213	G_i_alpha
+Gi	FPLX	000212	G_i
+GII PLA2	FPLX	000367	PLA2G2
+GIIPLA2	FPLX	000367	PLA2G2
+gIV-PLA(2)	FPLX	000368	PLA2G4
+glucose transporter	FPLX	000434	SLC2A
+glucose transporters	FPLX	000434	SLC2A
+Glucose	HMDB	HMDB00122	.
+glucose	HMDB	HMDB00122	.
+GLUT	FPLX	000434	SLC2A
+glutamate metabotropic receptors	FPLX	000193	GRM
+glutathione peroxidase	FPLX	000190	GPX
+glutathione S-transferase	FPLX	000195	GST
+glutathione	PUBCHEM	124886	.
+glutathione	CHEBI	glutathione	CHEBI:16856
+glutathione	HMDB	HMDB00125	.
+Glycogen phosphorylase	FPLX	000396	PYG
+Glycogen phosphorylases	FPLX	000396	PYG
+glycogen phosphorylase	FPLX	000396	PYG
+glycogen phosphorylases	FPLX	000396	PYG
+glycogen synthase	FPLX	000206	GYS
+glycolysis	GO	glycolytic process	GO:0006096
+glycolysis	MESH	Glycolysis	D006019
+glycoprotein Ib-V-IX complex	FPLX	000188	GPIb_IX_V
+Glycoprotein Ib-V-IX	FPLX	000188	GPIb_IX_V
+Glycoprotein Ib/V/IX	FPLX	000188	GPIb_IX_V
+glycosylphosphatidylinositol transamidase complex	FPLX	000189	GPIT
+Glycosyltransferase family 2	FPLX	000199	GTF_family_2
+glycosyltransferase family 2	FPLX	000199	GTF_family_2
+Glycosyltransferase family 29	FPLX	000202	GTF_family_29
+glycosyltransferase family 29	FPLX	000202	GTF_family_29
+Glycosyltransferase family 6	FPLX	000200	GTF_family_6
+glycosyltransferase family 6	FPLX	000200	GTF_family_6
+Glycosyltransferase family 8	FPLX	000201	GTF_family_8
+glycosyltransferase family 8	FPLX	000201	GTF_family_8
+Glycosyltransferase family 90	FPLX	000203	GTF_family_90
+glycosyltransferase family 90	FPLX	000203	GTF_family_90
+gp120	UP	ENV_HV1H2	P04578
+gp47 phox	UP	NCF1_HUMAN	P14598
+gp91 phox	UP	CY24B_HUMAN	P04839
+GPCR kinases	FPLX	000192	GRK
+GPCR	FPLX	000187	GPCR
+GPCRs	FPLX	000187	GPCR
+GPI transamidase complex	FPLX	000189	GPIT
+GPIb-IX-V complex	FPLX	000188	GPIb_IX_V
+GPIb-IX-V	FPLX	000188	GPIb_IX_V
+GpIb-V-IX	FPLX	000188	GPIb_IX_V
+GPIT complex	FPLX	000189	GPIT
+GPIT	FPLX	000189	GPIT
+Gq alpha subunit	FPLX	000216	G_q_alpha
+Gq alpha	FPLX	000216	G_q_alpha
+Gq α subunit	FPLX	000216	G_q_alpha
+Gq α	FPLX	000216	G_q_alpha
+Gq/11	FPLX	000215	G_q
+GR	UP	GSHR_HUMAN	P00390
+GRB2	UP	GRB2_HUMAN	P62993
+Grb2	UP	GRB2_HUMAN	P62993
+GRK	FPLX	000192	GRK
+GRKs	FPLX	000192	GRK
+group IV-PLA(2)	FPLX	000368	PLA2G4
+GRP78	UP	BIP_HUMAN	P11021
+Gs alpha subunit	FPLX	000218	G_s_alpha
+Gs alpha	FPLX	000218	G_s_alpha
+Gs family	FPLX	000217	G_s
+Gs protein	FPLX	000217	G_s
+Gs α subunit	FPLX	000218	G_s_alpha
+Gs α	FPLX	000218	G_s_alpha
+GSH	PUBCHEM	124886	.
+GSH	CHEBI	glutathione	CHEBI:16856
+GSH	HMDB	HMDB00125	.
+GSK-3	FPLX	000194	GSK3
+GSK-3beta	UP	GSK3B_HUMAN	P49841
+GSK-3β	UP	GSK3B_HUMAN	P49841
+GSK3	FPLX	000194	GSK3
+GSK3beta	UP	GSK3B_HUMAN	P49841
+GSK3β	UP	GSK3B_HUMAN	P49841
+GST	FPLX	000195	GST
+GSTs	FPLX	000195	GST
+GTP	HMDB	HMDB01273	.
+GTP	CHEBI	GTP	CHEBI:15996
+GTP	PUBCHEM	135398633	.
+GTPase	FPLX	000204	GTPase
+GTPase-activating proteins	FPLX	000182	GAP
+guanine	PUBCHEM	135398634	.
+guanine	CHEBI	guanine	CHEBI:16235
+guanylate cyclase	FPLX	000205	GUCY
+guanylyl cyclase	FPLX	000205	GUCY
+G_alpha	FPLX	000209	G_alpha
+G_α	FPLX	000209	G_alpha
+Gβ	FPLX	000210	G_beta
+Gα12	FPLX	000208	G_12_alpha
+Gαi	FPLX	000213	G_i_alpha
+Gαq	FPLX	000216	G_q_alpha
+GαS	FPLX	000218	G_s_alpha
+H-Ras	UP	RASH_HUMAN	P01112
+H/R	MESH	Cell Hypoxia	D015687
+H2AX	UP	H2AX_HUMAN	P16104
+H2B	FPLX	000236	Histone_H2B
+H3	FPLX	000237	Histone_H3
+h9-1-1 complex	FPLX	000001	9_1_1
+haem oxygenase	FPLX	000240	HMOX
+hAxin	FPLX	000062	AXIN
+HB-EGF	UP	HBEGF_HUMAN	Q99075
+HBx	UP	None	Q157B2
+hCG	FPLX	000219	hCG
+HDAC inhibitor	CHEBI	EC 3.5.1.98 (histone deacetylase) inhibitor	CHEBI:61115
+HDAC	FPLX	000220	HDAC
+HDAC1	UP	HDAC1_HUMAN	Q13547
+HDAC2	UP	HDAC2_HUMAN	Q92769
+HDAC3	UP	HDAC3_HUMAN	O15379
+HDACi	CHEBI	EC 3.5.1.98 (histone deacetylase) inhibitor	CHEBI:61115
+HDL	FPLX	000225	HDL
+HDM2	UP	MDM2_HUMAN	Q00987
+Heat Shock Protein 70	FPLX	000244	HSPA
+heat shock protein family B	FPLX	000245	HSPB
+Hedgehog family	FPLX	000226	Hedgehog
+hedgehog protein	FPLX	000226	Hedgehog
+hedgehog signaling proteins	FPLX	000226	Hedgehog
+Hedgehog	FPLX	000226	Hedgehog
+heme oxygenase	FPLX	000240	HMOX
+hemoglobin	FPLX	000227	Hemoglobin
+HER-2	UP	ERBB2_HUMAN	P04626
+HER2 receptor	UP	ERBB2_HUMAN	P04626
+HER2	UP	ERBB2_HUMAN	P04626
+HER3	UP	ERBB3_HUMAN	P21860
+Hes gene family	FPLX	000228	HES
+Hes genes	FPLX	000228	HES
+HES	FPLX	000228	HES
+Hes	FPLX	000228	HES
+HG	HMDB	HMDB00122	.
+HGF	UP	HGF_HUMAN	P14210
+Hic-5	UP	TGFI1_HUMAN	O43294
+HIF	FPLX	000229	HIF
+HIF-1	FPLX	000230	HIF1
+HIF-1alpha protein	UP	HIF1A_HUMAN	Q16665
+HIF-1alpha	UP	HIF1A_HUMAN	Q16665
+HIF-1α protein	UP	HIF1A_HUMAN	Q16665
+HIF-1α	UP	HIF1A_HUMAN	Q16665
+HIF1alpha protein	UP	HIF1A_HUMAN	Q16665
+HIF1alpha	UP	HIF1A_HUMAN	Q16665
+HIF1α protein	UP	HIF1A_HUMAN	Q16665
+HIF1α	UP	HIF1A_HUMAN	Q16665
+HIFalpha	FPLX	000231	HIF_alpha
+Hifalpha	FPLX	000231	HIF_alpha
+HIFbeta	FPLX	000232	HIF_beta
+Hifbeta	FPLX	000232	HIF_beta
+HIFs	FPLX	000229	HIF
+HIFα	FPLX	000231	HIF_alpha
+Hifα	FPLX	000231	HIF_alpha
+HIFβ	FPLX	000232	HIF_beta
+Hifβ	FPLX	000232	HIF_beta
+High-density lipoproteins	FPLX	000225	HDL
+HIPK2	UP	HIPK2_HUMAN	Q9H2X6
+Histone 2A	FPLX	000235	Histone_H2A
+histone deacetylase	FPLX	000220	HDAC
+histone deacetylases	FPLX	000220	HDAC
+histone H1	FPLX	000234	Histone_H1
+Histone H2A	FPLX	000235	Histone_H2A
+histone H2A	FPLX	000235	Histone_H2A
+histone H2B	FPLX	000236	Histone_H2B
+histone H3	FPLX	000237	Histone_H3
+histone H4	FPLX	000238	Histone_H4
+Histone	FPLX	000233	Histone
+histone	FPLX	000233	Histone
+histone-3	FPLX	000237	Histone_H3
+histones	FPLX	000233	Histone
+HLA-DR	FPLX	000239	HLA_DR
+HMGB1	UP	HMGB1_HUMAN	P09429
+HO-1	UP	HMOX1_HUMAN	P09601
+homeodomain iroquois proteins	FPLX	000265	IRX
+HOTAIR	HGNC	33510	HOTAIR
+HOTAIR	NONCODE	NONHSAT028507.2	.
+HOTAIR	LNCRNADB	HOTAIR	.
+HR	GO	recombinational repair	GO:0000725
+HR	MESH	Recombinational DNA Repair	D059767
+HRAS	UP	RASH_HUMAN	P01112
+HRASV12	UP	RASH_HUMAN	P01112
+HSF1	UP	HSF1_HUMAN	Q00613
+HSP20	UP	HSPB6_HUMAN	O14558
+HSP27	UP	HSPB1_HUMAN	P04792
+HSP70	FPLX	000244	HSPA
+Hsp70	FPLX	000244	HSPA
+HSP90	FPLX	000241	HSP90
+Hsp90	FPLX	000241	HSP90
+HSP90A	FPLX	000242	HSP90A
+HSP90AA	FPLX	000243	HSP90AA
+HSPB proteins	FPLX	000245	HSPB
+HSPB	FPLX	000245	HSPB
+hTERT	UP	TERT_HUMAN	O14746
+HuR	HGNC	3312	ELAVL1
+HuR	UP	ELAV1_HUMAN	Q15717
+hydrogen peroxide	PUBCHEM	784	.
+hydrogen peroxide	CHEBI	hydrogen peroxide	CHEBI:16240
+hypoxia-inducible factors	FPLX	000229	HIF
+I/R	MESH	Radiation, Ionizing	D011839
+ICAM-1	UP	ICAM1_HUMAN	P05362
+IER3	UP	IEX1_HUMAN	P46695
+IFI16	UP	IF16_HUMAN	Q16666
+IFN	FPLX	000262	Interferon
+IFN-a	FPLX	000246	IFNA
+IFN-alpha	FPLX	000246	IFNA
+IFN-beta	FPLX	000247	IFNB
+IFN-beta	UP	IFNB_HUMAN	P01574
+IFN-gamma	UP	IFNG_HUMAN	P01579
+IFN-α	FPLX	000246	IFNA
+IFN-β	FPLX	000247	IFNB
+IFN-β	UP	IFNB_HUMAN	P01574
+IFN-γ	UP	IFNG_HUMAN	P01579
+IFNalpha	FPLX	000246	IFNA
+IFNgamma	UP	IFNG_HUMAN	P01579
+IFNGR	FPLX	000263	Interferon_gamma_receptor
+IFNα	FPLX	000246	IFNA
+IFNγ	UP	IFNG_HUMAN	P01579
+IGF-1	UP	IGF1_HUMAN	P05019
+IGF-1R	UP	IGF1R_HUMAN	P08069
+IGF-1Rbeta	UP	IGF1R_HUMAN	P08069
+IGF-1Rβ	UP	IGF1R_HUMAN	P08069
+IGF-BP	FPLX	000248	IGFBP
+IGF-I	UP	IGF1_HUMAN	P05019
+IGF-IR	UP	IGF1R_HUMAN	P08069
+IGF1	UP	IGF1_HUMAN	P05019
+IGF1R	UP	IGF1R_HUMAN	P08069
+IGFBP	FPLX	000248	IGFBP
+IGFBPs	FPLX	000248	IGFBP
+IkappaB kinase	FPLX	000251	IKK_family
+IkappaB	FPLX	000249	IKB
+IkappaB-alpha	HGNC	7797	NFKBIA
+IkappaBalpha	UP	IKBA_HUMAN	P25963
+IKK complex	FPLX	000250	IKK_complex
+IKK	FPLX	000251	IKK_family
+IKKalpha	UP	IKKA_HUMAN	O15111
+IKKbeta	UP	IKKB_HUMAN	O14920
+IKKβ	UP	IKKB_HUMAN	O14920
+IKKα	UP	IKKA_HUMAN	O15111
+IL-1	FPLX	000252	IL1
+IL-10	UP	IL10_HUMAN	P22301
+IL-12	FPLX	000253	IL12
+IL-15 receptor	FPLX	000254	IL15R
+IL-15R	FPLX	000254	IL15R
+IL-17	UP	IL17_HUMAN	Q16552
+IL-18	UP	IL18_HUMAN	Q14116
+IL-1beta	UP	IL1B_HUMAN	P01584
+IL-1β	UP	IL1B_HUMAN	P01584
+IL-2 receptor	FPLX	000255	IL2R
+IL-2	UP	IL2_HUMAN	P60568
+IL-2R	FPLX	000255	IL2R
+IL-4	UP	IL4_HUMAN	P05112
+IL-6	UP	IL6_HUMAN	P05231
+IL-8	UP	IL8_HUMAN	P10145
+IL1 family	FPLX	000252	IL1
+IL12	FPLX	000253	IL12
+imatinib	PUBCHEM	5291	.
+imatinib	LINCS	10023-103	.
+imatinib	CHEBI	imatinib	CHEBI:45783
+immune response	GO	immune response	GO:0006955
+infiltration	MESH	Neoplasm Invasiveness	D009361
+inflammation	GO	inflammatory response	GO:0006954
+inflammation	MESH	Inflammation	D007249
+inflammatory response	GO	inflammatory response	GO:0006954
+inflammatory response	MESH	None	0007249
+inhibin A	FPLX	000257	Inhibin_A
+inhibin B	FPLX	000258	Inhibin_B
+Inhibin	FPLX	000256	Inhibin
+inhibin	FPLX	000256	Inhibin
+inhibin-A	FPLX	000257	Inhibin_A
+inhibin-a	FPLX	000257	Inhibin_A
+inhibin-B	FPLX	000258	Inhibin_B
+inhibin-b	FPLX	000258	Inhibin_B
+initiation factor 4E binding proteins	FPLX	000154	EIF4EBP
+iNOS	UP	NOS2_HUMAN	P35228
+insulin family	FPLX	000259	INS
+Insulin receptor family	FPLX	000260	INSR
+insulin receptor family	FPLX	000260	INSR
+insulin receptor substrate	FPLX	000264	IRS
+insulin receptor	UP	INSR_HUMAN	P06213
+insulin receptor/insulin-like growth factor receptor family	FPLX	000260	INSR
+Insulin	UP	INS_HUMAN	P01308
+insulin	UP	INS_HUMAN	P01308
+insulin-like growth factor binding proteins	FPLX	000248	IGFBP
+integrin	FPLX	000261	Integrins
+integrins	FPLX	000261	Integrins
+Interferon beta	FPLX	000247	IFNB
+interferon beta	FPLX	000247	IFNB
+interferon gamma receptor	FPLX	000263	Interferon_gamma_receptor
+interferon γ receptor	FPLX	000263	Interferon_gamma_receptor
+Interferon β	FPLX	000247	IFNB
+interferon β	FPLX	000247	IFNB
+interferon	FPLX	000262	Interferon
+interferon-gamma receptor	FPLX	000263	Interferon_gamma_receptor
+interferon-γ receptor	FPLX	000263	Interferon_gamma_receptor
+invasion	MESH	Neoplasm Invasiveness	D009361
+invasiveness	MESH	Neoplasm Invasiveness	D009361
+IQGAP1	UP	IQGA1_HUMAN	P46940
+IR	MESH	Radiation, Ionizing	D011839
+IR	UP	INSR_HUMAN	P06213
+IRF3	UP	IRF3_HUMAN	Q14653
+iron	PUBCHEM	23925	.
+iron	CHEBI	iron atom	CHEBI:18248
+Iroquois family	FPLX	000265	IRX
+Iroquois proteins	FPLX	000265	IRX
+Iroquois-class homeodomain proteins	FPLX	000265	IRX
+IRS family	FPLX	000264	IRS
+IRS	FPLX	000264	IRS
+IRS-1	UP	IRS1_HUMAN	P35568
+IRS-2	UP	IRS2_HUMAN	Q9Y4H2
+IRS1	UP	IRS1_HUMAN	P35568
+IRS2	UP	IRS2_HUMAN	Q9Y4H2
+isoflurane	PUBCHEM	3763	.
+isoflurane	CHEBI	isoflurane	CHEBI:6015
+IκB kinase	FPLX	000251	IKK_family
+IκB	FPLX	000249	IKB
+IκB-α	HGNC	7797	NFKBIA
+IκBα	UP	IKBA_HUMAN	P25963
+JAK	FPLX	000266	JAK
+Jak	FPLX	000266	JAK
+JAK2	UP	JAK2_HUMAN	O60674
+JAKs	FPLX	000266	JAK
+JNK MAPK	FPLX	000267	JNK
+JNK	FPLX	000267	JNK
+JNK1	UP	MK08_HUMAN	P45983
+JNK1/2	FPLX	000267	JNK
+JNKs	FPLX	000267	JNK
+JQ1	PUBCHEM	46907787	.
+JQ1	CHEBI	LSM-6332	CHEBI:95080
+JUN	FPLX	000268	JUN_family
+K-Ras	UP	RASK_HUMAN	P01116
+Kainate receptors	FPLX	000269	Kainate_family
+kallikrein	FPLX	000271	KLK
+kallikrein-related peptidases	FPLX	000271	KLK
+KARs	FPLX	000269	Kainate_family
+Keap1	UP	KEAP1_HUMAN	Q14145
+kinetochore centromere binding factor 3	FPLX	000084	CBF3
+kinetochore complex	FPLX	000270	Kinetochore
+kinetochore	FPLX	000270	Kinetochore
+kinetochores	FPLX	000270	Kinetochore
+KLF5	UP	KLF5_HUMAN	Q13887
+Klf5	UP	KLF5_HUMAN	Q13887
+KLKs	FPLX	000271	KLK
+KRAS	UP	RASK_HUMAN	P01116
+Kras	UP	RASK_HUMAN	P01116
+KSR	FPLX	000272	KSR
+LA	CHEBI	(R)-lipoic acid	CHEBI:30314
+LA	PUBCHEM	6112	.
+lactate	PUBCHEM	91435	.
+lactate	CHEBI	lactate	CHEBI:24996
+laminin 332 chains	FPLX	000274	Laminin_332
+laminin 332	FPLX	000274	Laminin_332
+laminin-332 chains	FPLX	000274	Laminin_332
+laminin-332	FPLX	000274	Laminin_332
+Laminin-5	FPLX	000274	Laminin_332
+laminin-5	FPLX	000274	Laminin_332
+lapatinib	PUBCHEM	208908	.
+lapatinib	CHEBI	lapatinib	CHEBI:49603
+LAT	UP	LAT_HUMAN	O43561
+LC3	FPLX	000280	MAP1LC3
+Lck	UP	LCK_HUMAN	P06239
+LDH	FPLX	000275	LDH
+lead	PUBCHEM	5352425	.
+lead	CHEBI	lead atom	CHEBI:25016
+leptin	UP	LEP_HUMAN	P41159
+LFA-1 (integrin)	FPLX	000261	Integrins
+LH	FPLX	000276	LH
+LIF	UP	LIF_HUMAN	P15018
+lipopolysaccharide	CHEBI	lipopolysaccharide	CHEBI:16412
+lipopolysaccharide	MESH	Lipopolysaccharides	D008070
+LKB1	UP	STK11_HUMAN	Q15831
+LM-1	FPLX	000273	Laminin_111
+LMP1	UP	LMP1_EBVB9	P03230
+localization	GO	localization	GO:0051179
+long-chain acyl-CoA synthetase	FPLX	000008	ACSL
+LPA	UP	APOA_HUMAN	P08519
+LPS	CHEBI	lipopolysaccharide	CHEBI:16412
+LPS	MESH	Lipopolysaccharides	D008070
+LRRK2	UP	LRRK2_HUMAN	Q5S007
+Luteinizing hormone	FPLX	000276	LH
+luteinizing hormone	FPLX	000276	LH
+luteinizing-hormone	FPLX	000276	LH
+luteolin	PUBCHEM	5280445	.
+luteolin	CHEBI	luteolin	CHEBI:15864
+MA	PUBCHEM	10836	.
+MA	CHEBI	methamphetamine	CHEBI:6809
+MA	PUBCHEM	73659	.
+MA	CHEBI	maslinic acid	CHEBI:66682
+MA	UP	GAG_HV1H2	P04591
+MAC	FPLX	000278	MAC
+MAC-1 (integrin)	FPLX	000261	Integrins
+Mad2	UP	MD2L1_HUMAN	Q13257
+Maf subfamily	FPLX	000279	MAF
+MAF	FPLX	000279	MAF
+Maf	FPLX	000279	MAF
+maf	FPLX	000279	MAF
+MAF	UP	MAF_HUMAN	O75444
+Maf	UP	MAF_HUMAN	O75444
+maf	UP	MAF_HUMAN	O75444
+mammalian target of rapamycin	UP	MTOR_HUMAN	P42345
+mangiferin	CHEBI	mangiferin	CHEBI:6682
+mangiferin	PUBCHEM	5281647	.
+MAP kinase	FPLX	000283	MAPK
+MAP kinases	FPLX	000283	MAPK
+MAP2K1	UP	MP2K1_HUMAN	Q02750
+MAP2K2	UP	MP2K2_HUMAN	P36507
+MAP3K	FPLX	000282	MAP3K
+MAP3K2	UP	M3K2_HUMAN	Q9Y2U5
+MAPK kinase kinase	FPLX	000282	MAP3K
+MAPK kinase	FPLX	000281	MAP2K
+MAPK p38	FPLX	000326	p38
+MAPK	FPLX	000161	ERK
+MAPK1	UP	MK01_HUMAN	P28482
+MAPK3	UP	MK03_HUMAN	P27361
+MAPKK kinases	FPLX	000282	MAP3K
+MAPKKK	FPLX	000282	MAP3K
+MAPKs	FPLX	000283	MAPK
+MAZ	UP	MAZ_HUMAN	P56270
+Mcl-1	UP	MCL1_HUMAN	Q07820
+MCM	FPLX	000284	MCM
+MCP-1	UP	None	P0CW71
+MDM2	UP	MDM2_HUMAN	Q00987
+Mdm2	UP	MDM2_HUMAN	Q00987
+MDMX	UP	MDM4_HUMAN	O15151
+Mdmx	UP	MDM4_HUMAN	O15151
+MED14	UP	MED14_HUMAN	O60244
+MED23	UP	MED23_HUMAN	Q9ULK4
+MEF2 family	FPLX	000285	MEF2
+MEF2	FPLX	000285	MEF2
+MEF2C	UP	MEF2C_HUMAN	Q06413
+MEK 1/2	FPLX	000286	MEK
+MEK inhibitor	CHEBI	EC 2.7.12.2 (mitogen-activated protein kinase kinase) inhibitor	CHEBI:88286
+MEK inhibitors	CHEBI	EC 2.7.12.2 (mitogen-activated protein kinase kinase) inhibitor	CHEBI:88286
+MEK	FPLX	000286	MEK
+MEK1	UP	MP2K1_HUMAN	Q02750
+MEK1/2	FPLX	000286	MEK
+melanin	PUBCHEM	6325610	.
+melanin	CHEBI	Melanin	CHEBI:89634
+melatonin	CHEBI	melatonin	CHEBI:16796
+melatonin	PUBCHEM	896	.
+membrane attack complex	FPLX	000278	MAC
+membrane attack	FPLX	000278	MAC
+MET	UP	MET_HUMAN	P08581
+Met	UP	MET_HUMAN	P08581
+metabolism	GO	metabolic process	GO:0008152
+metabolism	MESH	Metabolism	D008660
+metabotrophic glutamate receptor	FPLX	000193	GRM
+metabotropic glutamate receptor	FPLX	000193	GRM
+metastasis	MESH	Neoplasm Metastasis	D009362
+Metformin	PUBCHEM	4091	.
+Metformin	CHEBI	metformin	CHEBI:6801
+metformin	PUBCHEM	4091	.
+metformin	CHEBI	metformin	CHEBI:6801
+Metallothionein	FPLX	000292	Metallothionein
+metallothionein	FPLX	000292	Metallothionein
+MG132	PUBCHEM	462382	.
+MG132	CHEBI	N-benzyloxycarbonyl-L-leucyl-L-leucyl-L-leucinal	CHEBI:75142
+mGluRs	FPLX	000193	GRM
+MIF	UP	MIF_HUMAN	P14174
+mini-chromosome maintenance complex	FPLX	000284	MCM
+minichromosome maintenance complex	FPLX	000284	MCM
+minichromosome maintenance protein complex	FPLX	000284	MCM
+miR-101	MESH	MIRN101 microRNA, human	C534072
+miR-101	MIRBASE	hsa-mir-101-1	MI0000103
+miR-101	HGNC	31488	MIR101-1
+miR-145	MIRBASE	hsa-mir-145	MI0000461
+miR-145	HGNC	31532	MIR145
+miR-155	MIRBASE	hsa-mir-155	MI0000681
+miR-155	HGNC	31542	MIR155
+miR-21	MIRBASE	hsa-mir-21	MI0000077
+miR-21	HGNC	31586	MIR21
+miR-7	MIRBASE	hsa-mir-7-1	MI0000263
+miR-7	HGNC	31638	MIR7-1
+MITF	UP	MITF_HUMAN	O75030
+mammalian mitochondrial ribosome	FPLX	000288	Mitochondrial_Ribosome
+Mitochondrial ribosome	FPLX	000288	Mitochondrial_Ribosome
+Mitochondrial Ribosome	FPLX	000288	Mitochondrial_Ribosome
+mitochondrial ribosomes	FPLX	000288	Mitochondrial_Ribosome
+Mitochondrial ribosomes	FPLX	000288	Mitochondrial_Ribosome
+Mitochondrial Ribosomes	FPLX	000288	Mitochondrial_Ribosome
+mitoribosome	FPLX	000288	Mitochondrial_Ribosome
+Mitoribosome	FPLX	000288	Mitochondrial_Ribosome
+55S mammalian mitochondrial ribosome	FPLX	000288	Mitochondrial_Ribosome
+55S mitoribosome	FPLX	000288	Mitochondrial_Ribosome
+55s mitoribosome	FPLX	000288	Mitochondrial_Ribosome
+55S Mitoribosome	FPLX	000288	Mitochondrial_Ribosome
+55s Mitoribosome	FPLX	000288	Mitochondrial_Ribosome
+small mitoribosomal subunit	FPLX	000289	MRPS
+Small Mitoribosomal Subunit	FPLX	000289	MRPS
+small subunit of the mammalian mitochondrial ribosome	FPLX	000289	MRPS
+mitochondrial ribosomal small subunit	FPLX	000289	MRPS
+large mitoribosomal subunit	FPLX	000290	MRPL
+Large Mitoribosomal Subunit	FPLX	000290	MRPL
+large subunit of the mammalian mitochondrial ribosome	FPLX	000290	MRPL
+MGAT	FPLX	000287	MGAT
+mitochondrial ribosomal large subunit	FPLX	000290	MRPL
+mitochondrial membrane potential	MESH	Membrane Potential, Mitochondrial	D053078
+mitogen activated protein kinase	FPLX	000283	MAPK
+mitogen activated protein kinases	FPLX	000283	MAPK
+mitogen-activated protein kinase kinase	FPLX	000281	MAP2K
+mitogen-activated protein kinase	FPLX	000283	MAPK
+mitogen-activated protein kinases	FPLX	000283	MAPK
+Miz1	UP	ZBT17_HUMAN	Q13105
+MKK4	UP	MP2K4_HUMAN	P45985
+MKP-1	UP	DUS1_HUMAN	P28562
+MKP3	UP	DUS6_HUMAN	Q16828
+MLC	FPLX	000296	MYL
+MM	MESH	Multiple Myeloma	D009101
+MMC	PUBCHEM	5746	.
+MMC	CHEBI	mitomycin C	CHEBI:27504
+MMP	FPLX	000291	MMP
+MMP-2	UP	MMP2_HUMAN	P08253
+MMP-9	UP	MMP9_HUMAN	P14780
+MMP9	UP	MMP9_HUMAN	P14780
+MMPs	FPLX	000291	MMP
+Mn	CHEBI	manganese(2+)	CHEBI:29035
+Mn	PUBCHEM	27854	.
+MST1	UP	STK4_HUMAN	Q13043
+MST2	UP	STK3_HUMAN	Q13188
+MT	FPLX	000292	Metallothionein
+mTOR inhibitor	CHEBI	mTOR inhibitor	CHEBI:68481
+mTOR inhibitors	CHEBI	mTOR inhibitor	CHEBI:68481
+mTOR	UP	MTOR_HUMAN	P42345
+mTORC1	FPLX	000293	mTORC1
+mTORC2	FPLX	000294	mTORC2
+MTX	UP	MTX1_HUMAN	Q13505
+Mu-A	PUBCHEM	375150	.
+MUC1	UP	MUC1_HUMAN	P15941
+mutp53	UP	P53_HUMAN	P04637
+MYC	UP	MYC_HUMAN	P01106
+Myc	UP	MYC_HUMAN	P01106
+MYCN	UP	MYCN_HUMAN	P04198
+myosin alkali light chain proteins	FPLX	000297	MYL_alkali
+myosin alkali light chain	FPLX	000297	MYL_alkali
+myosin heavy chain genes	FPLX	000295	MYH
+myosin heavy chain isoforms	FPLX	000295	MYH
+myosin heavy chain protein	FPLX	000295	MYH
+Myosin heavy chain	FPLX	000295	MYH
+myosin heavy chain	FPLX	000295	MYH
+Myosin heavy chains	FPLX	000295	MYH
+myosin heavy chains	FPLX	000295	MYH
+myosin light chain protein	FPLX	000296	MYL
+myosin light chain	FPLX	000296	MYL
+myosin light chains	FPLX	000296	MYL
+MYPT1	UP	MYPT1_HUMAN	O14974
+MYST family	FPLX	000300	MYST
+MYST histone acetylase	FPLX	000300	MYST
+MYST proteins	FPLX	000300	MYST
+N-cadherin	UP	CADH2_HUMAN	P19022
+N-myc downstream regulated gene family	FPLX	000307	NDRG
+N-Myc	UP	MYCN_HUMAN	P04198
+N-Ras	UP	RASN_HUMAN	P01111
+Na+/K+-exchanging ATPase	FPLX	000303	Na_K_ATPase
+Na+/K+ATPase	FPLX	000303	Na_K_ATPase
+Na/K ATPase alpha	FPLX	000057	ATP1A
+Na/K ATPase α	FPLX	000057	ATP1A
+Na/K-ATPase	FPLX	000303	Na_K_ATPase
+NAC	PUBCHEM	443227	.
+NAC	CHEBI	NAC	CHEBI:7421
+nAChR	FPLX	000103	CHRN
+NAD(P)H oxidase	FPLX	000302	NADPH_oxidase
+NAD(P)H-oxidase	FPLX	000302	NADPH_oxidase
+NADH dehydrogenase (ubiquinone)	FPLX	000301	NADH_dehydrogenase
+NADH dehydrogenase	FPLX	000301	NADH_dehydrogenase
+NADPH oxidase	FPLX	000302	NADPH_oxidase
+NADPH	PUBCHEM	5884	.
+NADPH	CHEBI	NADPH	CHEBI:16474
+NADPH	HMDB	HMDB00221	.
+naked cuticle	FPLX	000315	NKD
+NAP	UP	BASP1_HUMAN	P80723
+Natriuretic Peptide	FPLX	000304	Natriuretic_peptide
+Natriuretic peptide	FPLX	000304	Natriuretic_peptide
+natriuretic peptide	FPLX	000304	Natriuretic_peptide
+Natriuretic Peptides	FPLX	000304	Natriuretic_peptide
+Natriuretic peptides	FPLX	000304	Natriuretic_peptide
+natriuretic peptides	FPLX	000304	Natriuretic_peptide
+NDR family	FPLX	000307	NDRG
+NDR-family	FPLX	000307	NDRG
+NDRG2	UP	NDRG2_HUMAN	Q9UN36
+necroptosis	GO	necroptotic process	GO:0070266
+necrosis	GO	necrotic cell death	GO:0070265
+necrosis	MESH	Necrosis	D009336
+Nef	UP	NEF_HV1BR	P03406
+NEMO	UP	NEMO_HUMAN	Q9Y6K9
+neovascularization	GO	angiogenesis	GO:0001525
+neovascularization	MESH	Neovascularization, Physiologic	D018919
+Net1	UP	ARHG8_HUMAN	Q7Z628
+neuregulin family	FPLX	000318	NRG
+Neuregulin	FPLX	000318	NRG
+neuregulin	FPLX	000318	NRG
+Neuregulins	FPLX	000318	NRG
+neuregulins	FPLX	000318	NRG
+Neurexins	FPLX	000308	Neurexins
+NF-E2	FPLX	000310	NFE
+NF-E2-related factor	FPLX	000310	NFE
+NF-kappaB Class 1	FPLX	000312	NFkappaB_1
+NF-kappaB class 1	FPLX	000312	NFkappaB_1
+NF-kappaB Class 2	FPLX	000313	NFkappaB_2
+NF-kappaB class 2	FPLX	000313	NFkappaB_2
+NF-kappaB Class I	FPLX	000312	NFkappaB_1
+NF-kappaB class I	FPLX	000312	NFkappaB_1
+NF-kappaB Class II	FPLX	000313	NFkappaB_2
+NF-kappaB class II	FPLX	000313	NFkappaB_2
+NF-kappaB complexes	FPLX	000311	NFkappaB
+NF-kappaB dimers	FPLX	000311	NFkappaB
+NF-kappaB Factors	FPLX	000311	NFkappaB
+NF-kappaB factors	FPLX	000311	NFkappaB
+NF-kappaB genes	FPLX	000311	NFkappaB
+NF-kappaB p50	HGNC	7794	NFKB1
+NF-kappaB p65	HGNC	9955	RELA
+NF-kappaB p65	UP	TF65_HUMAN	Q04206
+NF-kappaB subunits	FPLX	000311	NFkappaB
+NF-kappaB TFs	FPLX	000311	NFkappaB
+NF-kappaB	FPLX	000311	NFkappaB
+NF-kappaB1	HGNC	7794	NFKB1
+NF-kappaB2	HGNC	7795	NFKB2
+NF-kappabeta	FPLX	000311	NFkappaB
+NF-kappaBp50	HGNC	7794	NFKB1
+NF-kappaBp65	HGNC	9955	RELA
+NF-kappaBs	FPLX	000311	NFkappaB
+NF-kB	FPLX	000311	NFkappaB
+NF-Y	FPLX	000314	NFY
+NF-κB Class 1	FPLX	000312	NFkappaB_1
+NF-κB class 1	FPLX	000312	NFkappaB_1
+NF-κB Class 2	FPLX	000313	NFkappaB_2
+NF-κB class 2	FPLX	000313	NFkappaB_2
+NF-κB Class I	FPLX	000312	NFkappaB_1
+NF-κB class I	FPLX	000312	NFkappaB_1
+NF-κB Class II	FPLX	000313	NFkappaB_2
+NF-κB class II	FPLX	000313	NFkappaB_2
+NF-κB complexes	FPLX	000311	NFkappaB
+NF-κB dimers	FPLX	000311	NFkappaB
+NF-κB Factors	FPLX	000311	NFkappaB
+NF-κB factors	FPLX	000311	NFkappaB
+NF-κB genes	FPLX	000311	NFkappaB
+NF-κB p50	HGNC	7794	NFKB1
+NF-κB p65	HGNC	9955	RELA
+NF-κB p65	UP	TF65_HUMAN	Q04206
+NF-κB subunits	FPLX	000311	NFkappaB
+NF-κB TFs	FPLX	000311	NFkappaB
+NF-κB	FPLX	000311	NFkappaB
+NF-κB1	HGNC	7794	NFKB1
+NF-κB2	HGNC	7795	NFKB2
+NF-κBp50	HGNC	7794	NFKB1
+NF-κBp65	HGNC	9955	RELA
+NF-κBs	FPLX	000311	NFkappaB
+NF-κβ	FPLX	000311	NFkappaB
+NFAT	FPLX	000309	NFAT
+NFkappaB complexes	FPLX	000311	NFkappaB
+NFkappaB p50	HGNC	7794	NFKB1
+NFkappaB p65	HGNC	9955	RELA
+NFkappaB	FPLX	000311	NFkappaB
+NFkappaBp65	HGNC	9955	RELA
+NFY	FPLX	000314	NFY
+NFκB complexes	FPLX	000311	NFkappaB
+NFκB p50	HGNC	7794	NFKB1
+NFκB p65	HGNC	9955	RELA
+NFκB	FPLX	000311	NFkappaB
+NFκBp65	HGNC	9955	RELA
+NGF	UP	NGF_HUMAN	P01138
+nicotine class acetylcholine receptors	FPLX	000103	CHRN
+nicotinic acetylcholine receptor	FPLX	000103	CHRN
+nitric oxide	PUBCHEM	145068	.
+nitric oxide	CHEBI	nitric oxide	CHEBI:16480
+nmMLCK	UP	MYLK_HUMAN	Q15746-1
+nmMLCK1	UP	MYLK_HUMAN	Q15746-1
+NO	HMDB	HMDB03378	.
+NO	CHEBI	nitric oxide	CHEBI:16480
+NO	PUBCHEM	145068	.
+non-ELR-CXC chemokines	FPLX	000128	CXCL_ELR_negative
+NOS	FPLX	000316	NOS
+Notch	FPLX	000317	Notch
+Notch1	UP	NOTC1_HUMAN	P46531
+NOX1	UP	NOX1_HUMAN	Q9Y5S8
+NOX2	UP	CY24B_HUMAN	P04839
+NOX3	UP	NOX3_HUMAN	Q9HBY0
+NOX4	UP	NOX4_HUMAN	Q9NPH5
+Noxa	UP	APR_HUMAN	Q13794
+NPM	UP	NPM_HUMAN	P06748
+NRAS	UP	RASN_HUMAN	P01111
+NRF2	UP	NF2L2_HUMAN	Q16236
+Nrf2	UP	NF2L2_HUMAN	Q16236
+NRG1	UP	NRG1_HUMAN	Q02297
+NRG1-NRG2	FPLX	000319	NRG_1_2
+NRG1/2	FPLX	000319	NRG_1_2
+NRG3-NRG4	FPLX	000320	NRG_3_4
+NRG3/4	FPLX	000320	NRG_3_4
+NRGs	FPLX	000318	NRG
+NRXN	FPLX	000308	Neurexins
+NTF3	UP	NTF3_HUMAN	P20783
+NTRK	FPLX	000321	NTRK
+NTRKs	FPLX	000321	NTRK
+Nuclear factor erythroid 2-related factor	FPLX	000310	NFE
+nuclear factor Y	FPLX	000314	NFY
+nuclear factor-Y	FPLX	000314	NFY
+Nuclear Receptor Co-Repressor	FPLX	000306	NCOR
+nuclear receptor co-repressor	FPLX	000306	NCOR
+Nuclear receptor corepressor	FPLX	000306	NCOR
+nuclear receptor corepressor	FPLX	000306	NCOR
+Nutlin-3	PUBCHEM	16755649	.
+Nutlin-3	CHEBI	Nutlin-3	CHEBI:46742
+NVP-BEZ235	PUBCHEM	11977753	.
+NVP-BEZ235	LINCS	10232-101	.
+NVP-BEZ235	CHEBI	dactolisib	CHEBI:71952
+NVP-LDE-225	PUBCHEM	24775005	.
+NVP-LDE-225	CHEBI	sonidegib	CHEBI:90863
+OA	CHEBI	oleanolic acid	CHEBI:37659
+OA	PUBCHEM	10494	.
+OA	CHEBI	okadaic acid	CHEBI:44658
+OA	PUBCHEM	446512	.
+ofalpha(2)-adrenoceptor	FPLX	000020	ADRA2
+ofα(2)-adrenoceptor	FPLX	000020	ADRA2
+OPG	UP	TR11B_HUMAN	O00300
+OPN	UP	OSTP_HUMAN	P10451
+ov-serpins	FPLX	000431	SERPINB
+oxaliplatin	CHEBI	oxaliplatin	CHEBI:31941
+oxaliplatin	PUBCHEM	6857599	.
+oxygen	HMDB	HMDB01377	.
+oxygen	CHEBI	dioxygen	CHEBI:15379
+oxygen	PUBCHEM	977	.
+P-REX1	UP	PREX1_HUMAN	Q8TCU6
+p100	HGNC	7795	NFKB2
+p105	HGNC	7794	NFKB1
+p110	FPLX	000359	PI3K_p110
+p110alpha	UP	PK3CA_HUMAN	P42336
+p110beta	UP	PK3CB_HUMAN	P42338
+p110α	UP	PK3CA_HUMAN	P42336
+p110β	UP	PK3CB_HUMAN	P42338
+p120	UP	CTND1_HUMAN	O60716
+p130	UP	BCAR1_HUMAN	P56945
+p16	UP	CDN2A_HUMAN	P42771
+p160/SRC	FPLX	000305	NCOA
+p21 Cip1	UP	CDN1A_HUMAN	P38936
+p21 WAF1	UP	CDN1A_HUMAN	P38936
+p21	UP	CDN1A_HUMAN	P38936
+p22 phox	UP	CY24A_HUMAN	P13498
+p27 Kip1	UP	CDN1B_HUMAN	P46527
+p27	UP	CDN1B_HUMAN	P46527
+P2X purinoreceptor	FPLX	000324	P2RX
+P2X purinoreceptors	FPLX	000324	P2RX
+P2X receptor	FPLX	000324	P2RX
+P2X receptors	FPLX	000324	P2RX
+P2X	FPLX	000324	P2RX
+P2Y receptor	FPLX	000325	P2RY
+p300	UP	EP300_HUMAN	Q09472
+P38 MAPK	FPLX	000326	p38
+p38 MAPK	FPLX	000326	p38
+p38 MAPKs	FPLX	000326	p38
+p38	FPLX	000326	p38
+p38-MAPK	FPLX	000326	p38
+p38MAPK	FPLX	000326	p38
+p40 phox	UP	NCF4_HUMAN	Q15080
+p42	UP	MK01_HUMAN	P28482
+p42	UP	PA2G4_HUMAN	Q9UQ80
+p47 phox	UP	NCF1_HUMAN	P14598
+p50	UP	NFKB1_HUMAN	P19838
+p52	HGNC	7795	NFKB2
+P53 family	FPLX	000327	p53_family
+p53 Family	FPLX	000327	p53_family
+p53 family	FPLX	000327	p53_family
+P53	UP	P53_HUMAN	P04637
+p53	UP	P53_HUMAN	P04637
+p53/p63/p73 family	FPLX	000327	p53_family
+p62	UP	SQSTM_HUMAN	Q13501
+p63	UP	P63_HUMAN	Q9H3D4
+p65	UP	TF65_HUMAN	Q04206
+p66Shc	UP	SHC1_HUMAN	P29353-1
+p67 phox	UP	NCF2_HUMAN	P19878
+p70 S6 kinase	FPLX	000328	P70S6K
+p70	UP	KS6B1_HUMAN	P23443
+P70RSK	FPLX	000328	P70S6K
+p70RSK	FPLX	000328	P70S6K
+p70S6 kinase	UP	KS6B1_HUMAN	P23443
+P70S6K	FPLX	000328	P70S6K
+p70S6K	UP	KS6B1_HUMAN	P23443
+p73	UP	P73_HUMAN	O15350
+p85	FPLX	000360	PI3K_p85
+p85alpha	UP	P85A_HUMAN	P27986
+p85α	UP	P85A_HUMAN	P27986
+p90RSK	FPLX	000329	P90RSK
+PA	CHEBI	phosphatidic acid	CHEBI:16337
+PA	PUBCHEM	8144759	.
+paeoniflorin	CHEBI	paeoniflorin	CHEBI:7889
+paeoniflorin	PUBCHEM	442534	.
+PAI-1	UP	PAI1_HUMAN	P05121
+PAK	FPLX	000330	PAK
+Pak	FPLX	000330	PAK
+PAK1	UP	PAK1_HUMAN	Q13153
+Pak1	UP	PAK1_HUMAN	Q13153
+Pak2	UP	PAK2_HUMAN	Q13177
+PAK4	UP	PAK4_HUMAN	O96013
+palmitate	PUBCHEM	985	.
+palmitate	CHEBI	hexadecanoic acid	CHEBI:15756
+palmitate	HMDB	HMDB00220	.
+PAR3	UP	PARD3_HUMAN	Q8TEW0
+Parkin	UP	PRKN_HUMAN	O60260
+PARP genes	FPLX	000331	PARP
+PARP	UP	PARP1_HUMAN	P09874
+Parp	UP	PARP1_HUMAN	P09874
+PARP-1	UP	PARP1_HUMAN	P09874
+PARPs	FPLX	000331	PARP
+Parvin	FPLX	000332	PARV
+parvin	FPLX	000332	PARV
+Parvins	FPLX	000332	PARV
+parvins	FPLX	000332	PARV
+PATCHED	FPLX	000333	Patched
+Patched	FPLX	000333	Patched
+paxillin	UP	PAXI_HUMAN	P49023
+PBX	FPLX	000334	PBX
+Pbx	FPLX	000334	PBX
+pbx	FPLX	000334	PBX
+PBXs	FPLX	000334	PBX
+Pca	MESH	Prostatic Neoplasms	D011471
+PCNA	UP	PCNA_HUMAN	P12004
+PD	MESH	Parkinson Disease	D010300
+PD-1	HGNC	8760	PDCD1
+PD98509	CHEBI	EC 2.7.11.24 (mitogen-activated protein kinase) inhibitor	CHEBI:79091
+PDE 2	HGNC	8777	PDE2A
+PDE 3	FPLX	000337	PDE3
+PDE	FPLX	000335	PDE
+PDE1 family	FPLX	000336	PDE1
+PDE1	FPLX	000336	PDE1
+PDE3 family	FPLX	000337	PDE3
+PDE3	FPLX	000337	PDE3
+PDE4 family	FPLX	000338	PDE4
+PDE4 isoforms	FPLX	000338	PDE4
+PDE4	FPLX	000338	PDE4
+PDE5	HGNC	8784	PDE5A
+PDE6 family	FPLX	000339	PDE6
+PDE6	FPLX	000339	PDE6
+PDE7	FPLX	000340	PDE7
+PDE8	FPLX	000341	PDE8
+PDEs	FPLX	000335	PDE
+PDGF CC	FPLX	000350	PDGF_CC
+PDGF DD	FPLX	000351	PDGF_DD
+PDGF	FPLX	000342	PDGF
+PDGF-AA	FPLX	000347	PDGF_AA
+PDGF-aa	FPLX	000347	PDGF_AA
+PDGF-AB	FPLX	000348	PDGF_AB
+PDGF-ab	FPLX	000348	PDGF_AB
+PDGF-BB	FPLX	000349	PDGF_BB
+PDGF-bb	FPLX	000349	PDGF_BB
+PDGF-CC	FPLX	000350	PDGF_CC
+PDGF-cc	FPLX	000350	PDGF_CC
+PDGF-DD	FPLX	000351	PDGF_DD
+PDGF-dd	FPLX	000351	PDGF_DD
+PDGFAA	FPLX	000347	PDGF_AA
+PDGFAB	FPLX	000348	PDGF_AB
+PDGFBB	FPLX	000349	PDGF_BB
+PDGFR	FPLX	000343	PDGFR
+PDGFR-AA	FPLX	000344	PDGFR_AA
+PDGFR-AB	FPLX	000345	PDGFR_AB
+PDGFR-alphaalpha	FPLX	000344	PDGFR_AA
+PDGFR-alphabeta	FPLX	000345	PDGFR_AB
+PDGFR-BB	FPLX	000346	PDGFR_BB
+PDGFR-betabeta	FPLX	000346	PDGFR_BB
+PDGFR-αα	FPLX	000344	PDGFR_AA
+PDGFR-αβ	FPLX	000345	PDGFR_AB
+PDGFR-ββ	FPLX	000346	PDGFR_BB
+PDGFRalpha	UP	PGFRA_HUMAN	P16234
+PDGFRalphaalpha	FPLX	000344	PDGFR_AA
+PDGFRalphabeta	FPLX	000345	PDGFR_AB
+PDGFRbeta	UP	PGFRB_HUMAN	P09619
+PDGFRbetabeta	FPLX	000346	PDGFR_BB
+PDGFRβ	UP	PGFRB_HUMAN	P09619
+PDGFRα	UP	PGFRA_HUMAN	P16234
+PDGFRαα	FPLX	000344	PDGFR_AA
+PDGFRαβ	FPLX	000345	PDGFR_AB
+PDGFRββ	FPLX	000346	PDGFR_BB
+PDH	FPLX	000352	PDH
+PDK	FPLX	000353	PDK
+PDK	UP	PDPK1_HUMAN	O15530
+PDK1	UP	PDPK1_HUMAN	O15530
+PDKs	FPLX	000353	PDK
+PDPK1	UP	PDPK1_HUMAN	O15530
+PDT	MESH	Photochemotherapy	D010778
+PEA-15	UP	PEA15_HUMAN	Q15121
+PERK	UP	E2AK3_HUMAN	Q9NZJ5
+Peroxiredoxin	FPLX	000388	PRDX
+peroxiredoxin	FPLX	000388	PRDX
+Peroxiredoxins	FPLX	000388	PRDX
+peroxiredoxins	FPLX	000388	PRDX
+Pertussis toxin	FPLX	000354	Pertussis_toxin
+pertussis toxin	FPLX	000354	Pertussis_toxin
+PF-3758309	PUBCHEM	25227462	.
+PF-3758309	CHEBI	N-[(1S)-2-(dimethylamino)-1-phenylethyl]-6,6-dimethyl-3-[(2-methyl-4-thieno[3,2-d]pyrimidinyl)amino]-1,4-dihydropyrrolo[3,4-c]pyrazole-5-carboxamide	CHEBI:93751
+PGC-1alpha	UP	PRGC1_HUMAN	Q9UBK2
+PGC-1α	UP	PRGC1_HUMAN	Q9UBK2
+PGE 2	CHEBI	prostaglandin E2-UM	CHEBI:73965
+PGE 2	PUBCHEM	161468	.
+PGE2	UP	PE2R4_HUMAN	P35408
+phenformin	PUBCHEM	8249	.
+phenformin	CHEBI	phenformin	CHEBI:8064
+PhK	FPLX	000356	PhK
+phosphatase	FPLX	000357	Phosphatase
+phosphatidylinositol 3-kinase	FPLX	000358	PI3K
+phosphatidylinositol	CHEBI	phosphatidylinositol	CHEBI:28874
+phosphatidylinositol	MESH	Phosphatidylinositols	D010716
+phospho-ERK1/2	FPLX	000161	ERK
+Phosphodiesterase 1	FPLX	000336	PDE1
+phosphodiesterase 1	FPLX	000336	PDE1
+Phosphodiesterase 2	HGNC	8777	PDE2A
+phosphodiesterase 2	HGNC	8777	PDE2A
+Phosphodiesterase 3	FPLX	000337	PDE3
+phosphodiesterase 3	FPLX	000337	PDE3
+Phosphodiesterase 4	FPLX	000338	PDE4
+phosphodiesterase 4	FPLX	000338	PDE4
+Phosphodiesterase 5	HGNC	8784	PDE5A
+phosphodiesterase 5	HGNC	8784	PDE5A
+Phosphodiesterase 6	FPLX	000339	PDE6
+phosphodiesterase 6	FPLX	000339	PDE6
+Phosphodiesterase 7	FPLX	000340	PDE7
+phosphodiesterase 7	FPLX	000340	PDE7
+Phosphodiesterase 8	FPLX	000341	PDE8
+phosphodiesterase 8	FPLX	000341	PDE8
+Phosphodiesterase	FPLX	000335	PDE
+phosphodiesterase	FPLX	000335	PDE
+Phosphodiesterase-1	FPLX	000336	PDE1
+phosphodiesterase-1	FPLX	000336	PDE1
+Phosphodiesterase-2	HGNC	8777	PDE2A
+phosphodiesterase-2	HGNC	8777	PDE2A
+Phosphodiesterase-3	FPLX	000337	PDE3
+phosphodiesterase-3	FPLX	000337	PDE3
+Phosphodiesterase-4	FPLX	000338	PDE4
+phosphodiesterase-4	FPLX	000338	PDE4
+Phosphodiesterase-5	HGNC	8784	PDE5A
+phosphodiesterase-5	HGNC	8784	PDE5A
+Phosphodiesterase-6	FPLX	000339	PDE6
+phosphodiesterase-6	FPLX	000339	PDE6
+Phosphodiesterase-7	FPLX	000340	PDE7
+phosphodiesterase-7	FPLX	000340	PDE7
+Phosphodiesterase-8	FPLX	000341	PDE8
+phosphodiesterase-8	FPLX	000341	PDE8
+Phosphodiesterases	FPLX	000335	PDE
+phosphodiesterases	FPLX	000335	PDE
+Phospholipase A2 Group IV	FPLX	000368	PLA2G4
+phospholipase A2 group-II	FPLX	000367	PLA2G2
+phospholipase A2 group-IV	FPLX	000368	PLA2G4
+phospholipase A2	FPLX	000366	PLA2
+Phospholipase C	FPLX	000369	PLC
+phospholipase C	FPLX	000369	PLC
+Phospholipase C-beta	FPLX	000370	PLCB
+phospholipase C-beta	FPLX	000370	PLCB
+Phospholipase C-delta	FPLX	000371	PLCD
+phospholipase C-delta	FPLX	000371	PLCD
+Phospholipase C-β	FPLX	000370	PLCB
+phospholipase C-β	FPLX	000370	PLCB
+Phospholipase C-δ	FPLX	000371	PLCD
+phospholipase C-δ	FPLX	000371	PLCD
+Phospholipase Cbeta	FPLX	000370	PLCB
+phospholipase Cbeta	FPLX	000370	PLCB
+Phospholipase Cdelta	FPLX	000371	PLCD
+phospholipase Cdelta	FPLX	000371	PLCD
+Phospholipase Cβ	FPLX	000370	PLCB
+phospholipase Cβ	FPLX	000370	PLCB
+Phospholipase Cδ	FPLX	000371	PLCD
+phospholipase Cδ	FPLX	000371	PLCD
+Phospholipase D	FPLX	000373	PLD
+phospholipase D	FPLX	000373	PLD
+Phospholipase-C	FPLX	000369	PLC
+phospholipase-C	FPLX	000369	PLC
+Phosphorylase kinase	FPLX	000356	PhK
+phosphorylase kinase	FPLX	000356	PhK
+PI 3-kinase	FPLX	000358	PI3K
+PI 3-kinases	FPLX	000358	PI3K
+PI	CHEBI	phosphatidylinositol	CHEBI:28874
+PI	MESH	Phosphatidylinositols	D010716
+PI3-kinase	FPLX	000358	PI3K
+PI3K inhibitor	CHEBI	EC 2.7.1.127 (inositol-trisphosphate 3-kinase) inhibitor	CHEBI:84801
+PI3K p110 subunit	FPLX	000359	PI3K_p110
+PI3K	FPLX	000358	PI3K
+PI3Kinase	FPLX	000358	PI3K
+PIK3C	FPLX	000359	PI3K_p110
+PIK3CA	UP	PK3CA_HUMAN	P42336
+PIK3R	FPLX	000361	PIK3R_I
+PIM	FPLX	000362	PIM
+Pin1	UP	PIN1_HUMAN	Q13526
+PIP	CHEBI	phosphatidylinositol phosphate	CHEBI:28765
+PIP3	MESH	phosphatidylinositol 3,4,5-triphosphate	C060974
+PIP3	CHEBI	phosphatidylinositol trisphosphate	CHEBI:60169
+PK-A	FPLX	000363	PKA
+PKA catalytic subunit	FPLX	000389	PRKAC
+PKA catalytic subunits	FPLX	000389	PRKAC
+PKA regulatory subunit	FPLX	000390	PRKAR
+PKA regulatory subunits	FPLX	000390	PRKAR
+PKA	FPLX	000363	PKA
+PKB	FPLX	000023	AKT
+PKB-Akt	FPLX	000023	AKT
+PKB/Akt	FPLX	000023	AKT
+PKC	FPLX	000364	PKC
+PKCalpha	UP	KPCA_HUMAN	P17252
+PKCdelta	UP	KPCD_HUMAN	Q05655
+PKCepsilon	UP	KPCE_HUMAN	Q02156
+PKCα	UP	KPCA_HUMAN	P17252
+PKCε	UP	KPCE_HUMAN	Q02156
+PKCδ	UP	KPCD_HUMAN	Q05655
+PKG	FPLX	000391	PRKG
+PKI	FPLX	000365	PKI
+PKM2	UP	KPYM_HUMAN	P14618
+PKR	UP	E2AK2_HUMAN	P19525
+PLA2G2	FPLX	000367	PLA2G2
+PLA2g2	FPLX	000367	PLA2G2
+PLA2G4	FPLX	000368	PLA2G4
+PLB	UP	PPLA_HUMAN	P26678
+PLC	FPLX	000369	PLC
+PLC-gamma	FPLX	000372	PLCG
+PLC-gamma1	UP	PLCG1_HUMAN	P19174
+PLC-γ	FPLX	000372	PLCG
+PLC-γ1	UP	PLCG1_HUMAN	P19174
+PLCgamma1	UP	PLCG1_HUMAN	P19174
+PLCγ1	UP	PLCG1_HUMAN	P19174
+PLK1	UP	PLK1_HUMAN	P53350
+Plk1	UP	PLK1_HUMAN	P53350
+PLX	PUBCHEM	42611257	.
+PLX	CHEBI	vemurafenib	CHEBI:63637
+PLX4032	PUBCHEM	42611257	.
+PLX4032	CHEBI	vemurafenib	CHEBI:63637
+PML	UP	PML_HUMAN	P29590
+Pol delta	FPLX	000141	DNA_polymerase_delta
+pol delta	FPLX	000141	DNA_polymerase_delta
+Pol I	FPLX	000416	RNApo_I
+Pol δ	FPLX	000141	DNA_polymerase_delta
+pol δ	FPLX	000141	DNA_polymerase_delta
+Poly(ADP-ribose) polymerase	FPLX	000331	PARP
+Poly(ADP-ribose) polymerases	FPLX	000331	PARP
+polycomb Repressive Complex (PRC) 1	FPLX	000386	PRC1_complex
+Polycomb Repressive Complex 1	FPLX	000386	PRC1_complex
+Polycomb repressive complex 1	FPLX	000386	PRC1_complex
+polycomb repressive complex 1	FPLX	000386	PRC1_complex
+Polycomb Repressive Complex 2	FPLX	000387	PRC2_complex
+Polycomb repressive complex 2	FPLX	000387	PRC2_complex
+polycomb repressive complex 2	FPLX	000387	PRC2_complex
+Polycomb repressive complex PRC1	FPLX	000386	PRC1_complex
+Polycomb repressive complex PRC2	FPLX	000387	PRC2_complex
+Polycomb Repressive Complexes 1	FPLX	000386	PRC1_complex
+Polycomb Repressive Complexes 2	FPLX	000387	PRC2_complex
+Polycomb-repressive complex 1	FPLX	000386	PRC1_complex
+Polycomb-repressive complex 2	FPLX	000387	PRC2_complex
+PP1 regulator	FPLX	000376	PPP1
+PP1	FPLX	000376	PPP1
+PP1C	FPLX	000377	PPP1C
+PP1c	FPLX	000377	PPP1C
+PP1R	FPLX	000378	PPP1R
+PP1r	FPLX	000378	PPP1R
+PP2 phosphatases	FPLX	000379	PPP2
+PP2	CHEBI	PP2	CHEBI:78331
+PP2	PUBCHEM	4878	.
+PP2	FPLX	000379	PPP2
+PP242	PUBCHEM	135565635	.
+PP242	CHEBI	torkinib	CHEBI:90679
+PP2A catalytic C subunit	FPLX	000380	PPP2C
+PP2A regulatory subunit A	FPLX	000381	PPP2R_A
+PP2A regulatory subunit B	FPLX	000382	PPP2R_B
+PP2A	FPLX	000379	PPP2
+PP2A-C	FPLX	000380	PPP2C
+PP2Ac	FPLX	000380	PPP2C
+PP2B catalytic subunit	FPLX	000384	PPP3C
+PP2B	FPLX	000383	PPP3
+PPAR	FPLX	000375	PPAR
+PPAR-gamma	UP	PPARG_HUMAN	P37231
+PPAR-γ	UP	PPARG_HUMAN	P37231
+PPARgamma	UP	PPARG_HUMAN	P37231
+PPARγ	UP	PPARG_HUMAN	P37231
+PPP1	FPLX	000376	PPP1
+PPP1C	FPLX	000377	PPP1C
+PR	UP	PRGR_HUMAN	P06401
+PRAS40	UP	AKTS1_HUMAN	Q96B36
+pRB	UP	RB_HUMAN	P06400
+pRb	UP	RB_HUMAN	P06400
+PRC1	FPLX	000386	PRC1_complex
+PRC1	UP	PRC1_HUMAN	O43663
+PRC2	FPLX	000387	PRC2_complex
+PRKAA	FPLX	000044	AMPK_alpha
+PRKAB	FPLX	000045	AMPK_beta
+PRKAG	FPLX	000046	AMPK_gamma
+PRL-3	UP	TP4A3_HUMAN	O75365
+Profilin	FPLX	000355	PFN
+profilin	FPLX	000355	PFN
+Profilins	FPLX	000355	PFN
+profilins	FPLX	000355	PFN
+progesterone	CHEBI	progesterone	CHEBI:17026
+progesterone	PUBCHEM	5994	.
+Proliferation	GO	cell population proliferation	GO:0008283
+Proliferation	MESH	Cell Proliferation	D049109
+proliferation	GO	cell population proliferation	GO:0008283
+proliferation	MESH	Cell Proliferation	D049109
+Propionyl-CoA carboxylase	FPLX	000392	Propionyl_CoA_carboxylase
+propionyl-CoA carboxylase	FPLX	000392	Propionyl_CoA_carboxylase
+prostaglandin E receptor	FPLX	000395	PTGER
+protease	FPLX	000393	Protease
+proteasome endopeptidase	FPLX	000394	Proteasome
+proteasome	FPLX	000394	Proteasome
+protein farnesyltransferase	FPLX	000172	FNT
+Protein kinase A catalytic subunit	FPLX	000389	PRKAC
+protein kinase A catalytic subunit	FPLX	000389	PRKAC
+Protein kinase A catalytic subunits	FPLX	000389	PRKAC
+protein kinase A catalytic subunits	FPLX	000389	PRKAC
+Protein kinase A regulatory subunit	FPLX	000390	PRKAR
+protein kinase A regulatory subunit	FPLX	000390	PRKAR
+Protein kinase A regulatory subunits	FPLX	000390	PRKAR
+protein kinase A regulatory subunits	FPLX	000390	PRKAR
+protein kinase A	FPLX	000363	PKA
+protein kinase C	FPLX	000364	PKC
+protein kinase G	FPLX	000391	PRKG
+protein phosphatase 2	FPLX	000379	PPP2
+protein phosphatase 2B	FPLX	000383	PPP3
+proteolysis	GO	proteolysis	GO:0006508
+proteolysis	MESH	Proteolysis	D059748
+PTC	UP	PTC_DROME	P18502
+Ptc	UP	PTC_DROME	P18502
+ptc	UP	PTC_DROME	P18502
+PTEN	UP	PTEN_HUMAN	P60484
+Pten	UP	PTEN_HUMAN	P60484
+PTP1B	UP	PTN1_HUMAN	P18031
+PTX	FPLX	000354	Pertussis_toxin
+PTX3	HGNC	9692	PTX3
+PTX3	UP	PTX3_HUMAN	P26022
+PUMA	UP	BBC3B_HUMAN	Q96PG8
+PYG	FPLX	000396	PYG
+Pyk2	UP	FAK2_HUMAN	Q14289
+pyruvate dehydrogenase (acetyl-transferring)	FPLX	000352	PDH
+Pyruvate dehydrogenase kinase	FPLX	000353	PDK
+pyruvate dehydrogenase kinase	FPLX	000353	PDK
+quercetin	CHEBI	quercetin	CHEBI:16243
+quercetin	PUBCHEM	5280343	.
+RA	PUBCHEM	5538	.
+RA	CHEBI	retinoic acid	CHEBI:26536
+RA	HMDB	HMDB06219	.
+Rab GTPase	FPLX	000397	RAB
+Rab GTPases	FPLX	000397	RAB
+rab GTPases	FPLX	000397	RAB
+rab proteins	FPLX	000397	RAB
+RAB	FPLX	000397	RAB
+Rab	FPLX	000397	RAB
+rab	FPLX	000397	RAB
+Rabs	FPLX	000397	RAB
+RAC	FPLX	000398	RAC
+Rac	UP	RAC1_HUMAN	P63000
+RAC1	UP	RAC1_HUMAN	P63000
+Rac1	UP	RAC1_HUMAN	P63000
+RAD51	UP	RAD51_HUMAN	Q06609
+Rad51	UP	RAD51_HUMAN	Q06609
+Rad52	UP	RAD52_HUMAN	P43351
+RAF inhibitors	CHEBI	B-Raf inhibitor	CHEBI:75047
+RAF	FPLX	000399	RAF
+Raf	FPLX	000399	RAF
+Raf-1	UP	RAF1_HUMAN	P04049
+RAGE	UP	RAGE_HUMAN	Q15109
+RAL family	FPLX	000400	RAL
+Ral family	FPLX	000400	RAL
+RAL guanine nucleotide dissociation stimulator like	FPLX	000413	RGL
+Ral guanine nucleotide dissociation stimulator like	FPLX	000413	RGL
+ral guanine nucleotide dissociation stimulator like	FPLX	000413	RGL
+RAL isoforms	FPLX	000400	RAL
+Ral isoforms	FPLX	000400	RAL
+RAL proteins	FPLX	000400	RAL
+Ral proteins	FPLX	000400	RAL
+RAL	FPLX	000400	RAL
+RAL	HGNC	9839	RALA
+RalA	UP	RALA_HUMAN	P11233
+RALGDS-like	FPLX	000413	RGL
+RANKL	UP	TNF11_HUMAN	O14788
+Rap guanine nucleotide exchange factor	FPLX	000402	RAPGEF
+Rap guanine nucleotide exchange factors	FPLX	000402	RAPGEF
+Rap1	FPLX	000401	RAP1
+Rapamycin	PUBCHEM	5284616	.
+Rapamycin	CHEBI	sirolimus	CHEBI:9168
+rapamycin	PUBCHEM	5284616	.
+rapamycin	CHEBI	sirolimus	CHEBI:9168
+RapGEFs	FPLX	000402	RAPGEF
+Raptor	UP	RPTOR_HUMAN	Q8N122
+raptor	UP	RPTOR_HUMAN	Q8N122
+RAR	FPLX	000403	RAR
+RAS association domain family	FPLX	000410	RASSF
+Ras association domain family	FPLX	000410	RASSF
+Ras GTPase	FPLX	000404	RAS
+RAS	FPLX	000404	RAS
+Ras	FPLX	000404	RAS
+RAS-association domain family	FPLX	000410	RASSF
+Ras-association domain family	FPLX	000410	RASSF
+RASA	FPLX	000405	RASA
+RASAL	FPLX	000406	RASAL
+RasGAP	FPLX	000407	RasGAP
+RasGAPs	FPLX	000407	RasGAP
+RASGRF	FPLX	000408	RASGRF
+RASGRP	FPLX	000409	RASGRP
+RASSF family	FPLX	000410	RASSF
+RASSF1A	UP	RASF1_HUMAN	Q9NS23
+RB	UP	RB_HUMAN	P06400
+Rb	UP	RB_HUMAN	P06400
+RB1	UP	RB_HUMAN	P06400
+Rb1	UP	RB_HUMAN	P06400
+receptor tyrosine kinase-like orphan receptor	FPLX	000420	ROR
+receptor tyrosine kinase-like orphan receptors	FPLX	000420	ROR
+REDD1	UP	DDIT4_HUMAN	Q9NX09
+regulatory A subunit of PP2A	FPLX	000381	PPP2R_A
+regulatory B subunit of PP2A	FPLX	000382	PPP2R_B
+regulatory family X	FPLX	000412	RFX
+regulatory myosin light chain	FPLX	000298	MYL_regulatory
+regulatory subunit of calcineurin	FPLX	000385	PPP3R
+RelA	UP	TF65_HUMAN	Q04206
+replication factor C	FPLX	000411	RFC
+Replication protein A	FPLX	000421	RPA
+replication protein A	FPLX	000421	RPA
+RES	PUBCHEM	5281611	.
+Resveratrol	PUBCHEM	445154	.
+Resveratrol	CHEBI	resveratrol	CHEBI:27881
+resveratrol	PUBCHEM	445154	.
+resveratrol	CHEBI	resveratrol	CHEBI:27881
+RET	UP	RET_HUMAN	P07949
+retinoblastoma protein	UP	RB_HUMAN	P06400
+retinoic acid receptors	FPLX	000403	RAR
+retinoid X receptors	FPLX	000424	RXR
+retinoid-X receptor	FPLX	000424	RXR
+RF-C	FPLX	000411	RFC
+RF-X	FPLX	000412	RFX
+RFC	FPLX	000411	RFC
+RFX family	FPLX	000412	RFX
+RFX proteins	FPLX	000412	RFX
+RFX	FPLX	000412	RFX
+Rheb	UP	RHEB_HUMAN	Q15382
+Rho family	FPLX	000414	RHO
+RHO	FPLX	000414	RHO
+Rho	UP	RHOA_HUMAN	P61586
+Rho-GDI	FPLX	000415	RhoGDI
+RhoA	UP	RHOA_HUMAN	P61586
+RhoB	UP	RHOB_HUMAN	P62745
+RhoC	UP	RHOC_HUMAN	P08134
+RHOGDI	FPLX	000415	RhoGDI
+RhoGDI	FPLX	000415	RhoGDI
+rhoGDI	FPLX	000415	RhoGDI
+RhoGDIs	FPLX	000415	RhoGDI
+ribosomal protein S6	UP	RS6_HUMAN	P62753
+ribosomal protein S6	IP	IPR000529	.
+RICTOR	UP	RICTR_HUMAN	Q6R327
+Rictor	UP	RICTR_HUMAN	Q6R327
+RIG-I	UP	DDX58_HUMAN	O95786
+RIP1	UP	RIPK1_HUMAN	Q13546
+RKIP	UP	PEBP1_HUMAN	P30086
+RNA polymerase 1	FPLX	000416	RNApo_I
+RNA polymerase I	FPLX	000416	RNApo_I
+RNA polymerase II	FPLX	000417	RNApo_II
+RNAP II	FPLX	000417	RNApo_II
+ROCK	FPLX	000419	ROCK
+ROCK1	UP	ROCK1_HUMAN	Q13464
+ROCK2	UP	ROCK2_HUMAN	O75116
+ROR	FPLX	000420	ROR
+RORs	FPLX	000420	ROR
+ROS	MESH	Reactive Oxygen Species	D017382
+ROS	UP	ROS1_HUMAN	P08922
+rosiglitazone	CHEBI	rosiglitazone	CHEBI:50122
+rosiglitazone	PUBCHEM	77999	.
+rottlerin	CHEBI	rottlerin	CHEBI:8899
+rottlerin	PUBCHEM	5281847	.
+RPA	FPLX	000421	RPA
+rPKA	FPLX	000390	PRKAR
+RPS6KA	FPLX	000329	P90RSK
+RSK	FPLX	000422	RSK
+RSK2	UP	KS6A3_HUMAN	P51812
+RTA	UP	RFOX2_HUMAN	O43251
+RTKs	FPLX	000423	RTK
+RUNX2	UP	RUNX2_HUMAN	Q13950
+rutin	CHEBI	rutin	CHEBI:28527
+rutin	PUBCHEM	5280805	.
+RXR	FPLX	000424	RXR
+S100	FPLX	000425	S100
+S100A	FPLX	000426	S100A
+S100a	FPLX	000426	S100A
+S1P receptor	FPLX	000427	S1PR
+S1PR	FPLX	000427	S1PR
+S6	UP	RS6_HUMAN	P62753
+S6	IP	IPR000529	.
+S6K	FPLX	000328	P70S6K
+S6K1	UP	KS6B1_HUMAN	P23443
+SAA	FPLX	000428	SAA
+SAC	GO	meiotic spindle assembly checkpoint	GO:0033316
+SAF-1	UP	MAZ_HUMAN	P56270
+SAHA	PUBCHEM	5311	.
+SAHA	CHEBI	vorinostat	CHEBI:45716
+SAHA	CHEMBL	CHEMBL98	.
+sarcoplasmic/endoplasmic reticulum calcium ATPase	FPLX	000430	SERCA
+SB203580	PUBCHEM	176155	.
+SB203580	CHEBI	SB 203580	CHEBI:90705
+SCF	UP	SCF_HUMAN	P21583
+senescence	GO	cellular senescence	GO:0090398
+senescence	MESH	Cellular Senescence	D016922
+SERCA	FPLX	000430	SERCA
+SERCAs	FPLX	000430	SERCA
+SFK	FPLX	000451	SRC
+SFN	CHEBI	sulforaphane	CHEBI:47807
+SFN	PUBCHEM	5350	.
+Shc family	FPLX	000432	SHC
+SHC	FPLX	000432	SHC
+Shc	FPLX	000432	SHC
+shikonin	CHEBI	Shikonin	CHEBI:81068
+shikonin	PUBCHEM	479503	.
+SHP-2	UP	PTN11_HUMAN	Q06124
+SHP2	UP	PTN11_HUMAN	Q06124
+Shp2	UP	PTN11_HUMAN	Q06124
+Sialytransferase	FPLX	000202	GTF_family_29
+Sialytransferases	FPLX	000202	GTF_family_29
+sialytransferase	FPLX	000202	GTF_family_29
+sialytransferases	FPLX	000202	GTF_family_29
+signal transduction	GO	signal transduction	GO:0007165
+signal transduction	MESH	Signal Transduction	D015398
+simvastatin	CHEBI	simvastatin	CHEBI:9150
+simvastatin	PUBCHEM	54454	.
+SIRT1	UP	SIR1_HUMAN	Q96EB6
+Sirt1	UP	SIR1_HUMAN	Q96EB6
+Skp2	UP	SKP2_HUMAN	Q13309
+SLC2	FPLX	000434	SLC2A
+slow myosin	FPLX	000299	MYL_slow
+SLP-76	UP	LCP2_HUMAN	Q13094
+SLRP	FPLX	000435	SLRP
+SLRPs	FPLX	000435	SLRP
+SLRR	FPLX	000435	SLRP
+SLRRs	FPLX	000435	SLRP
+SMAD 2/3	FPLX	000443	SMAD2_3
+SMAD	FPLX	000441	SMAD
+Smad	FPLX	000441	SMAD
+smad	FPLX	000441	SMAD
+Smad2	UP	SMAD2_HUMAN	Q15796
+smad2	UP	SMAD2_HUMAN	Q15796
+SMAD2/3	FPLX	000443	SMAD2_3
+Smad2/3	FPLX	000443	SMAD2_3
+Smad3	UP	SMAD3_HUMAN	P84022
+Smad4	UP	SMAD4_HUMAN	Q13485
+small HSPs	FPLX	000245	HSPB
+small leucine rich proteoglycan family	FPLX	000435	SLRP
+small leucine rich proteoglycan	FPLX	000435	SLRP
+small leucine rich proteoglycans	FPLX	000435	SLRP
+small leucine-rich proteoglycan family	FPLX	000435	SLRP
+small leucine-rich proteoglycan	FPLX	000435	SLRP
+small leucine-rich proteoglycans	FPLX	000435	SLRP
+SMC1	FPLX	000444	SMC1
+Smc1	FPLX	000444	SMC1
+SNAI family	FPLX	000446	SNAI
+SNAI	FPLX	000446	SNAI
+Snail	UP	SNAI1_HUMAN	O95863
+SOD	FPLX	000447	SOD
+Sorafenib	PUBCHEM	216239	.
+Sorafenib	CHEBI	sorafenib	CHEBI:50924
+sorafenib	PUBCHEM	216239	.
+sorafenib	CHEBI	sorafenib	CHEBI:50924
+SOS	FPLX	000448	SOS
+Sos-1	UP	SOS1_HUMAN	Q07889
+SOS1	UP	SOS1_HUMAN	Q07889
+Sos1	UP	SOS1_HUMAN	Q07889
+SOX2	UP	SOX2_HUMAN	P48431
+Sp1	UP	SP1_HUMAN	P08047
+SP600125	PUBCHEM	8515	.
+SP600125	CHEBI	anthra[1,9-cd]pyrazol-6(2H)-one	CHEBI:90695
+SPC	CHEBI	sphingosine-1-phosphocholine	CHEBI:17689
+SPC	PUBCHEM	9847290	.
+Sphingosine 1-phosphate receptor	FPLX	000427	S1PR
+sphingosine-1-phosphate receptors	FPLX	000427	S1PR
+SPRED	FPLX	000449	SPRED
+SPRY	FPLX	000450	SPRY
+SR Ca(2+)-ATPase	FPLX	000430	SERCA
+Src family kinase	FPLX	000451	SRC
+Src family	FPLX	000451	SRC
+src kinases	FPLX	000451	SRC
+SRC	UP	SRC_HUMAN	P12931
+Src	UP	SRC_HUMAN	P12931
+SRC-family kinases	FPLX	000451	SRC
+Src-kinases	FPLX	000451	SRC
+SREBF family	FPLX	000452	SREBF
+SREBF	FPLX	000452	SREBF
+SRF	UP	SRF_HUMAN	P11831
+StAR	HGNC	11359	STAR
+StAR	UP	STAR_HUMAN	P49675
+STAT	FPLX	000453	STAT
+STAT1	UP	STAT1_HUMAN	P42224
+STAT3	UP	STAT3_HUMAN	P40763
+Stat3	UP	STAT3_HUMAN	P40763
+STAT5	FPLX	000454	STAT5
+Stat5	FPLX	000454	STAT5
+STATs	FPLX	000453	STAT
+Staurosporine	PUBCHEM	44259	.
+Staurosporine	CHEBI	staurosporine	CHEBI:15738
+staurosporine	PUBCHEM	44259	.
+staurosporine	CHEBI	staurosporine	CHEBI:15738
+stearoyl-CoA 9-desaturase	FPLX	000429	SCD
+Stearoyl-CoA desaturase	FPLX	000429	SCD
+stearoyl-CoA desaturase	FPLX	000429	SCD
+sterol regulatory element binding protein	FPLX	000452	SREBF
+sterol regulatory element-binding factor	FPLX	000452	SREBF
+STING	UP	STING_HUMAN	Q86WV6
+STT3	FPLX	000455	STT3
+STZ	PUBCHEM	29327	.
+STZ	UP	SIA4C_HUMAN	Q11206
+succinate dehydrogenase (ubiquinone)	FPLX	000502	ETC_complex_II
+succinate dehydrogenase	FPLX	000502	ETC_complex_II
+Sulfonylurea Receptor	FPLX	000456	Sulfonylurea_receptor
+sulfonylurea receptor	FPLX	000456	Sulfonylurea_receptor
+sulfonylurea receptors	FPLX	000456	Sulfonylurea_receptor
+sulforaphane	PUBCHEM	5350	.
+sulforaphane	CHEBI	sulforaphane	CHEBI:47807
+superoxide	CHEBI	superoxide	CHEBI:18421
+superoxide	PUBCHEM	5359597	.
+SUR	FPLX	000456	Sulfonylurea_receptor
+Survivin	UP	BIRC5_HUMAN	O15392
+survivin	UP	BIRC5_HUMAN	O15392
+SWI and SNF complex	FPLX	000457	SWI_SNF
+SWI/SNF complex	FPLX	000457	SWI_SNF
+SWI/SNF	FPLX	000457	SWI_SNF
+SWI/SNF-like	FPLX	000457	SWI_SNF
+Syk	UP	KSYK_HUMAN	P43405
+SYNJ2	UP	SYNJ2_HUMAN	O15056
+T-cell factor (TCF)/lymphoid enhancer factor	FPLX	000460	TCF_LEF
+TAK1	UP	M3K7_HUMAN	O43318
+TAK165	PUBCHEM	6444692	.
+tamoxifen	PUBCHEM	2733526	.
+tamoxifen	CHEBI	tamoxifen	CHEBI:41774
+TAP transporter	FPLX	000459	TAP
+TAP	FPLX	000459	TAP
+TAp73	UP	P73_HUMAN	O15350
+TAS-116	PUBCHEM	67501411	.
+Tat	UP	TAT_HV1H2	P04608
+tau	UP	TAU_HUMAN	P10636
+Tax	UP	TAX_HTL1A	P03409
+TBK1	UP	TBK1_HUMAN	Q9UHD2
+TCF	FPLX	000460	TCF_LEF
+Tcf	FPLX	000460	TCF_LEF
+Tcf/Lef	FPLX	000460	TCF_LEF
+TCR	FPLX	000461	TCR
+TDRG1	UP	TDRG1_HUMAN	Q3Y452
+telomerase	UP	TERT_HUMAN	O14746
+Temozolomide	CHEBI	temozolomide	CHEBI:72564
+Temozolomide	PUBCHEM	5394	.
+temozolomide	CHEBI	temozolomide	CHEBI:72564
+temozolomide	PUBCHEM	5394	.
+Tenascin	FPLX	000473	TN
+tenascin	FPLX	000473	TN
+TFDP	FPLX	000464	TFDP
+TFIIE	FPLX	000196	GTF2E
+TFIIF	FPLX	000197	GTF2F
+TGF beta receptor	FPLX	000466	TGFBR
+TGF beta	FPLX	000465	TGFB
+TGF β receptor	FPLX	000466	TGFBR
+TGF β	FPLX	000465	TGFB
+TGF-alpha	UP	TGFA_HUMAN	P01135
+TGF-b	FPLX	000465	TGFB
+TGF-beta family	FPLX	000465	TGFB
+TGF-beta receptor	FPLX	000466	TGFBR
+TGF-beta receptors	FPLX	000466	TGFBR
+TGF-beta	FPLX	000465	TGFB
+TGF-beta1	UP	TGFB1_HUMAN	P01137
+TGF-β receptor	FPLX	000466	TGFBR
+TGF-β receptors	FPLX	000466	TGFBR
+TGF-β	FPLX	000465	TGFB
+TGF-α	UP	TGFA_HUMAN	P01135
+TGF-β1	UP	TGFB1_HUMAN	P01137
+TGFalpha	UP	TGFA_HUMAN	P01135
+TGFB family	FPLX	000465	TGFB
+TGFB	FPLX	000465	TGFB
+TGFbeta	FPLX	000465	TGFB
+TGFbeta1	UP	TGFB1_HUMAN	P01137
+TGFBR family	FPLX	000466	TGFBR
+TGFBR	FPLX	000466	TGFBR
+TGFβ receptor	FPLX	000466	TGFBR
+TGFβ receptors	FPLX	000466	TGFBR
+TGFβ	FPLX	000465	TGFB
+TGFα	UP	TGFA_HUMAN	P01135
+TGFβ1	UP	TGFB1_HUMAN	P01137
+thapsigargin	PUBCHEM	446378	.
+thapsigargin	CHEBI	thapsigargin	CHEBI:9516
+Thioredoxin reductase	FPLX	000488	TXNRD
+thioredoxin reductase	FPLX	000488	TXNRD
+Thioredoxin	FPLX	000487	TXN
+thioredoxin	FPLX	000487	TXN
+Thioredoxin	UP	THIO_HUMAN	P10599
+thioredoxin	UP	THIO_HUMAN	P10599
+thioredoxins	FPLX	000487	TXN
+thrombin	IP	IPR003966	.
+thrombin	UP	THRB_HUMAN	P00734
+thrombin-anti-thrombin III complexes	FPLX	000469	Thrombin_antithrombin
+thrombospondin protein	FPLX	000467	THBS
+Thrombospondin	FPLX	000467	THBS
+thrombospondin	FPLX	000467	THBS
+Thrombospondins	FPLX	000467	THBS
+thrombospondins	FPLX	000467	THBS
+thyroid hormone receptor	FPLX	000468	THR
+TIAM	FPLX	000470	TIAM
+TIAM1	UP	TIAM1_HUMAN	Q13009
+Tiam1	UP	TIAM1_HUMAN	Q13009
+TIAM2	UP	TIAM2_HUMAN	Q8IVF5
+Tiam2	UP	TIAM2_HUMAN	Q8IVF5
+TIF-IB	FPLX	000471	TIF_IB
+tipifarnib	PUBCHEM	159324	.
+tipifarnib	CHEBI	tipifarnib	CHEBI:141969
+tissue kallikrein	FPLX	000271	KLK
+tissue kallikreins	FPLX	000271	KLK
+TLR	FPLX	000472	TLR
+TLR2	UP	TLR2_HUMAN	O60603
+TLR4	UP	TLR4_HUMAN	O00206
+TMZ	CHEBI	temozolomide	CHEBI:72564
+TMZ	PUBCHEM	5394	.
+TN-C	FPLX	000478	Troponin_C
+TnC	FPLX	000478	Troponin_C
+TNF	UP	TNFA_HUMAN	P01375
+TNF-alpha	UP	TNFA_HUMAN	P01375
+TNF-R superfamily	FPLX	000475	TNFRSF
+TNF-receptor family	FPLX	000475	TNFRSF
+TNF-α	UP	TNFA_HUMAN	P01375
+TNFalpha	UP	TNFA_HUMAN	P01375
+TNFR family	FPLX	000475	TNFRSF
+TNFR subfamily	FPLX	000475	TNFRSF
+TNFR superfamily members	FPLX	000475	TNFRSF
+TNFR superfamily receptors	FPLX	000475	TNFRSF
+TNFR superfamily	FPLX	000475	TNFRSF
+TNFR	FPLX	000475	TNFRSF
+TNFR1	UP	TNR1A_HUMAN	P19438
+TNFα	UP	TNFA_HUMAN	P01375
+topoisomerase II	FPLX	000476	TOP2
+TORC1	FPLX	000293	mTORC1
+TORC2	FPLX	000294	mTORC2
+TP53	UP	P53_HUMAN	P04637
+TPA	PUBCHEM	27924	.
+TPA	CHEBI	phorbol 13-acetate 12-myristate	CHEBI:37537
+Tpl2	HGNC	6860	MAP3K8
+TPNI	FPLX	000479	Troponin_I
+TPNT	FPLX	000480	Troponin_T
+TQ	PUBCHEM	10281	.
+TQ	CHEBI	2-methyl-5-propan-2-ylcyclohexa-2,5-diene-1,4-dione	CHEBI:113532
+TRAF2	UP	TRAF2_HUMAN	Q12933
+TRAF3	UP	TRAF3_HUMAN	Q13114
+TRAF6	UP	TRAF6_HUMAN	Q9Y4K3
+TRAIL	UP	TNF10_HUMAN	P50591
+trametinib	CHEBI	trametinib	CHEBI:75998
+trametinib	PUBCHEM	11707110	.
+Transcription factor AP-2	FPLX	000463	TFAP2
+transcription factor AP-2	FPLX	000463	TFAP2
+transcription factor DP	FPLX	000464	TFDP
+transcription factor II E	FPLX	000196	GTF2E
+transcription factor II F	FPLX	000197	GTF2F
+transcription factor IIE	FPLX	000196	GTF2E
+transcription factor IIF	FPLX	000197	GTF2F
+transcription	GO	transcription, DNA-templated	GO:0006351
+transcription	MESH	Transcription, Genetic	D014158
+transcriptional cofactor complex CRSP	FPLX	000122	CRSP
+transforming growth factor beta	FPLX	000465	TGFB
+transforming growth factor β	FPLX	000465	TGFB
+transforming growth factor-beta	FPLX	000465	TGFB
+transforming growth factor-β	FPLX	000465	TGFB
+translation	GO	translation	GO:0006412
+translation	MESH	Protein Biosynthesis	D014176
+transport	GO	transport	GO:0006810
+trastuzumab	MESH	Trastuzumab	D000068878
+trastuzumab	CHEMBL	1201585	.
+TRiC	FPLX	000085	CCT_complex
+TRIM	UP	TRAT1_HUMAN	Q6PIZ9
+Trk receptor	FPLX	000321	NTRK
+trk receptor	FPLX	000321	NTRK
+Trk receptors	FPLX	000321	NTRK
+trk receptors	FPLX	000321	NTRK
+TrkA	UP	NTRK1_HUMAN	P04629
+TrkB	UP	NTRK2_HUMAN	Q16620
+troponin C	FPLX	000478	Troponin_C
+troponin complex	FPLX	000477	Troponin
+troponin I	FPLX	000479	Troponin_I
+troponin T	FPLX	000480	Troponin_T
+troponin	FPLX	000477	Troponin
+troponins	FPLX	000477	Troponin
+trypsin	CHEBI	Trypsin	CHEBI:9765
+Tryptase	FPLX	000481	Tryptase
+tryptase	FPLX	000481	Tryptase
+tryptases	FPLX	000481	Tryptase
+TSA	PUBCHEM	444732	.
+TSA	CHEBI	trichostatin A	CHEBI:46024
+TSC	FPLX	000482	TSC
+TSC1	UP	TSC1_HUMAN	Q92574
+TSC2	UP	TSC2_HUMAN	P49815
+TUBA	FPLX	000483	TUBA
+TUBB	FPLX	000484	TUBB
+tuberin	UP	TSC2_HUMAN	P49815
+tubulin alpha chain	FPLX	000483	TUBA
+tubulin beta chain	FPLX	000484	TUBB
+tubulin beta	FPLX	000484	TUBB
+tubulin delta	HGNC	16811	TUBD1
+tubulin epsilon	HGNC	20775	TUBE1
+tubulin gamma	FPLX	000485	TUBG
+tubulin α chain	FPLX	000483	TUBA
+tubulin β chain	FPLX	000484	TUBB
+tubulin β	FPLX	000484	TUBB
+tubulin γ	FPLX	000485	TUBG
+tubulin δ	HGNC	16811	TUBD1
+tubulin ε	HGNC	20775	TUBE1
+tubulin	FPLX	000486	Tubulin
+tumor necrosis factor	UP	TNFA_HUMAN	P01375
+tumorigenesis	MESH	Carcinogenesis	D063646
+tunicamycin	CHEBI	tunicamycin	CHEBI:29699
+tunicamycin	PUBCHEM	56927680	.
+type 2 phosphatidic acid phosphatase	FPLX	000374	PPAP2
+type 2 phosphatidic acid phosphatases	FPLX	000374	PPAP2
+type 4 cyclic nucleotide phosphodiesterase	FPLX	000338	PDE4
+Type I collagen	FPLX	000109	COL1
+type I collagen	FPLX	000109	COL1
+type II phosphatidic acid phosphatase	FPLX	000374	PPAP2
+type II phosphatidic acid phosphatases	FPLX	000374	PPAP2
+type V collagen	FPLX	000111	COL5
+type-V collagen	FPLX	000111	COL5
+U0126	PUBCHEM	3006531	.
+U0126	CHEBI	U0126	CHEBI:90693
+Ub	FPLX	000490	Ubiquitin
+ub	FPLX	000490	Ubiquitin
+UBE2	FPLX	000489	UBE2
+ubiquitin conjugating enzyme	FPLX	000489	UBE2
+Ubiquitin	FPLX	000490	Ubiquitin
+ubiquitin	FPLX	000490	Ubiquitin
+ubiquitin-conjugating enzymes	FPLX	000489	UBE2
+UGT	FPLX	000492	UGT
+uPA	UP	UROK_HUMAN	P00749
+uPAR	UP	UPAR_HUMAN	Q03405
+vascular endothelial growth factor	FPLX	000495	VEGF
+VAV family	FPLX	000494	VAV
+Vav	FPLX	000494	VAV
+Vav1	UP	VAV_HUMAN	P15498
+VCAM-1	UP	VCAM1_HUMAN	P19320
+VEGF receptor	FPLX	000496	VEGFR
+VEGF receptors	FPLX	000496	VEGFR
+VEGF	FPLX	000495	VEGF
+VEGF-A	UP	VEGFA_HUMAN	P15692
+VEGFR ligand	FPLX	000496	VEGFR
+VEGFR	FPLX	000496	VEGFR
+VEGFR-2	UP	VGFR2_HUMAN	P35968
+VEGFR2	UP	VGFR2_HUMAN	P35968
+VEGFRs	FPLX	000496	VEGFR
+Vemurafenib	PUBCHEM	42611257	.
+Vemurafenib	CHEBI	vemurafenib	CHEBI:63637
+vemurafenib	PUBCHEM	42611257	.
+vemurafenib	CHEBI	vemurafenib	CHEBI:63637
+vitronectin receptor (integrin)	FPLX	000261	Integrins
+VLDL	CHEBI	very-low-density lipoprotein	CHEBI:39027
+vorinostat	PUBCHEM	5311	.
+vorinostat	CHEBI	vorinostat	CHEBI:45716
+VPA	PUBCHEM	3121	.
+VPA	CHEBI	valproic acid	CHEBI:39867
+Vpr	UP	VPR_HV1BR	P05928
+Vpu	UP	VPU_HV1H2	P05919
+WA	PUBCHEM	265237	.
+WA	CHEBI	withaferin A	CHEBI:69120
+wild type c-Cbl	UP	CBL_HUMAN	P22681
+WNT	FPLX	000497	Wnt
+Wnt	FPLX	000497	Wnt
+Wnt5a	UP	WNT5A_HUMAN	P41221
+wogonin	PUBCHEM	5281703	.
+wogonin	CHEBI	wogonin	CHEBI:10043
+XIAP	UP	XIAP_HUMAN	P98170
+XYLT	FPLX	000185	GCNT
+Xylosyltransferase	FPLX	000185	GCNT
+Xylosyltransferases	FPLX	000185	GCNT
+xylosyltransferase	FPLX	000185	GCNT
+xylosyltransferases	FPLX	000185	GCNT
+Y box binding protein	FPLX	000498	YBX
+Y-box-binding protein	FPLX	000498	YBX
+YAP	UP	YAP1_HUMAN	P46937
+YAP1	UP	YAP1_HUMAN	P46937
+YBX protein family	FPLX	000498	YBX
+ZEB1	UP	ZEB1_HUMAN	P37275
+Zeb1	UP	ZEB1_HUMAN	P37275
+β adrenergic receptor kinase	FPLX	000022	ADRBK
+α catenin	FPLX	000126	CTNNA
+β interferons	FPLX	000247	IFNB
+γ secretase	FPLX	000181	Gamma_secretase
+α tubulin	FPLX	000483	TUBA
+γ tubulin	FPLX	000485	TUBG
+α(2)-adrenoceptors	FPLX	000020	ADRA2
+α(2)-ARs	FPLX	000020	ADRA2
+α-adrenergic receptor	FPLX	000019	ADRA
+β-adrenergic receptor	FPLX	000021	ADRB
+α-adrenoreceptor	FPLX	000019	ADRA
+β-adrenoreceptor	FPLX	000021	ADRB
+α-adrenoreceptors	FPLX	000019	ADRA
+γ-aminobutyric-acid A receptor	FPLX	000179	GABR
+α-catenin	FPLX	000126	CTNNA
+β-catenin	UP	CTNB1_HUMAN	P35222
+β-TrCP	UP	FBW1A_HUMAN	Q9Y297
+γ-tubulin	FPLX	000485	TUBG
+δ-tubulin	HGNC	16811	TUBD1
+ε-tubulin	HGNC	20775	TUBE1
+α1β1γ1	FPLX	000032	AMPK_A1B1G1
+α1β1γ2	FPLX	000033	AMPK_A1B1G2
+α1β1γ3	FPLX	000034	AMPK_A1B1G3
+α1β2γ1	FPLX	000035	AMPK_A1B2G1
+α1β2γ2	FPLX	000036	AMPK_A1B2G2
+α2-AR	FPLX	000020	ADRA2
+α2β1γ1	FPLX	000038	AMPK_A2B1G1
+α2β2γ1	FPLX	000041	AMPK_A2B2G1
+α2β2γ2	FPLX	000042	AMPK_A2B2G2
+α2β2γ3	FPLX	000043	AMPK_A2B2G3
+βAR	FPLX	000021	ADRB
+βARK	FPLX	000022	ADRBK
+receptor	GO	signaling receptor activity	GO:0038023
+eGFR	MESH	Glomerular Filtration Rate	D005919
+CDK1/2	FPLX	000093	CDK1_2
+cdk1/2	FPLX	000093	CDK1_2
+Cdk1/2	FPLX	000093	CDK1_2
+cell migration	MESH	Cell Movement	D002465
+cell migration	NCIT	C26169	.
+cell migration	GO	cell migration	GO:0016477
+cell motility	MESH	Cell Movement	D002465
+cell motility	NCIT	C16404	.
+cell motility	GO	cell motility	GO:0048870
+Chk1/2	FPLX	000098	CHEK
+chromosomal instability	MESH	Chromosomal Instability	D043171
+chromosomal instability	NCIT	C48195	.
+chromosomal instabiliy	MESH	Chromosomal Instability	D043171
+chromosomal instabiliy	NCIT	C48195	.
+CIN	MESH	Chromosomal Instability	D043171
+CIN	NCIT	C48195	.
+CycK	HGNC	1596	CCNK
+CycK1	HGNC	1596	CCNK
+dinaciclib	PUBCHEM	46926350	.
+dinaciclib	CHEMBL	CHEMBL2103840	.
+dinaciclib	CHEBI	2-[(2S)-1-[3-ethyl-7-[(1-oxido-3-pyridin-1-iumyl)methylamino]-5-pyrazolo[1,5-a]pyrimidinyl]-2-piperidinyl]ethanol	CHEBI:95060
+Dinaciclib	PUBCHEM	46926350	.
+Dinaciclib	CHEMBL	CHEMBL2103840	.
+Dinaciclib	CHEBI	2-[(2S)-1-[3-ethyl-7-[(1-oxido-3-pyridin-1-iumyl)methylamino]-5-pyrazolo[1,5-a]pyrimidinyl]-2-piperidinyl]ethanol	CHEBI:95060
+Ebp1	HGNC	8550	PA2G4
+EBP1	HGNC	8550	PA2G4
+erbB	FPLX	000160	ERBB
+Fer-1	PUBCHEM	4068248	.
+HK2	HGNC	4923	HK2
+NLE	CHEBI	azadirachtin	CHEBI:38473
+PD-1	UP	PDCD1_HUMAN	Q15116
+PD-1	HGNC	8760	PDCD1
+Se	PUBCHEM	6326970	.
+Se	CHEBI	selenium atom	CHEBI:27568
+THZ531	PUBCHEM	118025540	.
+THZ531	CHEBI	THZ531	CHEBI:143122
+Hh	FPLX	000226	Hedgehog
+SIK	FPLX	000433	SIK
+salt inducible kinase	FPLX	000433	SIK
+Sik	UP	PTK6_MOUSE	Q64434
+DYRK	FPLX	000146	DYRK
+Augmin	FPLX	000061	Augmin
+HAUS	FPLX	000061	Augmin
+HAUS complex	FPLX	000061	Augmin
+CRTC	FPLX	000123	CRTC

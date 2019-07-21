@@ -1,0 +1,710 @@
+{
+  "Time Exported": "Sun Jul 21 17:01:05 2019",
+  "Unlabelled Groundings": [
+    {
+      "db": "CHEMBL",
+      "db_id": "1201577"
+    },
+    {
+      "db": "CHEMBL",
+      "db_id": "1201585"
+    },
+    {
+      "db": "CHEMBL",
+      "db_id": "CHEMBL2103840"
+    },
+    {
+      "db": "CHEMBL",
+      "db_id": "CHEMBL402548"
+    },
+    {
+      "db": "CHEMBL",
+      "db_id": "CHEMBL98"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00045"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00058"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00108"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00122"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00125"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00220"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00221"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00464"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB00538"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB01201"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB01273"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB01377"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB03378"
+    },
+    {
+      "db": "HMDB",
+      "db_id": "HMDB06219"
+    },
+    {
+      "db": "IP",
+      "db_id": "IPR000529"
+    },
+    {
+      "db": "IP",
+      "db_id": "IPR003966"
+    },
+    {
+      "db": "IP",
+      "db_id": "IPR015503"
+    },
+    {
+      "db": "LINCS",
+      "db_id": "10023-103"
+    },
+    {
+      "db": "LINCS",
+      "db_id": "10133-101"
+    },
+    {
+      "db": "LINCS",
+      "db_id": "10232-101"
+    },
+    {
+      "db": "LNCRNADB",
+      "db_id": "HOTAIR"
+    },
+    {
+      "db": "NCIT",
+      "db_id": "C16404"
+    },
+    {
+      "db": "NCIT",
+      "db_id": "C26169"
+    },
+    {
+      "db": "NCIT",
+      "db_id": "C48195"
+    },
+    {
+      "db": "NONCODE",
+      "db_id": "NONHSAT028507.2"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "10127622"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "10184653"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "10281"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "10494"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "10836"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "11302"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "11442891"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "11707110"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "118025540"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "11977753"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "123631"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "124886"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "135398619"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "135398633"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "135398634"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "135565635"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "145068"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "148124"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "1548943"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "159324"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "161468"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "16755649"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "176155"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "176870"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "208908"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "216239"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2214"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2244"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2346"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2353"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "23925"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "23973"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "24775005"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2519"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "25227462"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "265237"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2662"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "27099"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "271"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2733526"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "27854"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "27924"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "280"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "281"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2871439"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "2912"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "29327"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "3006531"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "3062316"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "3121"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "31703"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "3218"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "3220"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "36462"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "370"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "375150"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "3763"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "387447"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "4068248"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "4091"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "42611257"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "441203"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "442534"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "44259"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "443227"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "44462760"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "444732"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "444795"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "445154"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "446220"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "446378"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "446512"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "462382"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "46907787"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "46926350"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "479503"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "4878"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "518605"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5280343"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5280443"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5280445"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5280805"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5280896"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5280961"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281222"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281611"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281612"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281614"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281647"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281703"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281787"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5281847"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5284373"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5284616"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5291"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5311"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5350"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5352425"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5359596"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5359597"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5394"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "544"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "54454"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "54671203"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5469318"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5538"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "56927680"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5743"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5746"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5839"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5884"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5957"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5994"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "5997"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6022"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6026790"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6076"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6083"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6112"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6325610"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6326970"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6442177"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6444692"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "65064"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "65110"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6623"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "67501411"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "681"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6857599"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "68827"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "6918483"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "702"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "73659"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "77999"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "784"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "8144759"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "8249"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "8515"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "896"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "91435"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "969516"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "977"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "9811784"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "9847290"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "985"
+    },
+    {
+      "db": "PUBCHEM",
+      "db_id": "9887712"
+    }
+  ],
+  "Unlabelled Relations": []
+}
