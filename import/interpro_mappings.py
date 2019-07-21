@@ -1,4 +1,5 @@
 import json
+import os
 from collections import defaultdict
 from indra.statements import Agent
 from indra.databases import hgnc_client
@@ -9,7 +10,7 @@ from indra.databases import uniprot_client
 import common
 
 def get_ip_families_for_be(be_up_ids, cache_file=None):
-    if cache_file is not None:
+    if cache_file is not None and os.path.exists(cache_file):
         with open(cache_file, 'rt') as f:
             ipfs = [line.strip() for line in f.readlines()]
         return ipfs

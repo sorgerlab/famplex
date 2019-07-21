@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 import requests
 from functools import lru_cache
 from collections import defaultdict
@@ -136,7 +137,7 @@ def get_all_parents(up_id):
 def get_rx_family_members(up_ids, cache_file=None):
     """Get dictionary mapping Reactome sets/complexes to member Uniprot IDs."""
     # Check to see if we're loading from a cache
-    if cache_file is not None:
+    if cache_file is not None and os.path.exists(cache_file):
         with open(cache_file, 'rt') as f:
             rx_family_members = json.load(f)
         return rx_family_members
