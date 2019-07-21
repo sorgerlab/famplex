@@ -10,15 +10,15 @@ script:
   - pwd
   - echo $TRAVIS_BUILD_DIR
   - export PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/indra
-  - python check_references.py
-  - python export/relations_graph.py
+  - python famplex/check_references.py
+  - python famplex/export/export_relations_graph.py
   # test if exports have been updated
   # bel_resources must be installed to generate belns exports
   # generate exports then take git diff and look only at lines that changed
   # lines containing date, timestamp, or version should be ignored
-  - python famplex/export/obo.py
+  - python famplex/export/export_obo.py
   - python famplex/export/hgnc_ids.py
-  - python famplex/export/belns.py
+  - python famplex/export/export_belns.py
   - export belns_diff=$(git diff -U0 export/famplex.belns | egrep "^[\+-][^\+-]")
   - export belns=$(echo "$belns_diff" | egrep -v "^[\+-](VersionString|CreatedDateTime)")
   - export obo_diff=$(git diff -U0 export/famplex.obo | egrep "^[\+-][^\+-]")
