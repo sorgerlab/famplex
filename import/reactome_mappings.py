@@ -1,24 +1,24 @@
-import csv
 import json
 import os
-import requests
-from functools import lru_cache
 from collections import defaultdict
+from functools import lru_cache
 
-import common
+import requests
+
+from common import get_child_map, jaccard_index
 
 
 @lru_cache(10000)
 def rx_id_from_up_id(up_id):
     """Get the Reactome Stable ID for a given Uniprot ID."""
     react_search_url = 'http://www.reactome.org/ContentService/search/query'
-    params = {'query': up_id, 'cluster': 'true', 'species':'Homo sapiens'}
+    params = {'query': up_id, 'cluster': 'true', 'species': 'Homo sapiens'}
     headers = {'Accept': 'application/json'}
     res = requests.get(react_search_url, headers=headers, params=params)
     if not res.status_code == 200:
         return None
-    json = res.json()
-    results = json.get('results')
+    res_json = res.json()
+    results = res_json.get('results')
     if not results:
         print('No results for %s' % up_id)
         return None
@@ -54,16 +54,16 @@ def up_id_from_rx_id(reactome_id):
 
 @lru_cache(10000)
 def get_participants(reactome_id):
-    """Get Uniprot IDs of members of a Reactome DefinedSet or CandidateSet."""
+    """Get UniProt IDs of members of a Reactome DefinedSet or CandidateSet."""
     react_url = 'http://www.reactome.org/ContentService/data/event/' \
                 + reactome_id + '/participatingReferenceEntities'
     headers = {'Accept': 'application/json'}
     res = requests.get(react_url, headers=headers)
     if not res.status_code == 200:
         return []
-    json = res.json()
+    res_json = res.json()
     up_ids = []
-    for res in json:
+    for res in res_json:
         if not res.get('databaseName') == 'UniProt':
             continue
         up_id = res.get('identifier')
@@ -74,16 +74,16 @@ def get_participants(reactome_id):
 
 @lru_cache(10000)
 def get_subunits(complex_id):
-    """Get Uniprot IDs of subunits of a Reactome Complex."""
+    """Get UniProt IDs of subunits of a Reactome Complex."""
     react_url = 'http://www.reactome.org/ContentService/data/complex/' \
                 + complex_id + '/subunits'
     headers = {'Accept': 'application/json'}
     res = requests.get(react_url, headers=headers)
     if not res.status_code == 200:
         return []
-    json = res.json()
+    res_json = res.json()
     up_ids = []
-    for subunit in json:
+    for subunit in res_json:
         subunit_rx_id = subunit.get('stId')
         if not subunit_rx_id:
             continue
@@ -95,20 +95,19 @@ def get_subunits(complex_id):
 
 @lru_cache(10000)
 def _get_parents(stable_id):
-    """Recursively get all parents of a Reactome ID."""
+    """Get all parents of a Reactome ID recursively."""
     react_data_url = 'http://www.reactome.org/ContentService/data/entity/' + \
                      stable_id + '/componentOf'
     headers = {'Accept': 'application/json'}
     res = requests.get(react_data_url, headers=headers)
     if not res.status_code == 200:
         return []
-    json = res.json()
+    res_json = res.json()
     names = []
     stable_ids = []
     schema_classes = []
-    for parent_group in json:
-        if not parent_group.get('type') in \
-                            ['hasComponent', 'hasMember', 'hasCandidate']:
+    for parent_group in res_json:
+        if not parent_group.get('type') in ['hasComponent', 'hasMember', 'hasCandidate']:
             continue
         names += parent_group.get('names')
         stable_ids += parent_group.get('stIds')
@@ -122,10 +121,10 @@ def _get_parents(stable_id):
 
 @lru_cache(10000)
 def get_all_parents(up_id):
-    """Get all parents for all Reactome IDs linked to a Uniprot ID."""
+    """Get all parents for all Reactome IDs linked to a UniProt ID."""
     linked_stable_ids = rx_id_from_up_id(up_id)
     if linked_stable_ids is None:
-        return ([], [])
+        return [], []
     parents = []
     for ls_id in linked_stable_ids:
         parents += _get_parents(ls_id)
@@ -134,8 +133,8 @@ def get_all_parents(up_id):
     return sets, complexes
 
 
-def get_rx_family_members(up_ids, cache_file=None):
-    """Get dictionary mapping Reactome sets/complexes to member Uniprot IDs."""
+def get_rx_family_members(fplx_id_to_children, cache_file=None):
+    """Get dictionary mapping Reactome sets/complexes to member UniProt IDs."""
     # Check to see if we're loading from a cache
     if cache_file is not None and os.path.exists(cache_file):
         with open(cache_file, 'rt') as f:
@@ -144,12 +143,12 @@ def get_rx_family_members(up_ids, cache_file=None):
 
     # Not cached, get members from the Reactome web service
     rx_family_members = {}
-    for be_id, children_up_ids in be_child_map.items():
-        print("Getting family info for %s" % be_id)
+    for fplx_id, up_ids in fplx_id_to_children.items():
+        print("Getting family info for FPLX:%s" % fplx_id)
         # For every child, get all parents in Reactome
         rx_sets = set([])
         rx_complexes = set([])
-        for up_id in children_up_ids:
+        for up_id in up_ids:
             sets, complexes = get_all_parents(up_id)
             rx_sets = rx_sets.union(sets)
             rx_complexes = rx_complexes.union(complexes)
@@ -170,8 +169,10 @@ def get_rx_family_members(up_ids, cache_file=None):
                       (rx_type, name, rx_id))
                 continue
             # Save info in dict
-            rx_family_members[rx_id] = {'name': name, 'type': rx_type,
-                                        'members': list(rx_members)}
+            rx_family_members[rx_id] = {
+                'name': name, 'type': rx_type,
+                'members': list(rx_members)
+            }
     # Save to JSON
     with open('rx_family_members.json', 'wt') as f:
         json.dump(rx_family_members, f, indent=2)
@@ -179,13 +180,14 @@ def get_rx_family_members(up_ids, cache_file=None):
     return rx_family_members
 
 
-def get_mappings(be_child_map, rx_family_members, jaccard_cutoff=1.):
+def get_mappings(fplx_id_to_children, rx_family_members, jaccard_cutoff=1.):
     """Find matches between FPLX and Reactome families/complexes."""
     mappings = defaultdict(list)
-    for be_id, be_children in be_child_map.items():
+
+    for fplx_id, up_ids in fplx_id_to_children.items():
         # Skip empty sets
-        be_set = set(be_children)
-        if not be_set:
+        up_ids = set(up_ids)
+        if not up_ids:
             continue
         for rx_id, rx_info in rx_family_members.items():
             rx_name = rx_info['name']
@@ -194,24 +196,32 @@ def get_mappings(be_child_map, rx_family_members, jaccard_cutoff=1.):
             # Skip empty sets
             if not rx_set:
                 continue
-            jacc = common.jaccard_index(be_set, rx_set)
+            jacc = jaccard_index(up_ids, rx_set)
             if jacc >= jaccard_cutoff:
-                mapping = {'reactomeId': rx_id, 'reactomeType': rx_type,
-                           'reactomeName': rx_name,
-                           'reactomeMembers': list(rx_set),
-                           'jaccardIndex': jacc}
-                mappings[be_id].append(mapping)
-        if be_id in mappings:
-            mappings[be_id].sort(key=lambda d: d['jaccardIndex'], reverse=True)
-    return mappings
+                mappings[fplx_id].append({
+                    'reactomeId': rx_id,
+                    'reactomeType': rx_type,
+                    'reactomeName': rx_name,
+                    'reactomeMembers': list(rx_set),
+                    'jaccardIndex': jacc,
+                })
+
+        if fplx_id in mappings:
+            mappings[fplx_id].sort(key=lambda d: d['jaccardIndex'], reverse=True)
+
+    return dict(mappings)
+
+
+def main():
+    fplx_child_map = get_child_map()
+    rx_family_members = get_rx_family_members(
+        fplx_child_map,
+        cache_file='rx_family_members.json',
+    )
+    mappings = get_mappings(fplx_child_map, rx_family_members, jaccard_cutoff=1.)
+    with open('reactome_mappings.json', 'wt') as f:
+        json.dump(mappings, f, indent=2)
 
 
 if __name__ == '__main__':
-    be_child_map = common.get_child_map()
-    be_up_ids = [up_id for child_list in be_child_map.values()
-                       for up_id in child_list]
-    rx_family_members = get_rx_family_members(be_up_ids,
-                                          cache_file='rx_family_members.json')
-    mappings = get_mappings(be_child_map, rx_family_members, jaccard_cutoff=1.)
-    with open('reactome_mappings.json', 'wt') as f:
-        json.dump(mappings, f, indent=2)
+    main()

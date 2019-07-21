@@ -4,15 +4,17 @@ and their capitalized versions with the corresponding unicode
 character, and add en entry to the grounding map for each of these
 if they aren't already in there"""
 
-import os
 import csv
+import os
+
 from indra.resources.greek_alphabet import greek_alphabet
 
 # These are the characters that are spelled out and we want to map
 chars_to_map = ['alpha', 'beta', 'gamma', 'delta', 'epsilon', 'kappa', 'theta']
 greek_reverse = {v: k for k, v in greek_alphabet.items()}
 
-if __name__ == '__main__':
+
+def main():
     path_this = os.path.dirname(os.path.abspath(__file__))
     gm_file = os.path.join(path_this, os.pardir, 'grounding_map.csv')
     new_rows = []
@@ -53,3 +55,5 @@ if __name__ == '__main__':
             csvwriter.writerow(row)
 
 
+if __name__ == '__main__':
+    main()
