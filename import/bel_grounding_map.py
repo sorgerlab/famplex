@@ -1,6 +1,7 @@
-from common import *
+from common import load_entity_list, load_equivalences, load_grounding_map
 
-if __name__ == '__main__':
+
+def main():
     equivalences = load_equivalences('../equivalences.csv')
     has_bel_mapping = set()
     for source_db, source_id, be_id in equivalences:
@@ -40,3 +41,7 @@ if __name__ == '__main__':
 
     bel_to_lookup = sorted(bel_counts.items(), key=lambda x: x[1], reverse=True)
     bel_to_lookup = [b for b in bel_to_lookup if b[1] > 0]
+
+
+if __name__ == '__main__':
+    main()

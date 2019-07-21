@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:07:2019 18:51
+date: 21:07:2019 16:45
  
 [Typedef]
 id: part_of
@@ -3946,9 +3946,9 @@ xref: MEDSCAN:urn:agi-protfc:histone%20H2A
 xref: NCIT:C16684
 xref: NEXTPROT-FAMILY:01762
 is_a: FPLX:000233 ! Histone
-relationship: inverse_is_a UP:P0C0S8 ! H2A1_HUMAN
+relationship: inverse_is_a UP:H2A1_HUMAN ! P0C0S8
 relationship: inverse_is_a HGNC:22516 ! H2AFB1
-relationship: inverse_is_a UP:P0C5Y9 ! H2AB1_HUMAN
+relationship: inverse_is_a UP:H2AB1_HUMAN ! P0C5Y9
 relationship: inverse_is_a HGNC:14456 ! H2AFJ
 relationship: inverse_is_a HGNC:20664 ! H2AFV
 relationship: inverse_is_a HGNC:4739 ! H2AFX
@@ -3963,8 +3963,8 @@ relationship: inverse_is_a HGNC:4727 ! HIST1H2AJ
 relationship: inverse_is_a HGNC:20508 ! HIST2H2AB
 relationship: inverse_is_a HGNC:4738 ! HIST2H2AC
 relationship: inverse_is_a HGNC:20507 ! HIST3H2A
-relationship: inverse_is_a UP:P04908 ! H2A1B_HUMAN
-relationship: inverse_is_a UP:Q6FI13 ! H2A2A_HUMAN
+relationship: inverse_is_a UP:H2A1B_HUMAN ! P04908
+relationship: inverse_is_a UP:H2A2A_HUMAN ! Q6FI13
 
 [Term]
 id: FPLX:000236
@@ -3974,7 +3974,7 @@ synonym: "histone H2B" EXACT []
 xref: BEL:"Histone H2B Family"
 xref: MEDSCAN:urn:agi-protfc:histone%20H2B
 is_a: FPLX:000233 ! Histone
-relationship: inverse_is_a UP:P62807 ! H2B1C_HUMAN
+relationship: inverse_is_a UP:H2B1C_HUMAN ! P62807
 relationship: inverse_is_a HGNC:18730 ! HIST1H2BA
 relationship: inverse_is_a HGNC:4751 ! HIST1H2BB
 relationship: inverse_is_a HGNC:4747 ! HIST1H2BD
@@ -4006,10 +4006,10 @@ xref: MEDSCAN:urn:agi-protfc:histone%20H3
 xref: NCIT:C16685
 xref: NEXTPROT-FAMILY:01764
 is_a: FPLX:000233 ! Histone
-relationship: inverse_is_a UP:P68431 ! H31_HUMAN
-relationship: inverse_is_a UP:Q71DI3 ! H32_HUMAN
+relationship: inverse_is_a UP:H31_HUMAN ! P68431
+relationship: inverse_is_a UP:H32_HUMAN ! Q71DI3
 relationship: inverse_is_a HGNC:4778 ! HIST3H3
-relationship: inverse_is_a UP:P84243 ! H33_HUMAN
+relationship: inverse_is_a UP:H33_HUMAN ! P84243
 relationship: inverse_is_a HGNC:33164 ! H3F3C
 
 [Term]
@@ -4022,7 +4022,7 @@ xref: MEDSCAN:urn:agi-protfc:histone%20H4
 xref: NCIT:C16686
 xref: NEXTPROT-FAMILY:01765
 is_a: FPLX:000233 ! Histone
-relationship: inverse_is_a UP:P62805 ! H4_HUMAN
+relationship: inverse_is_a UP:H4_HUMAN ! P62805
 relationship: inverse_is_a HGNC:4792 ! HIST1H4G
 
 [Term]

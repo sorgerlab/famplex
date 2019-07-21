@@ -31,6 +31,10 @@ the FamPlex namespace.
 
 * ```entities.csv```. A registry of the families and complexes defined in the
   FamPlex namespace.
+  
+* ```descriptions.csv```. Descriptions and citations of some entities. Contains
+  three columns: the FamPlex name, comma separated reference CURIEs, and a 
+  textual description.
 
 * ```grounding_map.csv```. Explicit mapping of text strings to identifiers in
   biological databases.
@@ -61,7 +65,7 @@ relationships, including sub-families (families within families) and complexes
 consisting of families of related subunits (e.g., PI3K, NF-kB).
 
 The ```relations.csv``` file consists of five columns: (1) the namespace for
-the subject (e.g., ```HGNC``` for gene names, ```UP``` for Uniprot, or
+the subject (e.g., ```HGNC``` for gene names, ```UP``` for UniProt, or
 ```FPLX``` for the FamPlex namespace), (2) the identifier for the subject,
 (3) the relationship (```isa``` or ```partof```), (4) the namespace for the
 object, and (5) the identifier for the object.
@@ -87,10 +91,10 @@ cancer.
 
 Entities are grounded to the following databases:
 
-* Genes/proteins: [Uniprot](http://www.uniprot.org)
+* Genes/proteins: [UniProt](http://www.uniprot.org)
 
 * Chemicals: [PubChem](https://pubchem.ncbi.nlm.nih.gov/),
-  [CHEBI](https://www.ebi.ac.uk/chebi/), and [HMDB](http://www.hmdb.ca/) (for
+  [ChEBI](https://www.ebi.ac.uk/chebi/), and [HMDB](http://www.hmdb.ca/) (for
   metabolites)
 
 * Biological processes: [GO](http://geneontology.org/) and
@@ -99,7 +103,7 @@ Entities are grounded to the following databases:
 * Protein families and named complexes: grounded to entities defined within
   the FamPlex repository in the ```entities.csv``` and ```relations.csv```
   files, and to identifiers in [PFAM](http://pfam.xfam.org/)
-  and [Interpro](https://www.ebi.ac.uk/interpro/) when possible.
+  and [InterPro](https://www.ebi.ac.uk/interpro/) when possible.
 
 ## Gene prefixes
 

@@ -1,13 +1,11 @@
-import re
-import sys
 import csv
-from indra.statements import Agent
-from indra.databases import hgnc_client
-from indra.databases import uniprot_client
-from indra.tools.expand_families import Expander
-from indra.preassembler.hierarchy_manager import hierarchies
+import sys
 
-import common
+from indra.databases import hgnc_client
+from indra.preassembler.hierarchy_manager import hierarchies
+from indra.statements import Agent
+from indra.tools.expand_families import Expander
+
 
 def read_csv(fh, delimiter, quotechar):
     if sys.version_info.major < 3:
@@ -63,7 +61,7 @@ def load_entity_list(filename):
 
 def get_child_map():
     """Get dictionary mapping FPLX IDs to Uniprot IDs of all children."""
-    entities = common.load_entity_list('../entities.csv')
+    entities = load_entity_list('../entities.csv')
 
     be_agents = [Agent(be_id, db_refs={'FPLX': be_id})
                  for be_id in entities]
