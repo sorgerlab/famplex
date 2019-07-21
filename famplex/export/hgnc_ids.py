@@ -19,7 +19,14 @@ def main():
     hgnc_symbols = set()
     # Gather all HGNC symbols from relations.csv
     with open(RELATIONS_PATH) as f:
-        for ns1, id1, n1, rel, ns2, id2, n2 in csv.reader(f, delimiter='\t'):
+        reader = csv.reader(
+            f,
+            delimiter=',',
+            lineterminator='\r\n',
+            quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
+        )
+        for ns1, id1, n1, rel, ns2, id2, n2 in reader:
             if ns1 == 'HGNC':
                 hgnc_symbols.add(n1)
             if ns2 == 'HGNC':
@@ -27,7 +34,14 @@ def main():
 
     # Gather all HGNC symbols from grounding_map.csv
     with open(GROUNDING_MAP_PATH) as f:
-        for text, db, db_id, db_name in csv.reader(f, delimiter='\t'):
+        reader = csv.reader(
+            f,
+            delimiter=',',
+            lineterminator='\r\n',
+            quoting=csv.QUOTE_MINIMAL,
+            quotechar='"',
+        )
+        for text, db, db_id, db_name in reader:
             if db == 'HGNC':
                 hgnc_symbols.add(db_name)
 
