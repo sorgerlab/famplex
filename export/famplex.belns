@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20191218
-CreatedDateTime=2019-12-18T17:23:55
+VersionString=20191219
+CreatedDateTime=2019-12-19T15:21:13
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 [Author]
@@ -352,6 +352,7 @@ MAP2K|GRPC
 MAP3K|GRPC
 MAPK|GRPC
 MCM|GRPC
+MED|GRPC
 MEF2|GRPC
 MEK|GRPC
 MGAT|GRPC

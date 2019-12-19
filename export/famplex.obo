@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:12:2019 17:23
+date: 19:12:2019 15:21
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_ionotropic
@@ -5559,6 +5559,44 @@ inverse_is_a: HGNC:MCM7
 inverse_is_a: HGNC:MCM8
 inverse_is_a: HGNC:MCM9
 inverse_is_a: HGNC:MCMDC2
+
+[Term]
+id: FPLX:MED
+name: MED
+is_a: FPLX:root
+has_part: HGNC:CCNC
+has_part: HGNC:CDK8
+has_part: HGNC:CDK19
+has_part: HGNC:MED1
+has_part: HGNC:MED29
+has_part: HGNC:MED27
+has_part: HGNC:MED4
+has_part: HGNC:MED24
+has_part: HGNC:MED6
+has_part: HGNC:MED7
+has_part: HGNC:MED8
+has_part: HGNC:MED9
+has_part: HGNC:MED10
+has_part: HGNC:MED11
+has_part: HGNC:MED12
+has_part: HGNC:MED12L
+has_part: HGNC:MED13
+has_part: HGNC:MED13L
+has_part: HGNC:MED14
+has_part: HGNC:MED15
+has_part: HGNC:MED16
+has_part: HGNC:MED17
+has_part: HGNC:MED18
+has_part: HGNC:MED19
+has_part: HGNC:MED20
+has_part: HGNC:MED21
+has_part: HGNC:MED22
+has_part: HGNC:MED23
+has_part: HGNC:MED25
+has_part: HGNC:MED26
+has_part: HGNC:MED28
+has_part: HGNC:MED30
+has_part: HGNC:MED31
 
 [Term]
 id: FPLX:MEF2
