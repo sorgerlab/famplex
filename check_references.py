@@ -232,7 +232,7 @@ if __name__ == '__main__':
                             print("ERROR: Symbol %s in grounding map is "
                                    "not a valid HGNC Symbol." % db_id)
                             signal_error = True
-    except ImportError:
+    except ImportError as e:
         print('HGNC check could not be performed because of import error')
         print(e)
         signal_error = True
