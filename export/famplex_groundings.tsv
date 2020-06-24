@@ -5,6 +5,7 @@
 4E-BP1	Q13541	uniprot	Gene_or_gene_product
 4EBP	EIF4EBP	fplx	Family
 4EBP1	Q13541	uniprot	Gene_or_gene_product
+5-HT	5-HT	fplx	Family
 5-hydroxytryptamine-receptors-ionotropic	5_hydroxytryptamine_receptors_ionotropic	fplx	Family
 53BP1	Q12888	uniprot	Gene_or_gene_product
 55S Mitoribosome	Mitochondrial_Ribosome	fplx	Family
@@ -36,6 +37,7 @@ ADRA	ADRA	fplx	Family
 ADRA2	ADRA2	fplx	Family
 ADRB	ADRB	fplx	Family
 ADRBK	ADRBK	fplx	Family
+AGTR	AGTR	fplx	Family
 AHR	P35869	uniprot	Gene_or_gene_product
 AICAR	CHEBI:18406	chebi	Simple_chemical
 AIM1	Q9Y4K1	uniprot	Gene_or_gene_product
@@ -449,6 +451,14 @@ CXCL8	P10145	uniprot	Gene_or_gene_product
 CXCR2	P25025	uniprot	Gene_or_gene_product
 CXCR4	P61073	uniprot	Gene_or_gene_product
 CYLD	Q9NQC7	uniprot	Gene_or_gene_product
+CYP	CYP	fplx	Family
+CYP1	CYP1	fplx	Family
+CYP11	CYP11	fplx	Family
+CYP2	CYP2	fplx	Family
+CYP3	CYP3	fplx	Family
+CYP4	CYP4	fplx	Family
+CYP7	CYP7	fplx	Family
+CYP8	CYP8	fplx	Family
 Ca	CHEBI:29108	chebi	Simple_chemical
 Ca(2+)-calmodulin-dependent protein kinase II	CAMK2_complex	fplx	Family
 Ca(2+)/calmodulin-dependent kinase II	CAMK2_complex	fplx	Family
@@ -1046,6 +1056,10 @@ HSP90AA	HSP90AA	fplx	Family
 HSPA	HSPA	fplx	Family
 HSPB	HSPB	fplx	Family
 HSPB proteins	HSPB	fplx	Family
+HTR1	HTR1	fplx	Family
+HTR2	HTR2	fplx	Family
+HTR3	HTR3	fplx	Family
+HTR5	HTR5	fplx	Family
 HVCN	HVCN	fplx	Family
 Heat Shock Protein 70	HSPA	fplx	Family
 Hedgehog	Hedgehog	fplx	Family
