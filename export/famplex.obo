@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:06:2020 23:54
+date: 24:06:2020 15:32
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_ionotropic
@@ -11,6 +11,17 @@ inverse_is_a: HGNC:HTR3B
 inverse_is_a: HGNC:HTR3C
 inverse_is_a: HGNC:HTR3D
 inverse_is_a: HGNC:HTR3E
+
+[Term]
+id: FPLX:5-HT
+name: 5-HT
+is_a: FPLX:root
+inverse_is_a: FPLX:HTR1
+inverse_is_a: FPLX:HTR2
+inverse_is_a: FPLX:HTR3
+inverse_is_a: FPLX:HTR5
+inverse_is_a: HGNC:HTR6
+inverse_is_a: HGNC:HTR7
 
 [Term]
 id: FPLX:9_1_1
@@ -367,6 +378,13 @@ xref: RE:R-HSA-8866229
 is_a: FPLX:GRK
 inverse_is_a: HGNC:GRK2
 inverse_is_a: HGNC:GRK3
+
+[Term]
+id: FPLX:AGTR
+name: AGTR
+is_a: FPLX:root
+inverse_is_a: HGNC:AGTR1
+inverse_is_a: HGNC:AGTR2
 
 [Term]
 id: FPLX:AKT
@@ -2500,6 +2518,110 @@ inverse_is_a: HGNC:CXCL5
 inverse_is_a: HGNC:CXCL6
 inverse_is_a: HGNC:CXCL8
 inverse_is_a: HGNC:PPBP
+
+[Term]
+id: FPLX:CYP
+name: CYP
+is_a: FPLX:root
+inverse_is_a: FPLX:CYP1
+inverse_is_a: FPLX:CYP2
+inverse_is_a: FPLX:CYP3
+inverse_is_a: FPLX:CYP4
+inverse_is_a: HGNC:CYP5A1
+inverse_is_a: FPLX:CYP7
+inverse_is_a: FPLX:CYP8
+inverse_is_a: FPLX:CYP11
+inverse_is_a: HGNC:CYP17A1
+inverse_is_a: HGNC:CYP19A1
+inverse_is_a: HGNC:CYP20A1
+inverse_is_a: HGNC:CYP21A2
+inverse_is_a: HGNC:CYP26A1
+inverse_is_a: HGNC:CYP26B1
+inverse_is_a: HGNC:CYP26C1
+inverse_is_a: HGNC:CYP24A1
+inverse_is_a: HGNC:CYP27A1
+inverse_is_a: HGNC:CYP27B1
+inverse_is_a: HGNC:CYP27C1
+inverse_is_a: HGNC:CYP39A1
+inverse_is_a: HGNC:CYP46A1
+inverse_is_a: HGNC:CYP51A1
+
+[Term]
+id: FPLX:CYP1
+name: CYP1
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP1A1
+inverse_is_a: HGNC:CYP1A2
+inverse_is_a: HGNC:CYP1B1
+
+[Term]
+id: FPLX:CYP2
+name: CYP2
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP2A6
+inverse_is_a: HGNC:CYP2A7
+inverse_is_a: HGNC:CYP2A13
+inverse_is_a: HGNC:CYP2B6
+inverse_is_a: HGNC:CYP2C8
+inverse_is_a: HGNC:CYP2C9
+inverse_is_a: HGNC:CYP2C18
+inverse_is_a: HGNC:CYP2C19
+inverse_is_a: HGNC:CYP2D6
+inverse_is_a: HGNC:CYP2E1
+inverse_is_a: HGNC:CYP2F1
+inverse_is_a: HGNC:CYP2J2
+inverse_is_a: HGNC:CYP2R1
+inverse_is_a: HGNC:CYP2S1
+inverse_is_a: HGNC:CYP2U1
+inverse_is_a: HGNC:CYP2W1
+
+[Term]
+id: FPLX:CYP3
+name: CYP3
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP3A4
+inverse_is_a: HGNC:CYP3A5
+inverse_is_a: HGNC:CYP3A7
+inverse_is_a: HGNC:CYP3A43
+
+[Term]
+id: FPLX:CYP4
+name: CYP4
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP4A11
+inverse_is_a: HGNC:CYP4A22
+inverse_is_a: HGNC:CYP4B1
+inverse_is_a: HGNC:CYP4F2
+inverse_is_a: HGNC:CYP4F3
+inverse_is_a: HGNC:CYP4F8
+inverse_is_a: HGNC:CYP4F11
+inverse_is_a: HGNC:CYP4F12
+inverse_is_a: HGNC:CYP4F22
+inverse_is_a: HGNC:CYP4V2
+inverse_is_a: HGNC:CYP4X1
+inverse_is_a: HGNC:CYP4Z1
+
+[Term]
+id: FPLX:CYP7
+name: CYP7
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP7A1
+inverse_is_a: HGNC:CYP7B1
+
+[Term]
+id: FPLX:CYP8
+name: CYP8
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP8A1
+inverse_is_a: HGNC:CYP8B1
+
+[Term]
+id: FPLX:CYP11
+name: CYP11
+is_a: FPLX:CYP
+inverse_is_a: HGNC:CYP11A1
+inverse_is_a: HGNC:CYP11B1
+inverse_is_a: HGNC:CYP11B2
 
 [Term]
 id: FPLX:Cyclin
@@ -5144,6 +5266,45 @@ is_a: FPLX:root
 inverse_is_a: HGNC:HSPB1
 inverse_is_a: HGNC:HSPB2
 inverse_is_a: HGNC:HSPB8
+
+[Term]
+id: FPLX:HTR1
+name: HTR1
+is_a: FPLX:5-HT
+inverse_is_a: HGNC:HTR1A
+inverse_is_a: HGNC:HTR1B
+inverse_is_a: HGNC:HTR1D
+inverse_is_a: HGNC:HTR1E
+
+[Term]
+id: FPLX:HTR2
+name: HTR2
+is_a: FPLX:5-HT
+inverse_is_a: HGNC:HTR2A
+inverse_is_a: HGNC:HTR2B
+inverse_is_a: HGNC:HTR2C
+
+[Term]
+id: FPLX:HTR3
+name: HTR3
+is_a: FPLX:5-HT
+inverse_is_a: HGNC:HTR3A
+inverse_is_a: HGNC:HTR3B
+inverse_is_a: HGNC:HTR3C
+inverse_is_a: HGNC:HTR3D
+inverse_is_a: HGNC:HTR3E
+
+[Term]
+id: FPLX:HTR4
+name: HTR4
+is_a: FPLX:root
+
+[Term]
+id: FPLX:HTR5
+name: HTR5
+is_a: FPLX:5-HT
+inverse_is_a: HGNC:HTR5A
+inverse_is_a: HGNC:HTR5BP
 
 [Term]
 id: FPLX:HVCN
