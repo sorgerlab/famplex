@@ -20,7 +20,7 @@ PATH = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'descriptions.cs
 @click.command()
 @verbose_option
 def main():
-    description_rows = list(load_descriptions())
+    description_rows = [tuple(row) for row in load_descriptions()]
     descriptions = {e: d for e, _source, d in description_rows}
     xrefs = defaultdict(dict)
 
@@ -62,7 +62,7 @@ def main():
             quoting=csv.QUOTE_MINIMAL,
             quotechar='"',
         )
-        writer.writerows(description_rows)
+        writer.writerows(sorted(description_rows))
 
 
 if __name__ == '__main__':
