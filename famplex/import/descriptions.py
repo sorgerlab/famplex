@@ -23,6 +23,7 @@ PRIORITY_LIST = [
     'go',
     'mesh',
     'PF',
+    'reactome',
     'eccode',
     'interpro',
 ]
@@ -45,9 +46,11 @@ def main(force: bool):
     unnorm = set()
     for xref_ns, xref_id, fplx_id in load_equivalences():
         norm_xref_ns = bioregistry.normalize_prefix(xref_ns)
-        if norm_xref_ns is None and xref_ns not in unnorm:
-            print('unnormalized ns', xref_ns)
-            unnorm.add(xref_ns)
+        if norm_xref_ns is None:
+            if xref_ns not in unnorm:
+                print('unnormalized ns', xref_ns)
+                unnorm.add(xref_ns)
+            continue
         xrefs[fplx_id][norm_xref_ns] = xref_id
 
     entities = load_entities()
@@ -59,6 +62,11 @@ def main(force: bool):
         entity_xrefs = xrefs.get(fplx_id)
         if not entity_xrefs:
             continue
+        if list(entity_xrefs) == ['bel']:
+            # skip famplexes with only a BEL reference since these don't have any meaningful
+            # lookup, but would be worth curating by hand.
+            continue
+
         for prefix in PRIORITY_LIST:
             identifier = entity_xrefs.get(prefix)
             if not identifier:
@@ -67,6 +75,9 @@ def main(force: bool):
             if definition:
                 description_rows.append((fplx_id, f'{prefix}:{identifier}', definition))
                 break
+        else:
+            exr = {k: v for k, v in entity_xrefs.items() if k not in {'bel'}}
+            print(f'Did not get for {fplx_id} with xrefs {exr}')
 
     description_rows = sorted(description_rows)
 
