@@ -9,6 +9,7 @@ from collections import defaultdict
 import bioregistry
 import click
 from more_click import verbose_option
+from tqdm import tqdm
 
 import pyobo
 from famplex.load import load_descriptions, load_entities, load_equivalences
@@ -16,10 +17,26 @@ from famplex.load import load_descriptions, load_entities, load_equivalences
 HERE = os.path.abspath(os.path.dirname(__file__))
 PATH = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'descriptions.csv'))
 
+PRIORITY_LIST = [
+    'interpro',
+    'mesh',
+    'go',
+    'eccode',
+    'HGNC_GROUP',
+    'PF',
+]
+PRIORITY_LIST = [bioregistry.normalize_prefix(prefix) for prefix in PRIORITY_LIST]
+
 
 @click.command()
 @verbose_option
-def main():
+@click.option('--force', is_flag=True)
+def main(force: bool):
+    if force:
+        for prefix in tqdm(PRIORITY_LIST, desc='reloading resources'):
+            tqdm.write(f'reloading {prefix}')
+            pyobo.get_id_definition_mapping(prefix, force=True)
+    
     description_rows = [tuple(row) for row in load_descriptions()]
     descriptions = {e: d for e, _source, d in description_rows}
     xrefs = defaultdict(dict)
@@ -33,28 +50,22 @@ def main():
         xrefs[fplx_id][norm_xref_ns] = xref_id
 
     entities = load_entities()
-    entities_sans_descrption = set(entities) - set(descriptions)
+    missing_description = set(entities) - set(descriptions)
     print(f'{len(descriptions)} have descriptions')
-    print(f'{len(entities_sans_descrption)} missing descriptions')
+    print(f'{len(missing_description)} missing descriptions')
 
-    print('loading interpro definitions')
-    ip_definition = pyobo.get_id_definition_mapping('interpro')
-    print('loading mesh definitions')
-    mesh_definition = pyobo.get_id_definition_mapping('mesh')
-    print('loaded')
-
-    for fplx_id in entities_sans_descrption:
+    for fplx_id in missing_description:
         entity_xrefs = xrefs.get(fplx_id)
         if not entity_xrefs:
             continue
-
-        definition = None
-        if definition is None and (mesh_id := entity_xrefs.get('mesh')):
-            if definition := mesh_definition.get(mesh_id):
-                description_rows.append((fplx_id, f'mesh:{mesh_id}', definition))
-        if definition is None and (interpro_id := entity_xrefs.get('interpro')):
-            if definition := ip_definition.get(interpro_id):
-                description_rows.append((fplx_id, f'interpro:{interpro_id}', definition))
+        for prefix in PRIORITY_LIST:
+            identifier = entity_xrefs.get(prefix)
+            if not identifier:
+                continue
+            definition = pyobo.get_definition(prefix, identifier)
+            if definition:
+                description_rows.append((fplx_id, f'{prefix}:{identifier}', definition))
+                break
 
     with open(PATH, 'w') as file:
         writer = csv.writer(
