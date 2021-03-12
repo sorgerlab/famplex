@@ -13,17 +13,18 @@ from tqdm import tqdm
 
 import pyobo
 from famplex.load import load_descriptions, load_entities, load_equivalences
+from famplex.locations import DESCRIPTIONS_PATH
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 PATH = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'descriptions.csv'))
 
 PRIORITY_LIST = [
-    'interpro',
-    'mesh',
-    'go',
-    'eccode',
     'HGNC_GROUP',
+    'go',
+    'mesh',
     'PF',
+    'eccode',
+    'interpro',
 ]
 PRIORITY_LIST = [bioregistry.normalize_prefix(prefix) for prefix in PRIORITY_LIST]
 
@@ -36,7 +37,7 @@ def main(force: bool):
         for prefix in tqdm(PRIORITY_LIST, desc='reloading resources'):
             tqdm.write(f'reloading {prefix}')
             pyobo.get_id_definition_mapping(prefix, force=True)
-    
+
     description_rows = [tuple(row) for row in load_descriptions()]
     descriptions = {e: d for e, _source, d in description_rows}
     xrefs = defaultdict(dict)
@@ -67,13 +68,16 @@ def main(force: bool):
                 description_rows.append((fplx_id, f'{prefix}:{identifier}', definition))
                 break
 
-    with open(PATH, 'w') as file:
-        writer = csv.writer(
-            file, delimiter=',', lineterminator='\r\n',
-            quoting=csv.QUOTE_MINIMAL,
-            quotechar='"',
-        )
-        writer.writerows(sorted(description_rows))
+    description_rows = sorted(description_rows)
+
+    for path in PATH, DESCRIPTIONS_PATH:
+        with open(path, 'w') as file:
+            writer = csv.writer(
+                file, delimiter=',', lineterminator='\r\n',
+                quoting=csv.QUOTE_MINIMAL,
+                quotechar='"',
+            )
+            writer.writerows(description_rows)
 
 
 if __name__ == '__main__':
