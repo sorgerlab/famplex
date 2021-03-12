@@ -3,6 +3,7 @@
 """Import descriptions."""
 
 import csv
+import os
 from collections import defaultdict
 
 import bioregistry
@@ -11,6 +12,9 @@ from more_click import verbose_option
 
 import pyobo
 from famplex.load import load_descriptions, load_entities, load_equivalences
+
+HERE = os.path.abspath(os.path.dirname(__file__))
+PATH = os.path.abspath(os.path.join(HERE, os.pardir, os.pardir, 'descriptions.csv'))
 
 
 @click.command()
@@ -52,7 +56,7 @@ def main():
             if definition := ip_definition.get(interpro_id):
                 description_rows.append((fplx_id, f'interpro:{interpro_id}', definition))
 
-    with open('/Users/cthoyt/dev/famplex/descriptions.csv', 'w') as file:
+    with open(PATH, 'w') as file:
         writer = csv.writer(
             file, delimiter=',', lineterminator='\r\n',
             quoting=csv.QUOTE_MINIMAL,
