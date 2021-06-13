@@ -635,6 +635,8 @@ DR4	O00220	uniprot	Gene_or_gene_product
 DR5	O14763	uniprot	Gene_or_gene_product
 DRD	DRD	fplx	Family
 DSB	D053903	mesh	BioProcess
+DUB	DUB	fplx	Family
+DUBs	DUB	fplx	Family
 DUSP	DUSP	fplx	Family
 DUSP1	P28562	uniprot	Gene_or_gene_product
 DVL	DVL	fplx	Family
@@ -645,6 +647,8 @@ Danusertib	CHEBI:94490	chebi	Simple_chemical
 Death-receptor	Death_receptor	fplx	Family
 Deoxyribonucleoside-kinases	Deoxyribonucleoside_kinases	fplx	Family
 Desmoglein	Desmoglein	fplx	Family
+Deubiquinating enzyme	DUB	fplx	Family
+Deubiquinating enzymes	DUB	fplx	Family
 Dgk	DGK	fplx	Family
 Dinaciclib	CHEBI:95060	chebi	Simple_chemical
 Dok1	Q99704	uniprot	Gene_or_gene_product
@@ -1355,10 +1359,15 @@ MET	P08581	uniprot	Gene_or_gene_product
 MG132	CHEBI:75142	chebi	Simple_chemical
 MGAT	MGAT	fplx	Family
 MIF	P14174	uniprot	Gene_or_gene_product
+MINDY	MINDY	fplx	Family
+MINDY deubiquitinases	MINDY	fplx	Family
 MIRLET7	MIRLET7	fplx	Family
 MIRLET7A	MIRLET7A	fplx	Family
 MIRLET7F	MIRLET7F	fplx	Family
 MITF	O75030	uniprot	Gene_or_gene_product
+MJD	MJD	fplx	Family
+MJD deubiquinating enzyme	MJD	fplx	Family
+MJD deubiquinating enzymes	MJD	fplx	Family
 MKK4	P45985	uniprot	Gene_or_gene_product
 MKNK	MKNK	fplx	Family
 MKP-1	P28562	uniprot	Gene_or_gene_product
@@ -1614,6 +1623,11 @@ OR6	OR6	fplx	Family
 OR7	OR7	fplx	Family
 OR8	OR8	fplx	Family
 OR9	OR9	fplx	Family
+OTU	OTU	fplx	Family
+OTUB	OTUB	fplx	Family
+OTUD	OTUD	fplx	Family
+OTUD6	OTUD6	fplx	Family
+OTUD7	OTUD7	fplx	Family
 P-REX1	Q8TCU6	uniprot	Gene_or_gene_product
 P2R	P2R	fplx	Family
 P2RX	P2RX	fplx	Family
@@ -2354,10 +2368,23 @@ Tubulin	Tubulin	fplx	Family
 Type I collagen	COL1	fplx	Family
 U0126	CHEBI:90693	chebi	Simple_chemical
 UBE2	UBE2	fplx	Family
+UCH deubiquitinating enzyme	UCHL	fplx	Family
+UCH deubiquitinating enzymes	UCHL	fplx	Family
+UCH family	UCHL	fplx	Family
+UCHL	UCHL	fplx	Family
 UGGT	UGGT	fplx	Family
 UGT	UGT	fplx	Family
+USP	USP	fplx	Family
+USP17L	USP17L	fplx	Family
+USP9	USP9	fplx	Family
+USPL	USPL	fplx	Family
 Ub	Ubiquitin	fplx	Family
 Ubiquitin	Ubiquitin	fplx	Family
+Ubiquitin C-terminal hydrolase family	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases deubiquitinating enzyme	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases deubiquitinating enzymes	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases family	UCHL	fplx	Family
 Uridine	CHEBI:16704	chebi	Simple_chemical
 VAV	VAV	fplx	Family
 VAV family	VAV	fplx	Family
@@ -2964,6 +2991,9 @@ invasiveness	D009361	mesh	BioProcess
 iron	CHEBI:18248	chebi	Simple_chemical
 ischemia	D007511	mesh	BioProcess
 isoflurane	CHEBI:6015	chebi	Simple_chemical
+josephin deubiquinatase	MJD	fplx	Family
+josephin deubiquinatases	MJD	fplx	Family
+josephin domain containing	MJD	fplx	Family
 kallikrein	KLK	fplx	Family
 kallikrein-related peptidases	KLK	fplx	Family
 kindlin	FERMT	fplx	Family
@@ -3041,6 +3071,9 @@ mitogen-activated protein kinase	MAPK	fplx	Family
 mitogen-activated protein kinase kinase	MAP2K	fplx	Family
 mitogen-activated protein kinases	MAPK	fplx	Family
 mitoribosome	Mitochondrial_Ribosome	fplx	Family
+motif interacting with Ub-containing novel DUB family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel DUB family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel deubiquinating enzyme family	MINDY	fplx	Family
 motor dynein	Dynein	fplx	Family
 motor protein dynein	Dynein	fplx	Family
 mutp53	P04637	uniprot	Gene_or_gene_product

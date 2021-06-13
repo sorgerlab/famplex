@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:04:2021 16:05
+date: 13:06:2021 11:57
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3481,6 +3481,20 @@ inverse_is_a: HGNC:DRD2
 inverse_is_a: HGNC:DRD3
 inverse_is_a: HGNC:DRD4
 inverse_is_a: HGNC:DRD5
+
+[Term]
+id: FPLX:DUB
+name: DUB
+synonym: "Deubiquinating enzymes" EXACT []
+synonym: "Deubiquinating enzyme" EXACT []
+synonym: "DUBs" EXACT []
+xref: HGNC_GROUP:996
+is_a: FPLX:root
+inverse_is_a: FPLX:USP
+inverse_is_a: FPLX:OTU
+inverse_is_a: FPLX:MINDY
+inverse_is_a: FPLX:MJD
+inverse_is_a: HGNC:ZUP1
 
 [Term]
 id: FPLX:DUSP
@@ -7296,6 +7310,21 @@ inverse_is_a: HGNC:MGAT5
 inverse_is_a: HGNC:MGAT5B
 
 [Term]
+id: FPLX:MINDY
+name: MINDY
+synonym: "motif interacting with Ub-containing novel DUB family" EXACT []
+synonym: "motif interacting with ubiquitin-containing novel DUB family" EXACT []
+synonym: "motif interacting with ubiquitin-containing novel deubiquinating enzyme family" EXACT []
+synonym: "MINDY deubiquitinases" EXACT []
+xref: HGNC_GROUP:1376
+is_a: FPLX:DUB
+inverse_is_a: HGNC:MINDY1
+inverse_is_a: HGNC:MINDY2
+inverse_is_a: HGNC:MINDY3
+inverse_is_a: HGNC:MINDY4
+inverse_is_a: HGNC:MINDY4B
+
+[Term]
 id: FPLX:MIRLET7
 name: MIRLET7
 synonym: "Let-7" EXACT []
@@ -7344,6 +7373,21 @@ xref: MESH:D000069396
 is_a: FPLX:root
 has_part: FPLX:MRPS
 has_part: FPLX:MRPL
+
+[Term]
+id: FPLX:MJD
+name: MJD
+synonym: "josephin domain containing" EXACT []
+synonym: "josephin deubiquinatases" EXACT []
+synonym: "josephin deubiquinatase" EXACT []
+synonym: "MJD deubiquinating enzyme" EXACT []
+synonym: "MJD deubiquinating enzymes" EXACT []
+xref: HGNC_GROUP:997
+is_a: FPLX:DUB
+inverse_is_a: HGNC:JOSD1
+inverse_is_a: HGNC:JOSD2
+inverse_is_a: HGNC:ATXN3
+inverse_is_a: HGNC:ATXN3L
 
 [Term]
 id: FPLX:MKNK
@@ -8810,6 +8854,53 @@ inverse_is_a: HGNC:OR9I1
 inverse_is_a: HGNC:OR9K2
 inverse_is_a: HGNC:OR9Q1
 inverse_is_a: HGNC:OR9Q2
+
+[Term]
+id: FPLX:OTU
+name: OTU
+xref: HGNC_GROUP:669
+is_a: FPLX:DUB
+inverse_is_a: HGNC:ALG13
+inverse_is_a: HGNC:OTULINL
+inverse_is_a: FPLX:OTUB
+inverse_is_a: FPLX:OTUD
+inverse_is_a: HGNC:OTULIN
+inverse_is_a: HGNC:VCPIP1
+inverse_is_a: HGNC:ZRANB1
+
+[Term]
+id: FPLX:OTUB
+name: OTUB
+is_a: FPLX:OTU
+inverse_is_a: HGNC:OTUB1
+inverse_is_a: HGNC:OTUB2
+
+[Term]
+id: FPLX:OTUD
+name: OTUD
+is_a: FPLX:OTU
+inverse_is_a: HGNC:OTUD1
+inverse_is_a: HGNC:YOD1
+inverse_is_a: HGNC:OTUD3
+inverse_is_a: HGNC:OTUD4
+inverse_is_a: HGNC:OTUD5
+inverse_is_a: FPLX:OTUD6
+inverse_is_a: FPLX:OTUD7
+
+[Term]
+id: FPLX:OTUD6
+name: OTUD6
+is_a: FPLX:OTUD
+inverse_is_a: HGNC:OTUD6A
+inverse_is_a: HGNC:OTUD6B
+
+[Term]
+id: FPLX:OTUD7
+name: OTUD7
+is_a: FPLX:OTUD
+inverse_is_a: HGNC:OTUD7A
+inverse_is_a: HGNC:OTUD7B
+inverse_is_a: HGNC:TNFAIP3
 
 [Term]
 id: FPLX:p14_3_3
@@ -12228,6 +12319,24 @@ xref: NEXTPROT-FAMILY:04276
 is_a: FPLX:root
 
 [Term]
+id: FPLX:UCHL
+name: UCHL
+synonym: "Ubiquitin C-terminal hydrolases" EXACT []
+synonym: "UCH deubiquitinating enzyme" EXACT []
+synonym: "UCH deubiquitinating enzymes" EXACT []
+synonym: "Ubiquitin C-terminal hydrolases deubiquitinating enzyme" EXACT []
+synonym: "Ubiquitin C-terminal hydrolases deubiquitinating enzymes" EXACT []
+synonym: "Ubiquitin C-terminal hydrolase family" EXACT []
+synonym: "Ubiquitin C-terminal hydrolases family" EXACT []
+synonym: "UCH family" EXACT []
+xref: HGNC_GROUP:998
+is_a: FPLX:root
+inverse_is_a: HGNC:UCHL1
+inverse_is_a: HGNC:BAP1
+inverse_is_a: HGNC:UCHL3
+inverse_is_a: HGNC:UCHL5
+
+[Term]
 id: FPLX:UGGT
 name: UGGT
 is_a: FPLX:Glycosyltransferase
@@ -12271,6 +12380,87 @@ inverse_is_a: HGNC:UGT2B29P
 inverse_is_a: HGNC:UGT3A1
 inverse_is_a: HGNC:UGT3A2
 inverse_is_a: HGNC:UGT8
+
+[Term]
+id: FPLX:USP
+name: USP
+xref: HGNC_GROUP:366
+is_a: FPLX:DUB
+inverse_is_a: FPLX:USP9
+inverse_is_a: HGNC:USP1
+inverse_is_a: HGNC:USP2
+inverse_is_a: HGNC:USP3
+inverse_is_a: HGNC:USP4
+inverse_is_a: HGNC:USP5
+inverse_is_a: HGNC:USP6
+inverse_is_a: HGNC:USP7
+inverse_is_a: HGNC:USP8
+inverse_is_a: HGNC:USP10
+inverse_is_a: HGNC:USP11
+inverse_is_a: HGNC:USP12
+inverse_is_a: HGNC:USP13
+inverse_is_a: HGNC:USP14
+inverse_is_a: HGNC:USP15
+inverse_is_a: HGNC:USP16
+inverse_is_a: HGNC:USP18
+inverse_is_a: HGNC:USP19
+inverse_is_a: HGNC:USP20
+inverse_is_a: HGNC:USP21
+inverse_is_a: HGNC:USP22
+inverse_is_a: HGNC:USP24
+inverse_is_a: HGNC:USP25
+inverse_is_a: HGNC:USP26
+inverse_is_a: HGNC:USP27X
+inverse_is_a: HGNC:USP28
+inverse_is_a: HGNC:USP29
+inverse_is_a: HGNC:USP30
+inverse_is_a: HGNC:USP31
+inverse_is_a: HGNC:USP32
+inverse_is_a: HGNC:USP33
+inverse_is_a: HGNC:USP34
+inverse_is_a: HGNC:USP35
+inverse_is_a: HGNC:USP36
+inverse_is_a: HGNC:USP37
+inverse_is_a: HGNC:USP38
+inverse_is_a: HGNC:USP39
+inverse_is_a: HGNC:USP40
+inverse_is_a: HGNC:USP41
+inverse_is_a: HGNC:USP42
+inverse_is_a: HGNC:USP43
+inverse_is_a: HGNC:USP44
+inverse_is_a: HGNC:USP45
+inverse_is_a: HGNC:USP46
+inverse_is_a: HGNC:USP47
+inverse_is_a: HGNC:USP48
+inverse_is_a: HGNC:USP49
+inverse_is_a: HGNC:USP50
+inverse_is_a: HGNC:USP51
+inverse_is_a: HGNC:PAN2
+inverse_is_a: HGNC:USP53
+inverse_is_a: HGNC:USP54
+inverse_is_a: FPLX:USPL
+inverse_is_a: FPLX:USP17L
+
+[Term]
+id: FPLX:USPL
+name: USPL
+is_a: FPLX:USP
+inverse_is_a: HGNC:USPL1
+inverse_is_a: HGNC:CYLD
+
+[Term]
+id: FPLX:USP9
+name: USP9
+is_a: FPLX:USP
+inverse_is_a: HGNC:USP9X
+inverse_is_a: HGNC:USP9Y
+
+[Term]
+id: FPLX:USP17L
+name: USP17L
+is_a: FPLX:USP
+inverse_is_a: HGNC:USP17L1
+inverse_is_a: HGNC:USP17L2
 
 [Term]
 id: FPLX:VAV

@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20210414
-CreatedDateTime=2021-04-14T16:04:58
+VersionString=20210613
+CreatedDateTime=2021-06-13T11:57:14
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -216,6 +216,7 @@ DNA_polymerase_alpha|CGPR
 DNA_polymerase_delta|CGPR
 DNM|CGPR
 DRD|CGPR
+DUB|CGPR
 DUSP|CGPR
 DVL|CGPR
 DYNC1|CGPR
@@ -439,9 +440,11 @@ MED|CGPR
 MEF2|CGPR
 MEK|CGPR
 MGAT|CGPR
+MINDY|CGPR
 MIRLET7|CGPR
 MIRLET7A|CGPR
 MIRLET7F|CGPR
+MJD|CGPR
 MKNK|CGPR
 MMP|CGPR
 MOB|CGPR
@@ -514,6 +517,11 @@ OR6|CGPR
 OR7|CGPR
 OR8|CGPR
 OR9|CGPR
+OTU|CGPR
+OTUB|CGPR
+OTUD|CGPR
+OTUD6|CGPR
+OTUD7|CGPR
 P2R|CGPR
 P2RX|CGPR
 P2RY|CGPR
@@ -709,8 +717,13 @@ Troponin_T|CGPR
 Tryptase|CGPR
 Tubulin|CGPR
 UBE2|CGPR
+UCHL|CGPR
 UGGT|CGPR
 UGT|CGPR
+USP|CGPR
+USP17L|CGPR
+USP9|CGPR
+USPL|CGPR
 Ubiquitin|CGPR
 VAV|CGPR
 VDAC|CGPR
