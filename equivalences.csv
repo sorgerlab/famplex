@@ -428,6 +428,7 @@ GO,GO:0043511,Inhibin
 GO,GO:0043625,DNA_polymerase_delta
 GO,GO:0045275,ETC_complex_III
 GO,GO:0048180,Activin
+GO,GO:0070552,BRISC_complex
 GO,GO:0070652,Augmin
 GO,GO:0070765,Gamma_secretase
 GO,GO:1990779,GPIb_IX_V
@@ -545,6 +546,7 @@ HGNC_GROUP,1203,Sodium_voltage_gated_channel_alpha_subunits
 HGNC_GROUP,1204,Sodium_voltage_gated_channel_beta_subunits
 HGNC_GROUP,1298,CLEC
 HGNC_GROUP,1344,MRN_complex
+HGNC_GROUP,1375,BRISC_complex
 HGNC_GROUP,1376,MINDY
 HGNC_GROUP,1511,CACNG
 HGNC_GROUP,1512,CACNA1

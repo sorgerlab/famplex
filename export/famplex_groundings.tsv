@@ -303,8 +303,12 @@ BRAF	P15056	uniprot	Gene_or_gene_product
 BRCA	BRCA	fplx	Family
 BRCA1	P38398	uniprot	Gene_or_gene_product
 BRCA2	P51587	uniprot	Gene_or_gene_product
+BRCC36 (BRCC3) isopeptidase complex	BRISC_complex	fplx	Family
+BRCC36 isopeptidase complex	BRISC_complex	fplx	Family
 BRI	BMP_receptor_type_I	fplx	Family
 BRII	BMP_receptor_type_II	fplx	Family
+BRISC deubiquitinating enzyme complex	BRISC_complex	fplx	Family
+BRISC-complex	BRISC_complex	fplx	Family
 BRSK1	Q8TDC3	uniprot	Gene_or_gene_product
 BRSK2	Q8IWQ3	uniprot	Gene_or_gene_product
 BVR	BLVR	fplx	Family

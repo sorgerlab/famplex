@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:06:2021 13:39
+date: 14:06:2021 09:56
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -1488,6 +1488,20 @@ synonym: "BRCA" EXACT []
 is_a: FPLX:root
 inverse_is_a: HGNC:BRCA1
 inverse_is_a: HGNC:BRCA2
+
+[Term]
+id: FPLX:BRISC_complex
+name: BRISC-complex
+synonym: "BRISC deubiquitinating enzyme complex" EXACT []
+synonym: "BRCC36 (BRCC3) isopeptidase complex" EXACT []
+synonym: "BRCC36 isopeptidase complex" EXACT []
+xref: GO:0070552
+xref: HGNC_GROUP:1375
+is_a: FPLX:DUB
+has_part: HGNC:BABAM1
+has_part: HGNC:BRCC3
+has_part: HGNC:BABAM2
+has_part: HGNC:ABRAXAS2
 
 [Term]
 id: FPLX:C1
@@ -3496,6 +3510,7 @@ inverse_is_a: FPLX:MINDY
 inverse_is_a: FPLX:MJD
 inverse_is_a: FPLX:UCHL
 inverse_is_a: HGNC:ZUP1
+inverse_is_a: FPLX:BRISC_complex
 
 [Term]
 id: FPLX:DUSP

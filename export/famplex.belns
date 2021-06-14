@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20210613
-CreatedDateTime=2021-06-13T13:39:26
+VersionString=20210614
+CreatedDateTime=2021-06-14T09:56:40
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -108,6 +108,7 @@ BMP_receptor|CGPR
 BMP_receptor_type_I|CGPR
 BMP_receptor_type_II|CGPR
 BRCA|CGPR
+BRISC_complex|CGPR
 Beta_3_4_GTF|CGPR
 C1|CGPR
 C1q|CGPR
