@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:06:2021 09:56
+date: 14:06:2021 12:42
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3511,6 +3511,7 @@ inverse_is_a: FPLX:MJD
 inverse_is_a: FPLX:UCHL
 inverse_is_a: HGNC:ZUP1
 inverse_is_a: FPLX:BRISC_complex
+inverse_is_a: FPLX:PRDUB_complex
 
 [Term]
 id: FPLX:DUSP
@@ -10217,6 +10218,15 @@ has_part: HGNC:EED
 has_part: HGNC:EZH1
 has_part: HGNC:EZH2
 has_part: HGNC:SUZ12
+
+[Term]
+id: FPLX:PRDUB_complex
+name: PRDUB-complex
+xref: COMPLEXPORTAL:CPX-414
+xref: GO:0035517
+is_a: FPLX:DUB
+has_part: HGNC:ASXL1
+has_part: HGNC:BAP1
 
 [Term]
 id: FPLX:PRDX

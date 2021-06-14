@@ -4452,3 +4452,7 @@ HGNC,BABAM1,partof,FPLX,BRISC_complex
 HGNC,BRCC3,partof,FPLX,BRISC_complex
 HGNC,BABAM2,partof,FPLX,BRISC_complex
 HGNC,ABRAXAS2,partof,FPLX,BRISC_complex
+HGNC,ASXL1,partof,FPLX,PRDUB_complex
+HGNC,BAP1,partof,FPLX,PRDUB_complex
+FPLX,PRDUB_complex,isa,FPLX,DUB
+HGNC,PSMD14,isa,FPLX,DUB

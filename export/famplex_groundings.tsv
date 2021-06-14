@@ -1839,6 +1839,7 @@ PRAS40	Q96B36	uniprot	Gene_or_gene_product
 PRC1-complex	PRC1_complex	fplx	Family
 PRC2	PRC2_complex	fplx	Family
 PRC2-complex	PRC2_complex	fplx	Family
+PRDUB-complex	PRDUB_complex	fplx	Family
 PRDX	PRDX	fplx	Family
 PRKAA	AMPK_alpha	fplx	Family
 PRKAB	AMPK_beta	fplx	Family
