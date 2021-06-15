@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:06:2021 10:28
+date: 15:06:2021 19:45
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -1497,7 +1497,7 @@ synonym: "BRCC36 (BRCC3) isopeptidase complex" EXACT []
 synonym: "BRCC36 isopeptidase complex" EXACT []
 xref: GO:0070552
 xref: HGNC_GROUP:1375
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 has_part: HGNC:BABAM1
 has_part: HGNC:BRCC3
 has_part: HGNC:BABAM2
@@ -3370,6 +3370,33 @@ inverse_is_a: HGNC:DSG3
 inverse_is_a: HGNC:DSG4
 
 [Term]
+id: FPLX:Deubiquitinase
+name: Deubiquitinase
+synonym: "deubiquinatase" EXACT []
+synonym: "deubiquinatases" EXACT []
+synonym: "Deubiquinating Enzymes" EXACT []
+synonym: "Deubiquinating enzymes" EXACT []
+synonym: "deubiquinating enzymes" EXACT []
+synonym: "Deubiquinating Enzyme" EXACT []
+synonym: "Deubiquinating enzyme" EXACT []
+synonym: "deubiquinating enzyme" EXACT []
+synonym: "DUBs" EXACT []
+xref: ECCODE:3.4.19.12
+xref: HGNC_GROUP:996
+xref: MESH:D000072017
+is_a: FPLX:root
+inverse_is_a: FPLX:USP
+inverse_is_a: FPLX:OTU
+inverse_is_a: FPLX:MINDY
+inverse_is_a: FPLX:MJD
+inverse_is_a: FPLX:UCHL
+inverse_is_a: HGNC:ZUP1
+inverse_is_a: FPLX:BRISC_complex
+inverse_is_a: FPLX:PRDUB_complex
+inverse_is_a: HGNC:PSMD14
+inverse_is_a: FPLX:JAMM
+
+[Term]
 id: FPLX:DGC
 name: DGC
 synonym: "DGC" EXACT []
@@ -3495,25 +3522,6 @@ inverse_is_a: HGNC:DRD2
 inverse_is_a: HGNC:DRD3
 inverse_is_a: HGNC:DRD4
 inverse_is_a: HGNC:DRD5
-
-[Term]
-id: FPLX:DUB
-name: DUB
-synonym: "Deubiquinating enzymes" EXACT []
-synonym: "Deubiquinating enzyme" EXACT []
-synonym: "DUBs" EXACT []
-xref: HGNC_GROUP:996
-is_a: FPLX:root
-inverse_is_a: FPLX:USP
-inverse_is_a: FPLX:OTU
-inverse_is_a: FPLX:MINDY
-inverse_is_a: FPLX:MJD
-inverse_is_a: FPLX:UCHL
-inverse_is_a: HGNC:ZUP1
-inverse_is_a: FPLX:BRISC_complex
-inverse_is_a: FPLX:PRDUB_complex
-inverse_is_a: HGNC:PSMD14
-inverse_is_a: FPLX:JAMM
 
 [Term]
 id: FPLX:DUSP
@@ -6619,7 +6627,7 @@ inverse_is_a: HGNC:TYK2
 [Term]
 id: FPLX:JAMM
 name: JAMM
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:BRCC3
 inverse_is_a: HGNC:COPS5
 inverse_is_a: HGNC:COPS6
@@ -7353,7 +7361,7 @@ synonym: "motif interacting with ubiquitin-containing novel DUB family" EXACT []
 synonym: "motif interacting with ubiquitin-containing novel deubiquinating enzyme family" EXACT []
 synonym: "MINDY deubiquitinases" EXACT []
 xref: HGNC_GROUP:1376
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:MINDY1
 inverse_is_a: HGNC:MINDY2
 inverse_is_a: HGNC:MINDY3
@@ -7419,7 +7427,7 @@ synonym: "josephin deubiquinatase" EXACT []
 synonym: "MJD deubiquinating enzyme" EXACT []
 synonym: "MJD deubiquinating enzymes" EXACT []
 xref: HGNC_GROUP:997
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:JOSD1
 inverse_is_a: HGNC:JOSD2
 inverse_is_a: HGNC:ATXN3
@@ -8895,7 +8903,7 @@ inverse_is_a: HGNC:OR9Q2
 id: FPLX:OTU
 name: OTU
 xref: HGNC_GROUP:669
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:ALG13
 inverse_is_a: HGNC:OTULINL
 inverse_is_a: FPLX:OTUB
@@ -10243,7 +10251,7 @@ id: FPLX:PRDUB_complex
 name: PRDUB-complex
 xref: COMPLEXPORTAL:CPX-414
 xref: GO:0035517
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 has_part: HGNC:ASXL1
 has_part: HGNC:BAP1
 
@@ -12375,7 +12383,7 @@ synonym: "Ubiquitin C-terminal hydrolase family" EXACT []
 synonym: "Ubiquitin C-terminal hydrolases family" EXACT []
 synonym: "UCH family" EXACT []
 xref: HGNC_GROUP:998
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:UCHL1
 inverse_is_a: HGNC:BAP1
 inverse_is_a: HGNC:UCHL3
@@ -12430,7 +12438,7 @@ inverse_is_a: HGNC:UGT8
 id: FPLX:USP
 name: USP
 xref: HGNC_GROUP:366
-is_a: FPLX:DUB
+is_a: FPLX:Deubiquitinase
 inverse_is_a: FPLX:USP9
 inverse_is_a: HGNC:USP1
 inverse_is_a: HGNC:USP2
