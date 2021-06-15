@@ -2,8 +2,8 @@
 Keyword=FPLX
 NameString=FamPlex
 DomainString=Gene and Gene Products
-VersionString=20210614
-CreatedDateTime=2021-06-14T12:42:45
+VersionString=20210615
+CreatedDateTime=2021-06-15T10:24:21
 DescriptionString=FamPlex is a collection of resources for grounding biological entities from text and describing their hierarchical relationships.
 QueryValueURL=http://identifiers.org/fplx/
 
@@ -407,6 +407,7 @@ Integrins|CGPR
 Interferon|CGPR
 Interferon_gamma_receptor|CGPR
 JAK|CGPR
+JAMM|CGPR
 JNK|CGPR
 JUN_family|CGPR
 KCN|CGPR

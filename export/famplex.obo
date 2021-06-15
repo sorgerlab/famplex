@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:06:2021 12:42
+date: 15:06:2021 10:24
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3512,6 +3512,8 @@ inverse_is_a: FPLX:UCHL
 inverse_is_a: HGNC:ZUP1
 inverse_is_a: FPLX:BRISC_complex
 inverse_is_a: FPLX:PRDUB_complex
+inverse_is_a: HGNC:PSMD14
+inverse_is_a: FPLX:JAMM
 
 [Term]
 id: FPLX:DUSP
@@ -6613,6 +6615,22 @@ inverse_is_a: HGNC:JAK1
 inverse_is_a: HGNC:JAK2
 inverse_is_a: HGNC:JAK3
 inverse_is_a: HGNC:TYK2
+
+[Term]
+id: FPLX:JAMM
+name: JAMM
+is_a: FPLX:DUB
+inverse_is_a: HGNC:BRCC3
+inverse_is_a: HGNC:COPS5
+inverse_is_a: HGNC:COPS6
+inverse_is_a: HGNC:PSMD7
+inverse_is_a: HGNC:PSMD14
+inverse_is_a: HGNC:STAMBP
+inverse_is_a: HGNC:STAMBPL1
+inverse_is_a: HGNC:EIF3H
+inverse_is_a: HGNC:MPND
+inverse_is_a: HGNC:MYSM1
+inverse_is_a: HGNC:PRPF8
 
 [Term]
 id: FPLX:JNK
