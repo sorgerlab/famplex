@@ -1391,7 +1391,12 @@ MG132	CHEBI:75142	chebi	Simple_chemical
 MGAT	MGAT	fplx	Family
 MIF	P14174	uniprot	Gene_or_gene_product
 MINDY	MINDY	fplx	Family
+MINDY deubiquinatase	MINDY	fplx	Family
+MINDY deubiquinatases	MINDY	fplx	Family
+MINDY deubiquitinase	MINDY	fplx	Family
 MINDY deubiquitinases	MINDY	fplx	Family
+MINDY deubiquitylase	MINDY	fplx	Family
+MINDY deubiquitylases	MINDY	fplx	Family
 MIRLET7	MIRLET7	fplx	Family
 MIRLET7A	MIRLET7A	fplx	Family
 MIRLET7F	MIRLET7F	fplx	Family
@@ -1401,6 +1406,8 @@ MJD deubiquinating enzyme	MJD	fplx	Family
 MJD deubiquinating enzymes	MJD	fplx	Family
 MJD deubiquitinating enzyme	MJD	fplx	Family
 MJD deubiquitinating enzymes	MJD	fplx	Family
+MJD deubiquitylating enzyme	MJD	fplx	Family
+MJD deubiquitylating enzymes	MJD	fplx	Family
 MKK4	P45985	uniprot	Gene_or_gene_product
 MKNK	MKNK	fplx	Family
 MKP-1	P28562	uniprot	Gene_or_gene_product
@@ -2406,6 +2413,8 @@ UCH deubiquinating enzyme	UCHL	fplx	Family
 UCH deubiquinating enzymes	UCHL	fplx	Family
 UCH deubiquitinating enzyme	UCHL	fplx	Family
 UCH deubiquitinating enzymes	UCHL	fplx	Family
+UCH deubiquitylating enzyme	UCHL	fplx	Family
+UCH deubiquitylating enzymes	UCHL	fplx	Family
 UCH family	UCHL	fplx	Family
 UCHL	UCHL	fplx	Family
 UGGT	UGGT	fplx	Family
@@ -2416,12 +2425,21 @@ USP9	USP9	fplx	Family
 USPL	USPL	fplx	Family
 Ub	Ubiquitin	fplx	Family
 Ubiquitin	Ubiquitin	fplx	Family
+Ubiquitin C-terminal hydrolase	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolase deubiquinating enzyme	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolase deubiquinating enzymes	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolase deubiquitinating enzyme	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolase deubiquitinating enzymes	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolase deubiquitylating enzyme	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolase deubiquitylating enzymes	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolase family	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases deubiquinating enzyme	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases deubiquinating enzymes	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases deubiquitinating enzyme	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases deubiquitinating enzymes	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases deubiquitylating enzyme	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases deubiquitylating enzymes	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases family	UCHL	fplx	Family
 Uridine	CHEBI:16704	chebi	Simple_chemical
 VAV	VAV	fplx	Family
@@ -3045,6 +3063,8 @@ josephin deubiquinatase	MJD	fplx	Family
 josephin deubiquinatases	MJD	fplx	Family
 josephin deubiquitinatase	MJD	fplx	Family
 josephin deubiquitinatases	MJD	fplx	Family
+josephin deubiquitylase	MJD	fplx	Family
+josephin deubiquitylases	MJD	fplx	Family
 josephin domain containing	MJD	fplx	Family
 kallikrein	KLK	fplx	Family
 kallikrein-related peptidases	KLK	fplx	Family
@@ -3126,6 +3146,11 @@ mitoribosome	Mitochondrial_Ribosome	fplx	Family
 motif interacting with Ub-containing novel DUB family	MINDY	fplx	Family
 motif interacting with ubiquitin-containing novel DUB family	MINDY	fplx	Family
 motif interacting with ubiquitin-containing novel deubiquinating enzyme family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel deubiquinating enzymes family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel deubiquitinating enzyme family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel deubiquitinating enzymes family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel deubiquitylating enzyme family	MINDY	fplx	Family
+motif interacting with ubiquitin-containing novel deubiquitylating enzymes family	MINDY	fplx	Family
 motor dynein	Dynein	fplx	Family
 motor protein dynein	Dynein	fplx	Family
 mutp53	P04637	uniprot	Gene_or_gene_product
