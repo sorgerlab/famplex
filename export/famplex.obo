@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:06:2021 19:45
+date: 15:06:2021 20:07
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -3381,6 +3381,7 @@ synonym: "Deubiquinating Enzyme" EXACT []
 synonym: "Deubiquinating enzyme" EXACT []
 synonym: "deubiquinating enzyme" EXACT []
 synonym: "DUBs" EXACT []
+synonym: "DUB" EXACT []
 xref: ECCODE:3.4.19.12
 xref: HGNC_GROUP:996
 xref: MESH:D000072017
@@ -6627,6 +6628,7 @@ inverse_is_a: HGNC:TYK2
 [Term]
 id: FPLX:JAMM
 name: JAMM
+synonym: "JAB1/MPN/MOV34 metalloenzyme domain" EXACT []
 is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:BRCC3
 inverse_is_a: HGNC:COPS5

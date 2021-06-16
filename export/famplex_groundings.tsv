@@ -639,6 +639,7 @@ DR4	O00220	uniprot	Gene_or_gene_product
 DR5	O14763	uniprot	Gene_or_gene_product
 DRD	DRD	fplx	Family
 DSB	D053903	mesh	BioProcess
+DUB	Deubiquitinase	fplx	Family
 DUBs	Deubiquitinase	fplx	Family
 DUSP	DUSP	fplx	Family
 DUSP1	P28562	uniprot	Gene_or_gene_product
@@ -1256,6 +1257,7 @@ IκB	IKB	fplx	Family
 IκB kinase	IKK_complex	fplx	Family
 IκB-α	P25963	uniprot	Gene_or_gene_product
 IκBα	P25963	uniprot	Gene_or_gene_product
+JAB1/MPN/MOV34 metalloenzyme domain	JAMM	fplx	Family
 JAK	JAK	fplx	Family
 JAK2	O60674	uniprot	Gene_or_gene_product
 JAKs	JAK	fplx	Family
