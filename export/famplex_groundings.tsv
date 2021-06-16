@@ -307,7 +307,9 @@ BRCC36 (BRCC3) isopeptidase complex	BRISC_complex	fplx	Family
 BRCC36 isopeptidase complex	BRISC_complex	fplx	Family
 BRI	BMP_receptor_type_I	fplx	Family
 BRII	BMP_receptor_type_II	fplx	Family
+BRISC deubiquinating enzyme complex	BRISC_complex	fplx	Family
 BRISC deubiquitinating enzyme complex	BRISC_complex	fplx	Family
+BRISC deubiquitylating enzyme complex	BRISC_complex	fplx	Family
 BRISC-complex	BRISC_complex	fplx	Family
 BRSK1	Q8TDC3	uniprot	Gene_or_gene_product
 BRSK2	Q8IWQ3	uniprot	Gene_or_gene_product
@@ -651,11 +653,24 @@ Danusertib	CHEBI:94490	chebi	Simple_chemical
 Death-receptor	Death_receptor	fplx	Family
 Deoxyribonucleoside-kinases	Deoxyribonucleoside_kinases	fplx	Family
 Desmoglein	Desmoglein	fplx	Family
+Deubiquinatase	Deubiquitinase	fplx	Family
+Deubiquinatases	Deubiquitinase	fplx	Family
 Deubiquinating Enzyme	Deubiquitinase	fplx	Family
 Deubiquinating Enzymes	Deubiquitinase	fplx	Family
 Deubiquinating enzyme	Deubiquitinase	fplx	Family
 Deubiquinating enzymes	Deubiquitinase	fplx	Family
 Deubiquitinase	Deubiquitinase	fplx	Family
+Deubiquitinases	Deubiquitinase	fplx	Family
+Deubiquitinating Enzyme	Deubiquitinase	fplx	Family
+Deubiquitinating Enzymes	Deubiquitinase	fplx	Family
+Deubiquitinating enzyme	Deubiquitinase	fplx	Family
+Deubiquitinating enzymes	Deubiquitinase	fplx	Family
+Deubiquitylase	Deubiquitinase	fplx	Family
+Deubiquitylases	Deubiquitinase	fplx	Family
+Deubiquitylating Enzyme	Deubiquitinase	fplx	Family
+Deubiquitylating Enzymes	Deubiquitinase	fplx	Family
+Deubiquitylating enzyme	Deubiquitinase	fplx	Family
+Deubiquitylating enzymes	Deubiquitinase	fplx	Family
 Dgk	DGK	fplx	Family
 Dinaciclib	CHEBI:95060	chebi	Simple_chemical
 Dok1	Q99704	uniprot	Gene_or_gene_product
@@ -1377,6 +1392,8 @@ MITF	O75030	uniprot	Gene_or_gene_product
 MJD	MJD	fplx	Family
 MJD deubiquinating enzyme	MJD	fplx	Family
 MJD deubiquinating enzymes	MJD	fplx	Family
+MJD deubiquitinating enzyme	MJD	fplx	Family
+MJD deubiquitinating enzymes	MJD	fplx	Family
 MKK4	P45985	uniprot	Gene_or_gene_product
 MKNK	MKNK	fplx	Family
 MKP-1	P28562	uniprot	Gene_or_gene_product
@@ -2378,6 +2395,8 @@ Tubulin	Tubulin	fplx	Family
 Type I collagen	COL1	fplx	Family
 U0126	CHEBI:90693	chebi	Simple_chemical
 UBE2	UBE2	fplx	Family
+UCH deubiquinating enzyme	UCHL	fplx	Family
+UCH deubiquinating enzymes	UCHL	fplx	Family
 UCH deubiquitinating enzyme	UCHL	fplx	Family
 UCH deubiquitinating enzymes	UCHL	fplx	Family
 UCH family	UCHL	fplx	Family
@@ -2392,6 +2411,8 @@ Ub	Ubiquitin	fplx	Family
 Ubiquitin	Ubiquitin	fplx	Family
 Ubiquitin C-terminal hydrolase family	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases deubiquinating enzyme	UCHL	fplx	Family
+Ubiquitin C-terminal hydrolases deubiquinating enzymes	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases deubiquitinating enzyme	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases deubiquitinating enzymes	UCHL	fplx	Family
 Ubiquitin C-terminal hydrolases family	UCHL	fplx	Family
@@ -2789,6 +2810,14 @@ deubiquinatase	Deubiquitinase	fplx	Family
 deubiquinatases	Deubiquitinase	fplx	Family
 deubiquinating enzyme	Deubiquitinase	fplx	Family
 deubiquinating enzymes	Deubiquitinase	fplx	Family
+deubiquitinase	Deubiquitinase	fplx	Family
+deubiquitinases	Deubiquitinase	fplx	Family
+deubiquitinating enzyme	Deubiquitinase	fplx	Family
+deubiquitinating enzymes	Deubiquitinase	fplx	Family
+deubiquitylase	Deubiquitinase	fplx	Family
+deubiquitylases	Deubiquitinase	fplx	Family
+deubiquitylating enzyme	Deubiquitinase	fplx	Family
+deubiquitylating enzymes	Deubiquitinase	fplx	Family
 dexamethasone	CHEBI:41879	chebi	Simple_chemical
 diacyl glycerol kinase	DGK	fplx	Family
 diacylglycerol kinase	DGK	fplx	Family
@@ -3007,6 +3036,8 @@ ischemia	D007511	mesh	BioProcess
 isoflurane	CHEBI:6015	chebi	Simple_chemical
 josephin deubiquinatase	MJD	fplx	Family
 josephin deubiquinatases	MJD	fplx	Family
+josephin deubiquitinatase	MJD	fplx	Family
+josephin deubiquitinatases	MJD	fplx	Family
 josephin domain containing	MJD	fplx	Family
 kallikrein	KLK	fplx	Family
 kallikrein-related peptidases	KLK	fplx	Family

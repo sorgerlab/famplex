@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:06:2021 20:07
+date: 16:06:2021 10:12
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -1493,6 +1493,8 @@ inverse_is_a: HGNC:BRCA2
 id: FPLX:BRISC_complex
 name: BRISC-complex
 synonym: "BRISC deubiquitinating enzyme complex" EXACT []
+synonym: "BRISC deubiquitylating enzyme complex" EXACT []
+synonym: "BRISC deubiquinating enzyme complex" EXACT []
 synonym: "BRCC36 (BRCC3) isopeptidase complex" EXACT []
 synonym: "BRCC36 isopeptidase complex" EXACT []
 xref: GO:0070552
@@ -3372,14 +3374,35 @@ inverse_is_a: HGNC:DSG4
 [Term]
 id: FPLX:Deubiquitinase
 name: Deubiquitinase
+synonym: "deubiquitinase" EXACT []
+synonym: "Deubiquitinases" EXACT []
+synonym: "deubiquitinases" EXACT []
+synonym: "Deubiquinatase" EXACT []
 synonym: "deubiquinatase" EXACT []
+synonym: "Deubiquinatases" EXACT []
 synonym: "deubiquinatases" EXACT []
+synonym: "Deubiquitylase" EXACT []
+synonym: "deubiquitylase" EXACT []
+synonym: "deubiquitylases" EXACT []
+synonym: "Deubiquitylases" EXACT []
+synonym: "Deubiquitinating Enzymes" EXACT []
+synonym: "Deubiquitinating enzymes" EXACT []
+synonym: "deubiquitinating enzymes" EXACT []
+synonym: "Deubiquitinating Enzyme" EXACT []
+synonym: "Deubiquitinating enzyme" EXACT []
+synonym: "deubiquitinating enzyme" EXACT []
 synonym: "Deubiquinating Enzymes" EXACT []
 synonym: "Deubiquinating enzymes" EXACT []
 synonym: "deubiquinating enzymes" EXACT []
 synonym: "Deubiquinating Enzyme" EXACT []
 synonym: "Deubiquinating enzyme" EXACT []
 synonym: "deubiquinating enzyme" EXACT []
+synonym: "Deubiquitylating Enzyme" EXACT []
+synonym: "Deubiquitylating Enzymes" EXACT []
+synonym: "Deubiquitylating enzyme" EXACT []
+synonym: "Deubiquitylating enzymes" EXACT []
+synonym: "deubiquitylating enzyme" EXACT []
+synonym: "deubiquitylating enzymes" EXACT []
 synonym: "DUBs" EXACT []
 synonym: "DUB" EXACT []
 xref: ECCODE:3.4.19.12
@@ -7426,8 +7449,12 @@ name: MJD
 synonym: "josephin domain containing" EXACT []
 synonym: "josephin deubiquinatases" EXACT []
 synonym: "josephin deubiquinatase" EXACT []
+synonym: "josephin deubiquitinatases" EXACT []
+synonym: "josephin deubiquitinatase" EXACT []
 synonym: "MJD deubiquinating enzyme" EXACT []
 synonym: "MJD deubiquinating enzymes" EXACT []
+synonym: "MJD deubiquitinating enzyme" EXACT []
+synonym: "MJD deubiquitinating enzymes" EXACT []
 xref: HGNC_GROUP:997
 is_a: FPLX:Deubiquitinase
 inverse_is_a: HGNC:JOSD1
@@ -12377,8 +12404,12 @@ is_a: FPLX:root
 id: FPLX:UCHL
 name: UCHL
 synonym: "Ubiquitin C-terminal hydrolases" EXACT []
+synonym: "UCH deubiquinating enzyme" EXACT []
+synonym: "UCH deubiquinating enzymes" EXACT []
 synonym: "UCH deubiquitinating enzyme" EXACT []
 synonym: "UCH deubiquitinating enzymes" EXACT []
+synonym: "Ubiquitin C-terminal hydrolases deubiquinating enzyme" EXACT []
+synonym: "Ubiquitin C-terminal hydrolases deubiquinating enzymes" EXACT []
 synonym: "Ubiquitin C-terminal hydrolases deubiquitinating enzyme" EXACT []
 synonym: "Ubiquitin C-terminal hydrolases deubiquitinating enzymes" EXACT []
 synonym: "Ubiquitin C-terminal hydrolase family" EXACT []
