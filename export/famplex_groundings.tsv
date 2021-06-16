@@ -1277,6 +1277,13 @@ JAK	JAK	fplx	Family
 JAK2	O60674	uniprot	Gene_or_gene_product
 JAKs	JAK	fplx	Family
 JAMM	JAMM	fplx	Family
+JAMM deubiquinatase	JAMM	fplx	Family
+JAMM deubiquinatases	JAMM	fplx	Family
+JAMM deubiquitinase	JAMM	fplx	Family
+JAMM deubiquitinases	JAMM	fplx	Family
+JAMM deubiquitylase	JAMM	fplx	Family
+JAMM deubiquitylases	JAMM	fplx	Family
+JAMM family	JAMM	fplx	Family
 JNK	JNK	fplx	Family
 JNK MAPK	JNK	fplx	Family
 JNK1	P45983	uniprot	Gene_or_gene_product
