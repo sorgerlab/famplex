@@ -303,6 +303,7 @@ BRAF	P15056	uniprot	Gene_or_gene_product
 BRCA	BRCA	fplx	Family
 BRCA1	P38398	uniprot	Gene_or_gene_product
 BRCA2	P51587	uniprot	Gene_or_gene_product
+BRCC3 isopeptidase complex	BRISC_complex	fplx	Family
 BRCC36 (BRCC3) isopeptidase complex	BRISC_complex	fplx	Family
 BRCC36 isopeptidase complex	BRISC_complex	fplx	Family
 BRI	BMP_receptor_type_I	fplx	Family
@@ -1272,6 +1273,17 @@ IκB	IKB	fplx	Family
 IκB kinase	IKK_complex	fplx	Family
 IκB-α	P25963	uniprot	Gene_or_gene_product
 IκBα	P25963	uniprot	Gene_or_gene_product
+JAB1/MPN/MOV34 Pad1 N-terminal (MPN) domain protease	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal (MPN) domain proteases	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal domain protease	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal domain proteases	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN) domain protease	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN) domain proteases	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN+) domain protease	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN+) domain proteases	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal+ domain protease	JAMM	fplx	Family
+JAB1/MPN/MOV34 Pad1 N-terminal+ domain proteases	JAMM	fplx	Family
+JAB1/MPN/MOV34 metalloenzyme	JAMM	fplx	Family
 JAB1/MPN/MOV34 metalloenzyme domain	JAMM	fplx	Family
 JAK	JAK	fplx	Family
 JAK2	O60674	uniprot	Gene_or_gene_product

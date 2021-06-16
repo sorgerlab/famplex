@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:06:2021 10:20
+date: 16:06:2021 10:24
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -1496,6 +1496,7 @@ synonym: "BRISC deubiquitinating enzyme complex" EXACT []
 synonym: "BRISC deubiquitylating enzyme complex" EXACT []
 synonym: "BRISC deubiquinating enzyme complex" EXACT []
 synonym: "BRCC36 (BRCC3) isopeptidase complex" EXACT []
+synonym: "BRCC3 isopeptidase complex" EXACT []
 synonym: "BRCC36 isopeptidase complex" EXACT []
 xref: GO:0070552
 xref: HGNC_GROUP:1375
@@ -6651,7 +6652,18 @@ inverse_is_a: HGNC:TYK2
 [Term]
 id: FPLX:JAMM
 name: JAMM
+synonym: "JAB1/MPN/MOV34 metalloenzyme" EXACT []
 synonym: "JAB1/MPN/MOV34 metalloenzyme domain" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal domain protease" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal domain proteases" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal (MPN) domain protease" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal (MPN) domain proteases" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal+ domain protease" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal+ domain proteases" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN+) domain protease" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN+) domain proteases" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN) domain protease" EXACT []
+synonym: "JAB1/MPN/MOV34 Pad1 N-terminal+ (MPN) domain proteases" EXACT []
 synonym: "JAMM family" EXACT []
 synonym: "JAMM deubiquitinase" EXACT []
 synonym: "JAMM deubiquitinases" EXACT []
