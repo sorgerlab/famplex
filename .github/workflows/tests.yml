@@ -24,6 +24,7 @@ jobs:
       run: |
         export PYTHONPATH=$PYTHONPATH:$HOME/indra
         python check_references.py
+        python lint.py
         python export/relations_graph.py
         python export/obo.py
         python export/hgnc_ids.py

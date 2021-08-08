@@ -1,14 +1,10 @@
 BEL,14-3-3 Family,p14_3_3
 BEL,9-1-1 Complex,9_1_1
 BEL,ACAD Family,ACAD
-BEL,Acetyl CoA Carboxylase Complex,ACC
-BEL,Acetyl-CoA Synthetase Family,Acetyl_CoA_synthetase
 BEL,ACOX Family,ACOX
 BEL,ACSL Family,ACSL
 BEL,ACT Family,Actin
 BEL,ACTN Family,ACTN
-BEL,Adaptor Protein II Complex,Adaptor_protein_II
-BEL,Adaptor Protein III Complex,Adaptor_protein_III
 BEL,ADCY Family,ADCY
 BEL,ADH Family,ADH
 BEL,ADRA Family,ADRA
@@ -19,14 +15,18 @@ BEL,AKT Family,AKT
 BEL,ALDH Family,ALDH
 BEL,ALDO Family,ALDO
 BEL,AMP Activated Protein Kinase Complex,AMPK
-BEL,Annexin II Heterotetramer Complex,Annexin_II_heterotetramer
 BEL,AP-1 Complex,AP1
 BEL,APOA Family,APOA
-BEL,Arp2/3 Protein Complex,Arp2_3_protein
 BEL,ARRB Family,ARRB
 BEL,ATP2A Family,SERCA
 BEL,ATP5G Family,ATP5G
 BEL,AXIN Family,AXIN
+BEL,Acetyl CoA Carboxylase Complex,ACC
+BEL,Acetyl-CoA Synthetase Family,Acetyl_CoA_synthetase
+BEL,Adaptor Protein II Complex,Adaptor_protein_II
+BEL,Adaptor Protein III Complex,Adaptor_protein_III
+BEL,Annexin II Heterotetramer Complex,Annexin_II_heterotetramer
+BEL,Arp2/3 Protein Complex,Arp2_3_protein
 BEL,BIRC Family,BIRC
 BEL,BMP Family,BMP
 BEL,BMP Receptor Type I Family,BMP_receptor_type_I
@@ -34,13 +34,11 @@ BEL,BMP Receptor Type II Family,BMP_receptor_type_II
 BEL,Branched Chain Alpha Keto Acid Dehydrogenase Complex,BCKDC
 BEL,C1 Complex,C1
 BEL,C1q Complex,C1q
-BEL,Calcineurin Complex,PPP3
 BEL,CALM Family,CALM
 BEL,CAMK Family,CAMK
 BEL,CAMK2 Complex,CAMK2_complex
 BEL,CAMK2 Family,CAMK2_family
 BEL,CAPN Family,CAPN
-BEL,Carboxylesterase Family,Carboxylesterase
 BEL,CASP Family,Caspase
 BEL,CAV Family,CAV
 BEL,CBF3 Complex,CBF3
@@ -55,13 +53,9 @@ BEL,CD64 Family,CD64
 BEL,CDC25 Family,CDC25
 BEL,CDH Family,Cadherin
 BEL,CEBP Family,CEBP
-BEL,Chemokine Receptor Family,Chemokine_receptor
-BEL,Cholinesterase Family,Cholinesterase
 BEL,CHRM Family,CHRM
 BEL,CHRN Complex,CHRN
 BEL,CK II Complex,CK2
-BEL,Clathrin Complex,Clathrin
-BEL,Cohesin Complex,Cohesin
 BEL,COL1 Family,COL1
 BEL,COL4 Family,COL4
 BEL,COL5 Family,COL5
@@ -77,21 +71,27 @@ BEL,CRSP Complex,CRSP
 BEL,CSNK1 Family,CSNK1
 BEL,CSNK2 Family,CSNK2
 BEL,CTNNA Family,CTNNA
-BEL,Cu-Zn SOD Family,SOD
 BEL,CUL Family,CUL
 BEL,CXCL ELR-Negative Family,CXCL_ELR_negative
 BEL,CXCL ELR-Positive Family,CXCL_ELR_positive
+BEL,Calcineurin Complex,PPP3
+BEL,Carboxylesterase Family,Carboxylesterase
+BEL,Chemokine Receptor Family,Chemokine_receptor
+BEL,Cholinesterase Family,Cholinesterase
+BEL,Clathrin Complex,Clathrin
+BEL,Cohesin Complex,Cohesin
+BEL,Cu-Zn SOD Family,SOD
 BEL,Cyclophilin Family,Cyclophilin
 BEL,Cytochrome C Oxidase Complex Muscle,COX
 BEL,Cytochrome C Oxidase Complex Non Muscle,COX
 BEL,Cytoplasmic Dynein Complex,Cytoplasmic_dynein
 BEL,DDR Family,DDR
-BEL,Desmoglein Family,Desmoglein
 BEL,DGK Family,DGK
 BEL,DNA Polymerase delta Complex,DNA_polymerase_delta
 BEL,DNM Family,DNM
 BEL,DRD Family,DRD
 BEL,DVL Family,DVL
+BEL,Desmoglein Family,Desmoglein
 BEL,Dystrophin Associated Glycoprotein Complex,DGC
 BEL,E2F Family,E2F
 BEL,EDN Family,EDN
@@ -103,20 +103,19 @@ BEL,EIF4A Family,EIF4A
 BEL,EIF4EBP Family,EIF4EBP
 BEL,ELA Family,ELA
 BEL,ENO Family,ENO
-BEL,Ephrin Receptor Family,Ephrin_receptor
 BEL,EPN Family,EPN
 BEL,ESR Family,ESR
 BEL,ETS Family,ETS
+BEL,Ephrin Receptor Family,Ephrin_receptor
 BEL,FGF Family,FGF
 BEL,FGFR Family,FGFR
-BEL,Fibrinogen Complex,Fibrinogen
 BEL,FLOT Family,FLOT
 BEL,FLRT Family,FLRT
-BEL,Follicle Stimulating Hormone Complex,FSH
 BEL,FOXO Family,FOXO
 BEL,FZD Family,FZD
+BEL,Fibrinogen Complex,Fibrinogen
+BEL,Follicle Stimulating Hormone Complex,FSH
 BEL,GABR Family,GABR
-BEL,gamma Secretase Complex,Gamma_secretase
 BEL,GAS6 Receptor Family,GAS6_receptor
 BEL,GATA Family,GATA
 BEL,GNA Gq Family,G_q
@@ -139,36 +138,36 @@ BEL,HDAC Class I Family,HDAC_I
 BEL,HDAC Class II Family,HDAC_II
 BEL,HDAC Family,HDAC
 BEL,HDL Complex,HDL
+BEL,HES Family,HES
+BEL,HLA-DR Family,HLA_DR
+BEL,HMOX Family,HMOX
+BEL,HSP90 Family,HSP90
+BEL,HSPA Family,HSPA
+BEL,HSPB Family,HSPB
 BEL,Hedgehog Family,Hedgehog
 BEL,Hemoglobin Complex,Hemoglobin
-BEL,HES Family,HES
 BEL,Histone Family,Histone
 BEL,Histone H1 Family,Histone_H1
 BEL,Histone H2A Family,Histone_H2A
 BEL,Histone H2B Family,Histone_H2B
 BEL,Histone H3 Family,Histone_H3
 BEL,Histone H4 Family,Histone_H4
-BEL,HLA-DR Family,HLA_DR
-BEL,HMOX Family,HMOX
-BEL,HSP90 Family,HSP90
-BEL,HSPA Family,HSPA
-BEL,HSPB Family,HSPB
-BEL,Ib-V-IX Complex,GPIb_IX_V
 BEL,IFNA Family,IFNA
 BEL,IGFBP Family,IGFBP
-BEL,IkappaB Kinase Complex,IKK_complex
-BEL,IkappaB Kinase Family,IKK_family
 BEL,IL1 Family,IL1
 BEL,INSR Family,INSR
-BEL,Interferon Gamma Receptor Complex,Interferon_gamma_receptor
 BEL,IRS Family,IRS
 BEL,IRX Family,IRX
+BEL,Ib-V-IX Complex,GPIb_IX_V
+BEL,IkappaB Kinase Complex,IKK_complex
+BEL,IkappaB Kinase Family,IKK_family
+BEL,Interferon Gamma Receptor Complex,Interferon_gamma_receptor
 BEL,JAK Family,JAK
-BEL,Kinetochore Complex,Kinetochore
 BEL,KLK Family,KLK
+BEL,Kinetochore Complex,Kinetochore
+BEL,LDH Family,LDH
 BEL,Laminin 1 Complex,Laminin_111
 BEL,Laminin 5 Complex,Laminin_332
-BEL,LDH Family,LDH
 BEL,Luteinizing Hormone Complex,LH
 BEL,MAF Family,MAF
 BEL,MAPK Erk1/2 Family,ERK
@@ -177,7 +176,6 @@ BEL,MAPK JNK Family,JNK
 BEL,MAPK p38 Family,p38
 BEL,MEF2 Family,MEF2
 BEL,MEK1/2 Family,MEK
-BEL,Membrane Attack Complex,MAC
 BEL,MMP Family,MMP
 BEL,MYH Family,MYH
 BEL,MYL Alkali Family,MYL_alkali
@@ -185,24 +183,23 @@ BEL,MYL Family,MYL
 BEL,MYL Regulatory Family,MYL_regulatory
 BEL,MYL Slow Family,MYL_slow
 BEL,MYST Family,MYST
-BEL,Na/K Exchanging ATPase Complex,Na_K_ATPase
+BEL,Membrane Attack Complex,MAC
 BEL,NADH Dehydrogenase Complex,NADH_dehydrogenase
 BEL,NADPH Oxidase Complex,NADPH_oxidase
 BEL,NCOR Family,NCOR
 BEL,NDRG Family,NDRG
 BEL,NFAT Family,NFAT
-BEL,Nfkb Complex,NFkappaB
-BEL,Nfy Complex,NFY
 BEL,NKD Family,NKD
 BEL,NOS Family,NOS
 BEL,NOTCH Family,Notch
 BEL,NRG1/2 Family,NRG_1_2
 BEL,NRG3/4 Family,NRG_3_4
 BEL,NTRK Family,NTRK
-BEL,p160/SRC Family,NCOA
+BEL,Na/K Exchanging ATPase Complex,Na_K_ATPase
+BEL,Nfkb Complex,NFkappaB
+BEL,Nfy Complex,NFY
 BEL,P2RX Family,P2RX
 BEL,P2RY Family,P2RY
-BEL,p85/p110 PI3Kinase Complex,PI3K
 BEL,PAK Family,PAK
 BEL,PARV Family,PARV
 BEL,PBX Family,PBX
@@ -215,7 +212,6 @@ BEL,PDGF Family,PDGF
 BEL,PDGFR Family,PDGFR
 BEL,PDK Family,PDK
 BEL,PFN Family,PFN
-BEL,Phosphorylase B Kinase Complex,PhK
 BEL,PIK3C Class IA Family,PI3K_p110
 BEL,PIK3R Class IA Family,PIK3R_I
 BEL,PKI Family,PKI
@@ -245,18 +241,17 @@ BEL,PRKAG Family,AMPK_gamma
 BEL,PRKAR Family,PRKAR
 BEL,PRKC Family,PKC
 BEL,PRKG Family,PRKG
+BEL,PTGER Family,PTGER
+BEL,Phosphorylase B Kinase Complex,PhK
 BEL,Propionyl CoA Carboxylase Complex,Propionyl_CoA_carboxylase
 BEL,Proteasome Complex,Proteasome
 BEL,Proton Transporting ATP Synthase Complex,ATP_synthase
-BEL,PTGER Family,PTGER
 BEL,Pyruvate Dehydrogenase Complex,PDH
 BEL,RAB Family,RAB
 BEL,RAC Family,RAC
 BEL,RAF Family,RAF
 BEL,RAR Family,RAR
 BEL,RAS Family,RAS
-BEL,Respiratory Chain Complex II,ETC_complex_II
-BEL,Respiratory Chain Complex III,ETC_complex_III
 BEL,RFC Complex,RFC
 BEL,RFX Family,RFX
 BEL,RHO Family,RHO
@@ -267,6 +262,8 @@ BEL,ROR Family,ROR
 BEL,RPS6KA Family,P90RSK
 BEL,RPS6KB Family,P70S6K
 BEL,RXR Family,RXR
+BEL,Respiratory Chain Complex II,ETC_complex_II
+BEL,Respiratory Chain Complex III,ETC_complex_III
 BEL,S100A Family,S100A
 BEL,S1PR Family,S1PR
 BEL,SAA Family,SAA
@@ -281,8 +278,8 @@ BEL,SRC Family,SRC
 BEL,SREBF Family,SREBF
 BEL,STAT Family,STAT
 BEL,STAT5 Family,STAT5
-BEL,Sulfonylurea Receptor Family,Sulfonylurea_receptor
 BEL,SWI/SNF Complex,SWI_SNF
+BEL,Sulfonylurea Receptor Family,Sulfonylurea_receptor
 BEL,TAP Family,TAP
 BEL,TCF/LEF Family,TCF_LEF
 BEL,TFAP2 Family,TFAP2
@@ -290,23 +287,26 @@ BEL,TFDP Family,TFDP
 BEL,TGFB Family,TGFB
 BEL,THBS Family,THBS
 BEL,THR Family,THR
-BEL,Thrombin Antithrombin Complex,Thrombin_antithrombin
 BEL,TIF IB Complex,TIF_IB
 BEL,TN Family,TN
 BEL,TNFRSF Family,TNFRSF
 BEL,TOP2 Family,TOP2
 BEL,TORC1 Complex,mTORC1
 BEL,TORC2 Complex,mTORC2
-BEL,Tryptase Family,Tryptase
 BEL,TUBA Family,TUBA
 BEL,TUBB Family,TUBB
 BEL,TXN Family,TXN
 BEL,TXNRD Family,TXNRD
+BEL,Thrombin Antithrombin Complex,Thrombin_antithrombin
+BEL,Tryptase Family,Tryptase
 BEL,UBE2 Family,UBE2
 BEL,VAV Family,VAV
 BEL,VEGF Family,VEGF
 BEL,VEGFR Family,VEGFR
 BEL,WNT Family,Wnt
+BEL,gamma Secretase Complex,Gamma_secretase
+BEL,p160/SRC Family,NCOA
+BEL,p85/p110 PI3Kinase Complex,PI3K
 COMPLEXPORTAL,CPX-414,PRDUB_complex
 COMPLEXPORTAL,CPX-560,ETC_complex_III
 COMPLEXPORTAL,CPX-561,ETC_complex_II
@@ -406,6 +406,7 @@ GO,GO:0008190,EIF4EBP
 GO,GO:0008278,Cohesin
 GO,GO:0008279,Cohesin
 GO,GO:0008281,Sulfonylurea_receptor
+GO,GO:0008305,Integrins
 GO,GO:0008433,GEF
 GO,GO:0008599,PPP1
 GO,GO:0016010,DGC
@@ -419,7 +420,6 @@ GO,GO:0031931,mTORC1
 GO,GO:0031941,F_actin
 GO,GO:0032281,GRIA
 GO,GO:0034364,HDL
-GO,GO:0008305,Integrins
 GO,GO:0035098,PRC2_complex
 GO,GO:0035102,PRC1_complex
 GO,GO:0035517,PRDUB_complex
@@ -435,25 +435,73 @@ GO,GO:0070552,BRISC_complex
 GO,GO:0070652,Augmin
 GO,GO:0070765,Gamma_secretase
 GO,GO:1990779,GPIb_IX_V
+HGNC_GROUP,1000,CYP1
+HGNC_GROUP,1001,CYP2
+HGNC_GROUP,1002,CYP3
+HGNC_GROUP,1003,CYP4
+HGNC_GROUP,1005,CYP7
+HGNC_GROUP,1006,CYP8
+HGNC_GROUP,1007,CYP11
+HGNC_GROUP,1013,CYP26
+HGNC_GROUP,1014,CYP27
+HGNC_GROUP,1021,DAPK
+HGNC_GROUP,1029,PAF1_complex
+HGNC_GROUP,1050,TOP
+HGNC_GROUP,1056,TRAF
+HGNC_GROUP,1149,ETC_complex_I_core
+HGNC_GROUP,1150,ETC_complex_I_supernumerary
+HGNC_GROUP,1158,LRRC8
+HGNC_GROUP,1159,ITGB
+HGNC_GROUP,1160,ITGA
+HGNC_GROUP,1199,Kainate_family
+HGNC_GROUP,1200,GRIA
+HGNC_GROUP,1201,GRIN
+HGNC_GROUP,1202,GRID
+HGNC_GROUP,1203,Sodium_voltage_gated_channel_alpha_subunits
+HGNC_GROUP,1204,Sodium_voltage_gated_channel_beta_subunits
+HGNC_GROUP,1253,SCAR
+HGNC_GROUP,1298,CLEC
+HGNC_GROUP,1302,Adenosine_deaminase_family
+HGNC_GROUP,1303,ADA
+HGNC_GROUP,1344,MRN_complex
+HGNC_GROUP,1375,BRISC_complex
+HGNC_GROUP,1376,MINDY
 HGNC_GROUP,141,OR
+HGNC_GROUP,1436,Actin_related_proteins
 HGNC_GROUP,147,OR1
 HGNC_GROUP,149,OR2
 HGNC_GROUP,150,OR3
 HGNC_GROUP,151,OR4
+HGNC_GROUP,1511,CACNG
+HGNC_GROUP,1512,CACNA1
+HGNC_GROUP,1514,CACNA2D
+HGNC_GROUP,1515,CACNB
 HGNC_GROUP,152,OR5
 HGNC_GROUP,153,OR6
 HGNC_GROUP,154,OR7
 HGNC_GROUP,155,OR8
 HGNC_GROUP,156,OR9
 HGNC_GROUP,157,OR10
+HGNC_GROUP,1580,TRMT
+HGNC_GROUP,1582,Neurexins
 HGNC_GROUP,159,OR11
+HGNC_GROUP,1598,IFITM
 HGNC_GROUP,160,OR12
 HGNC_GROUP,161,Ligand_gated_ion_channels
 HGNC_GROUP,162,OR13
 HGNC_GROUP,163,OR14
 HGNC_GROUP,164,OR51
+HGNC_GROUP,1642,HEX
 HGNC_GROUP,165,OR52
 HGNC_GROUP,167,OR56
+HGNC_GROUP,1670,Adaptor_protein
+HGNC_GROUP,1671,Adaptor_protein_I
+HGNC_GROUP,1672,Adaptor_protein_II
+HGNC_GROUP,1673,Adaptor_protein_III
+HGNC_GROUP,1674,Adaptor_protein_IV
+HGNC_GROUP,1675,Adaptor_protein_V
+HGNC_GROUP,1697,MIRLET7
+HGNC_GROUP,1699,Deoxyribonucleoside_kinases
 HGNC_GROUP,170,5_hydroxytryptamine_receptors_G_protein_coupled
 HGNC_GROUP,171,HTR
 HGNC_GROUP,172,5_hydroxytryptamine_receptors_ionotropic
@@ -461,12 +509,22 @@ HGNC_GROUP,173,CHRN
 HGNC_GROUP,178,Voltage_gated_ion_channels
 HGNC_GROUP,179,Sodium_channels
 HGNC_GROUP,182,Calcium_channels
+HGNC_GROUP,1826,MAPRE
 HGNC_GROUP,183,KCN
 HGNC_GROUP,184,SCN
 HGNC_GROUP,185,SCNN
 HGNC_GROUP,186,CATSPER
 HGNC_GROUP,187,HRH
+HGNC_GROUP,1884,DNMT
+HGNC_GROUP,1901,TAC
+HGNC_GROUP,1902,Neuropeptides
+HGNC_GROUP,1908,EDN
 HGNC_GROUP,198,FPR
+HGNC_GROUP,2023,PLOD
+HGNC_GROUP,2028,DYNC1
+HGNC_GROUP,2029,DYNC2
+HGNC_GROUP,2031,Axonemal_dynein_ODA
+HGNC_GROUP,2032,Axonemal_dynein_IDA
 HGNC_GROUP,214,P2RX
 HGNC_GROUP,220,MTNR
 HGNC_GROUP,221,AGTR
@@ -530,64 +588,6 @@ HGNC_GROUP,973,PCSK
 HGNC_GROUP,996,Deubiquitinase
 HGNC_GROUP,997,MJD
 HGNC_GROUP,998,UCHL
-HGNC_GROUP,1000,CYP1
-HGNC_GROUP,1001,CYP2
-HGNC_GROUP,1002,CYP3
-HGNC_GROUP,1003,CYP4
-HGNC_GROUP,1005,CYP7
-HGNC_GROUP,1006,CYP8
-HGNC_GROUP,1007,CYP11
-HGNC_GROUP,1013,CYP26
-HGNC_GROUP,1014,CYP27
-HGNC_GROUP,1021,DAPK
-HGNC_GROUP,1029,PAF1_complex
-HGNC_GROUP,1050,TOP
-HGNC_GROUP,1056,TRAF
-HGNC_GROUP,1149,ETC_complex_I_core
-HGNC_GROUP,1150,ETC_complex_I_supernumerary
-HGNC_GROUP,1158,LRRC8
-HGNC_GROUP,1159,ITGB
-HGNC_GROUP,1160,ITGA
-HGNC_GROUP,1199,Kainate_family
-HGNC_GROUP,1200,GRIA
-HGNC_GROUP,1201,GRIN
-HGNC_GROUP,1202,GRID
-HGNC_GROUP,1203,Sodium_voltage_gated_channel_alpha_subunits
-HGNC_GROUP,1204,Sodium_voltage_gated_channel_beta_subunits
-HGNC_GROUP,1253,SCAR
-HGNC_GROUP,1298,CLEC
-HGNC_GROUP,1302,Adenosine_deaminase_family
-HGNC_GROUP,1303,ADA
-HGNC_GROUP,1344,MRN_complex
-HGNC_GROUP,1375,BRISC_complex
-HGNC_GROUP,1376,MINDY
-HGNC_GROUP,1436,Actin_related_proteins
-HGNC_GROUP,1511,CACNG
-HGNC_GROUP,1512,CACNA1
-HGNC_GROUP,1514,CACNA2D
-HGNC_GROUP,1515,CACNB
-HGNC_GROUP,1580,TRMT
-HGNC_GROUP,1582,Neurexins
-HGNC_GROUP,1598,IFITM
-HGNC_GROUP,1642,HEX
-HGNC_GROUP,1670,Adaptor_protein
-HGNC_GROUP,1671,Adaptor_protein_I
-HGNC_GROUP,1672,Adaptor_protein_II
-HGNC_GROUP,1673,Adaptor_protein_III
-HGNC_GROUP,1674,Adaptor_protein_IV
-HGNC_GROUP,1675,Adaptor_protein_V
-HGNC_GROUP,1697,MIRLET7
-HGNC_GROUP,1699,Deoxyribonucleoside_kinases
-HGNC_GROUP,1826,MAPRE
-HGNC_GROUP,1884,DNMT
-HGNC_GROUP,1901,TAC
-HGNC_GROUP,1902,Neuropeptides
-HGNC_GROUP,1908,EDN
-HGNC_GROUP,2023,PLOD
-HGNC_GROUP,2028,DYNC1
-HGNC_GROUP,2029,DYNC2
-HGNC_GROUP,2031,Axonemal_dynein_ODA
-HGNC_GROUP,2032,Axonemal_dynein_IDA
 IP,IPR000074,Apolipoprotein
 IP,IPR000096,SAA
 IP,IPR000162,GRM
@@ -768,6 +768,7 @@ IP,IPR020777,NTRK
 IP,IPR020810,ENO
 IP,IPR020811,ENO
 IP,IPR022684,CAPN
+IP,IPR023257,LXR
 IP,IPR023272,COX7B
 IP,IPR023337,SPRED
 IP,IPR023409,p14_3_3
@@ -809,7 +810,6 @@ IP,IPR034157,TOP2
 IP,IPR035014,PRKG
 IP,IPR035023,PLCG
 IP,IPR035024,PLCG
-IP,IPR023257,LXR
 MEDSCAN,urn:agi-aopfc:0000094,CREB
 MEDSCAN,urn:agi-aopfc:0000099,E2F
 MEDSCAN,urn:agi-aopfc:0000105,GATA
@@ -859,17 +859,18 @@ MEDSCAN,urn:agi-aopfc:0000586,IGFBP
 MEDSCAN,urn:agi-aopfc:0000587,Hedgehog
 MEDSCAN,urn:agi-aopfc:0000615,IL1
 MEDSCAN,urn:agi-aopfc:0000704,PDE6
-MEDSCAN,urn:agi-complex:CaM%20kinase%20II,CAMK2_complex
 MEDSCAN,urn:agi-complex:CD3%20complex,CD3
 MEDSCAN,urn:agi-complex:CD8,CD8
+MEDSCAN,urn:agi-complex:CaM%20kinase%20II,CAMK2_complex
 MEDSCAN,urn:agi-complex:HIF-1,HIF1
 MEDSCAN,urn:agi-complex:IFNGR,Interferon_gamma_receptor
 MEDSCAN,urn:agi-complex:IKK%20complex,IKK_complex
 MEDSCAN,urn:agi-complex:IL12,IL12
-MEDSCAN,urn:agi-complex:inhibin%20A,Inhibin_A
 MEDSCAN,urn:agi-complex:Luteinizing%20hormone,LH
 MEDSCAN,urn:agi-complex:MAC-1%20(integrin),Integrins
 MEDSCAN,urn:agi-complex:NF-E2,NFE
+MEDSCAN,urn:agi-complex:SMAD2%2f3,SMAD2_3
+MEDSCAN,urn:agi-complex:inhibin%20A,Inhibin_A
 MEDSCAN,urn:agi-complex:platelet%20derived%20growth%20factor%20AA,PDGF_AA
 MEDSCAN,urn:agi-complex:platelet%20derived%20growth%20factor%20AB,PDGF_AB
 MEDSCAN,urn:agi-complex:platelet%20derived%20growth%20factor%20BB,PDGF_BB
@@ -909,10 +910,13 @@ MEDSCAN,urn:agi-complex:prophash-f7e292d6e30998b81cf5f772ab430f11,CALM
 MEDSCAN,urn:agi-complex:protein%20phosphatase%203,PPP3
 MEDSCAN,urn:agi-complex:protein%20phosphatase%20type%201%20complex,PPP1
 MEDSCAN,urn:agi-complex:protein%20phosphatase%20type%202A%20complex,PPP2
-MEDSCAN,urn:agi-complex:SMAD2%2f3,SMAD2_3
 MEDSCAN,urn:agi-protfc:14-3-3,p14_3_3
-MEDSCAN,urn:agi-protfc:actins,Actin
 MEDSCAN,urn:agi-protfc:AMPK,AMPK
+MEDSCAN,urn:agi-protfc:F-actin-binding%20protein,F_actin
+MEDSCAN,urn:agi-protfc:PDE4%20subfamily,PDE4
+MEDSCAN,urn:agi-protfc:STAT5%20protein,STAT5
+MEDSCAN,urn:agi-protfc:SWI%2fSNF%20family,SWI_SNF
+MEDSCAN,urn:agi-protfc:actins,Actin
 MEDSCAN,urn:agi-protfc:apolipoprotein,Apolipoprotein
 MEDSCAN,urn:agi-protfc:bone%20morphogenetic%20protein%20I%20receptor,BMP_receptor_type_I
 MEDSCAN,urn:agi-protfc:cadherin,Cadherin
@@ -927,15 +931,14 @@ MEDSCAN,urn:agi-protfc:cyclophilins,Cyclophilin
 MEDSCAN,urn:agi-protfc:cytosolic%20phospholipase%20a2,PLA2
 MEDSCAN,urn:agi-protfc:desmoglein,Desmoglein
 MEDSCAN,urn:agi-protfc:endothelin,EDN
-MEDSCAN,urn:agi-protfc:F-actin-binding%20protein,F_actin
 MEDSCAN,urn:agi-protfc:flotillin,FLOT
 MEDSCAN,urn:agi-protfc:hemoglobin,Hemoglobin
+MEDSCAN,urn:agi-protfc:histone,Histone
 MEDSCAN,urn:agi-protfc:histone%20H1,Histone_H1
 MEDSCAN,urn:agi-protfc:histone%20H2A,Histone_H2A
 MEDSCAN,urn:agi-protfc:histone%20H2B,Histone_H2B
 MEDSCAN,urn:agi-protfc:histone%20H3,Histone_H3
 MEDSCAN,urn:agi-protfc:histone%20H4,Histone_H4
-MEDSCAN,urn:agi-protfc:histone,Histone
 MEDSCAN,urn:agi-protfc:interferon,Interferon
 MEDSCAN,urn:agi-protfc:kallikrein,KLK
 MEDSCAN,urn:agi-protfc:mglur,GRM
@@ -945,16 +948,13 @@ MEDSCAN,urn:agi-protfc:neuregulin%20family,NRG
 MEDSCAN,urn:agi-protfc:p2y%20receptor,P2RY
 MEDSCAN,urn:agi-protfc:p70rsk,P70S6K
 MEDSCAN,urn:agi-protfc:p90rsk,P90RSK
-MEDSCAN,urn:agi-protfc:PDE4%20subfamily,PDE4
 MEDSCAN,urn:agi-protfc:phosphodiesterase%20III,PDE3
 MEDSCAN,urn:agi-protfc:ppar,PPAR
 MEDSCAN,urn:agi-protfc:profilin,PFN
 MEDSCAN,urn:agi-protfc:rab,RAB
 MEDSCAN,urn:agi-protfc:sarcoplasmic%20reticulum%20calcium%20transporting%20adenosine%20triphosphatase,SERCA
 MEDSCAN,urn:agi-protfc:shc%20protein,SHC
-MEDSCAN,urn:agi-protfc:STAT5%20protein,STAT5
 MEDSCAN,urn:agi-protfc:sterol%20regulatory%20element%20binding%20protein,SREBF
-MEDSCAN,urn:agi-protfc:SWI%2fSNF%20family,SWI_SNF
 MEDSCAN,urn:agi-protfc:thioredoxin,TXN
 MEDSCAN,urn:agi-protfc:thrombospondins,THBS
 MEDSCAN,urn:agi-protfc:tubulin,Tubulin
@@ -992,6 +992,7 @@ MESH,D000071557,ARRB
 MESH,D000071636,PPP2C
 MESH,D000071701,RFX
 MESH,D000071756,SGC
+MESH,D000072017,Deubiquitinase
 MESH,D000072079,Patched
 MESH,D000072261,DVL
 MESH,D000072461,CYP1
@@ -1180,7 +1181,6 @@ MESH,D019707,Chemokine_receptor
 MESH,D019742,CCL
 MESH,D019837,RYR
 MESH,D019852,DGK
-MESH,D058539,PI3K
 MESH,D019870,PI4K
 MESH,D019893,RSK
 MESH,D019925,Cyclin_A
@@ -1368,6 +1368,7 @@ MESH,D058446,Ligand_gated_ion_channels
 MESH,D058468,GRI
 MESH,D058469,P2RX
 MESH,D058470,P2RY
+MESH,D058539,PI3K
 MESH,D060466,AXIN
 MESH,D061566,SCN
 MESH,D062546,Sodium_voltage_gated_channel_beta_subunits
@@ -1382,7 +1383,7 @@ MESH,D064326,MEF2
 MESH,D064550,DAPK
 MESH,D066246,ERBB
 MESH,D066255,EGFR_ligand
-MESH,D000072017,Deubiquitinase
+MIRBASE_FAMILY,MIPF0000002,MIRLET7
 NCIT,C104194,Cyclin_D
 NCIT,C104197,Cyclin_E
 NCIT,C104199,IKK_family
@@ -1403,6 +1404,7 @@ NCIT,C120493,Hedgehog
 NCIT,C124129,COL1
 NCIT,C126114,PLCG
 NCIT,C126122,GPIb_IX_V
+NCIT,C129646,VEGF
 NCIT,C129655,TUBB
 NCIT,C147535,IL23
 NCIT,C16258,Actin
@@ -1474,7 +1476,6 @@ NCIT,C19618,STAT
 NCIT,C19836,PLA2G4
 NCIT,C19866,PRC1_complex
 NCIT,C20448,PDGF
-NCIT,C129646,VEGF
 NCIT,C20456,Activin
 NCIT,C20466,Chemokine
 NCIT,C20493,Interferon
@@ -2101,17 +2102,15 @@ RE,R-HSA-936820,ATP1B
 RE,R-HSA-976075,E3_Ub_ligase
 RE,R-HSA-996770,GATA
 SIGNOR,SIGNOR-C1,NFY
-SIGNOR,SIGNOR-C2,mTORC2
-SIGNOR,SIGNOR-C3,mTORC1
 SIGNOR,SIGNOR-C14,IKK_complex
 SIGNOR,SIGNOR-C15,AMPK
-SIGNOR,SIGNOR-C98,Gamma_secretase
 SIGNOR,SIGNOR-C150,APC_C
 SIGNOR,SIGNOR-C156,PI3K
 SIGNOR,SIGNOR-C160,ITGA2B1
 SIGNOR,SIGNOR-C163,FNR
 SIGNOR,SIGNOR-C169,LFA_1
 SIGNOR,SIGNOR-C170,MAC_1
+SIGNOR,SIGNOR-C2,mTORC2
 SIGNOR,SIGNOR-C209,Hemoglobin
 SIGNOR,SIGNOR-C217,DGC
 SIGNOR,SIGNOR-C243,IFNAR
@@ -2121,18 +2120,12 @@ SIGNOR,SIGNOR-C248,Adaptor_protein_I
 SIGNOR,SIGNOR-C262,DNA_polymerase_alpha
 SIGNOR,SIGNOR-C264,ATP_synthase
 SIGNOR,SIGNOR-C266,MRPS
+SIGNOR,SIGNOR-C3,mTORC1
 SIGNOR,SIGNOR-C304,Cohesin
 SIGNOR,SIGNOR-C313,MAC
 SIGNOR,SIGNOR-C317,Fibrin
+SIGNOR,SIGNOR-C98,Gamma_secretase
 SIGNOR,SIGNOR-PF1,ERK
-SIGNOR,SIGNOR-PF2,LPAR
-SIGNOR,SIGNOR-PF3,G_gamma
-SIGNOR,SIGNOR-PF4,G_beta
-SIGNOR,SIGNOR-PF5,TGFB
-SIGNOR,SIGNOR-PF6,AMPK_alpha
-SIGNOR,SIGNOR-PF7,p14_3_3
-SIGNOR,SIGNOR-PF8,FGF
-SIGNOR,SIGNOR-PF9,BMP_receptor
 SIGNOR,SIGNOR-PF10,DVL
 SIGNOR,SIGNOR-PF11,FZD
 SIGNOR,SIGNOR-PF12,NFkappaB
@@ -2142,6 +2135,7 @@ SIGNOR,SIGNOR-PF15,JNK
 SIGNOR,SIGNOR-PF16,p38
 SIGNOR,SIGNOR-PF17,PRKAC
 SIGNOR,SIGNOR-PF18,PPP3C
+SIGNOR,SIGNOR-PF2,LPAR
 SIGNOR,SIGNOR-PF20,TLR
 SIGNOR,SIGNOR-PF21,TAOK
 SIGNOR,SIGNOR-PF22,TEAD
@@ -2151,6 +2145,7 @@ SIGNOR,SIGNOR-PF25,MEK
 SIGNOR,SIGNOR-PF26,P90RSK
 SIGNOR,SIGNOR-PF27,FOXO
 SIGNOR,SIGNOR-PF29,SMURF
+SIGNOR,SIGNOR-PF3,G_gamma
 SIGNOR,SIGNOR-PF30,Notch
 SIGNOR,SIGNOR-PF31,SLRP
 SIGNOR,SIGNOR-PF32,SRC
@@ -2159,6 +2154,7 @@ SIGNOR,SIGNOR-PF34,PIM
 SIGNOR,SIGNOR-PF35,SMAD1_5_9
 SIGNOR,SIGNOR-PF36,ERBB
 SIGNOR,SIGNOR-PF37,NRG
+SIGNOR,SIGNOR-PF4,G_beta
 SIGNOR,SIGNOR-PF40,Wnt
 SIGNOR,SIGNOR-PF42,MOB1
 SIGNOR,SIGNOR-PF43,LATS
@@ -2167,5 +2163,9 @@ SIGNOR,SIGNOR-PF45,RAR
 SIGNOR,SIGNOR-PF46,Tubulin
 SIGNOR,SIGNOR-PF48,FERMT
 SIGNOR,SIGNOR-PF49,IFITM
+SIGNOR,SIGNOR-PF5,TGFB
 SIGNOR,SIGNOR-PF50,Interferon
-MIRBASE_FAMILY,MIPF0000002,MIRLET7
+SIGNOR,SIGNOR-PF6,AMPK_alpha
+SIGNOR,SIGNOR-PF7,p14_3_3
+SIGNOR,SIGNOR-PF8,FGF
+SIGNOR,SIGNOR-PF9,BMP_receptor
