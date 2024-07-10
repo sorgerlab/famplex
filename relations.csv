@@ -2476,7 +2476,7 @@ HGNC,MRPS31,partof,FPLX,MRPS
 HGNC,MRPS33,partof,FPLX,MRPS
 HGNC,MRPS34,partof,FPLX,MRPS
 HGNC,MRPS35,partof,FPLX,MRPS
-HGNC,MRPS36,partof,FPLX,MRPS
+HGNC,KGD4,partof,FPLX,MRPS
 FPLX,MRPS,partof,FPLX,Mitochondrial_Ribosome
 FPLX,MRPL,partof,FPLX,Mitochondrial_Ribosome
 HGNC,NPPA,isa,FPLX,Natriuretic_peptide
