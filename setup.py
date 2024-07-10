@@ -14,7 +14,7 @@ relative_site_packages = get_python_lib().\
 package_relative_path = os.path.join(relative_site_packages,
                                      'famplex')
 setup(name='famplex',
-      version='0.0.4',
+      version='0.0.5',
       description="Resources for grounding protein complexes and families"
       " from text and describing their hierarchical relationships.",
       long_description=long_description,
