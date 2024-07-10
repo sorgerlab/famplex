@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:06:2023 12:59
+date: 10:07:2024 09:36
 
 [Term]
 id: FPLX:5_hydroxytryptamine_receptors_G_protein_coupled
@@ -8443,7 +8443,7 @@ has_part: HGNC:MRPS31
 has_part: HGNC:MRPS33
 has_part: HGNC:MRPS34
 has_part: HGNC:MRPS35
-has_part: HGNC:MRPS36
+has_part: HGNC:KGD4
 
 [Term]
 id: FPLX:MTNR
